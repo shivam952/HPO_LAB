@@ -44,3 +44,6 @@ test_yahpo_api.py
 PLAN.md
 push_to_github.sh
 
+# Ignore results and root PDFs
+results/
+/*.pdf
