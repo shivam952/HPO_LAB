@@ -16,11 +16,11 @@ BENCHMARKS = [
 ]
 
 ALGO_CONFIG = {
-    "RandomSearch":          {"label": "Random Search",          "color": "#4C72B0"},
-    "GridSearch":            {"label": "Grid Search",            "color": "#DD8452"},
-    "SuccessiveHalving":     {"label": "Successive Halving",     "color": "#55A868"},
-    "Hyperband":             {"label": "Hyperband",              "color": "#C44E52"},
-    "BayesianOptimisation":  {"label": "Bayesian Optimisation",  "color": "#8172B3"},
+    "RandomSearch":          {"label": "Random Search",          "color": "#4C72B0", "ls": "-"},
+    "GridSearch":            {"label": "Grid Search",            "color": "#DD8452", "ls": "-"},
+    "SuccessiveHalving":     {"label": "Successive Halving",     "color": "#55A868", "ls": "-"},
+    "Hyperband":             {"label": "Hyperband",              "color": "#C44E52", "ls": "-"},
+    "BayesianOptimisation":  {"label": "Bayesian Optimisation",  "color": "#8172B3", "ls": "-"},
 }
 
 ALGO_ORDER = list(ALGO_CONFIG.keys())
@@ -30,7 +30,7 @@ N_INTERP = 500
 def load_results(scenario, instance):
     results = defaultdict(list)
     for fpath in sorted(glob.glob(os.path.join(RESULTS_DIR, f"*_{scenario}_{instance}_seed*.pkl"))):
-        algo_name = os.path.basename(fpath).split(f"_{scenario}")[0]
+        algo_name = os.path.basename(fpath).split(f"_{scenario}_{instance}")[0]
         with open(fpath, "rb") as f:
             results[algo_name].append(pickle.load(f))
     return dict(results)
@@ -50,7 +50,7 @@ def interpolate_incumbents(all_budgets, all_incumbents):
 
 
 def plot_incumbent_curves(save_path=None):
-    fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+    fig, axes = plt.subplots(2, 1, figsize=(7, 10))
     for ax, (scenario, instance, metric, title) in zip(axes, BENCHMARKS):
         results = load_results(scenario, instance)
         for algo in ALGO_ORDER:
@@ -59,21 +59,22 @@ def plot_incumbent_curves(save_path=None):
             cfg = ALGO_CONFIG[algo]
             budgets, incumbents = zip(*[compute_incumbents(r) for r in results[algo]])
             x, mean, std = interpolate_incumbents(list(budgets), list(incumbents))
-            ax.plot(x, mean, label=cfg["label"], color=cfg["color"], linewidth=1.8)
+            ax.plot(x, mean, label=cfg["label"], color=cfg["color"], ls=cfg["ls"], linewidth=1.8)
             ax.fill_between(x, mean - std, mean + std, alpha=0.15, color=cfg["color"])
         ax.set_xlabel("Cumulative Budget (fidelity units)")
         ax.set_ylabel(metric)
         ax.set_title(title)
         ax.legend(fontsize=8, loc="lower right")
         ax.grid(True, alpha=0.3)
-    plt.tight_layout()
+    plt.tight_layout(h_pad=2.0)
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches="tight")
+        print(f"  Saved: {save_path}")
     plt.close()
 
 
 def plot_final_performance(save_path=None):
-    fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+    fig, axes = plt.subplots(2, 1, figsize=(7, 10))
     for ax, (scenario, instance, metric, title) in zip(axes, BENCHMARKS):
         results = load_results(scenario, instance)
         labels, data, colors = [], [], []
@@ -85,7 +86,7 @@ def plot_final_performance(save_path=None):
             labels.append(cfg["label"])
             data.append(finals)
             colors.append(cfg["color"])
-        bp = ax.boxplot(data, labels=labels, patch_artist=True, widths=0.6, showmeans=True,
+        bp = ax.boxplot(data, tick_labels=labels, patch_artist=True, widths=0.6, showmeans=True,
                         meanprops=dict(marker='D', markerfacecolor='white',
                                        markeredgecolor='black', markersize=5))
         for patch, color in zip(bp["boxes"], colors):
@@ -95,9 +96,10 @@ def plot_final_performance(save_path=None):
         ax.set_title(title)
         ax.tick_params(axis='x', rotation=30)
         ax.grid(True, axis='y', alpha=0.3)
-    plt.tight_layout()
+    plt.tight_layout(h_pad=2.0)
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches="tight")
+        print(f"  Saved: {save_path}")
     plt.close()
 
 
@@ -107,14 +109,15 @@ def print_summary():
     print("=" * 70)
     for scenario, instance, metric, title in BENCHMARKS:
         results = load_results(scenario, instance)
-        print(f"\n  {title}")
-        print(f"  {'Algorithm':<25}  {'Mean':>8}  {'±Std':>8}  {'Best':>8}")
-        print(f"  {'-'*55}")
+        print(f"\n  {title}  ({metric})")
+        print(f"  {'Algorithm':<25}  {'Mean':>8}  {'±Std':>8}  {'Best':>8}  {'Seeds':>5}")
+        print(f"  {'-'*60}")
         for algo in ALGO_ORDER:
             if algo not in results:
                 continue
             vals = np.array([compute_incumbents(r)[1][-1] for r in results[algo]])
-            print(f"  {ALGO_CONFIG[algo]['label']:<25}  {vals.mean():8.4f}  {vals.std():8.4f}  {vals.max():8.4f}")
+            print(f"  {ALGO_CONFIG[algo]['label']:<25}  {vals.mean():8.4f}  "
+                  f"{vals.std():8.4f}  {vals.max():8.4f}  {len(vals):5d}")
 
 
 if __name__ == "__main__":
