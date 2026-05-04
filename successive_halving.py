@@ -29,9 +29,9 @@ from hpo_algorithm import HPOAlgorithm
 from utils import sample_config, config_key
 
 
-# ---------------------------------------------------------------------------
+# =========================================
 # Internal bracket (reused by Hyperband)
-# ---------------------------------------------------------------------------
+# =========================================
 
 class _SHBracket:
     """
@@ -70,6 +70,15 @@ class _SHBracket:
         self._rng = rng
 
         # Compute rung budgets: start_budget, start_budget*eta, ..., <= max_budget
+        #
+        # KNOWN LIMITATION: if max_budget is not an exact power-of-eta multiple
+        # of start_budget, the last rung will be BELOW max_budget.
+        # Example — NB301 (start=1, max=98, η=3):
+        #   rungs = [1, 3, 9, 27, 81]  ← tops out at 81, not 98
+        # This means SH never evaluates at full fidelity on NB301, which
+        # partly explains its lower final accuracy vs Random Search/Hyperband.
+        # Hyperband is unaffected: its bracket start budgets (r_s = max·η^{-s})
+        # are chosen so the geometric sequence exactly hits max_budget.
         self._rung_budgets: list[float] = []
         b = start_budget
         while b <= max_budget + 1e-9:  # small epsilon for float comparison
@@ -150,9 +159,9 @@ class _SHBracket:
             self._exhausted = True
 
 
-# ---------------------------------------------------------------------------
+# =========================================
 # Public API class
-# ---------------------------------------------------------------------------
+# =========================================
 
 class SuccessiveHalving(HPOAlgorithm):
     """

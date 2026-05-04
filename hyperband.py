@@ -78,6 +78,10 @@ class Hyperband(HPOAlgorithm):
     def _create_brackets(self) -> None:
         """Instantiate one _SHBracket per s value (s_max down to 0)."""
         self._brackets = []
+        # Clear the routing map so stale keys from the previous round don't
+        # mis-route tell() calls to the wrong new bracket.
+        self._bracket_config_map = {}
+        self._bracket_idx = 0
         for s in range(self._s_max, -1, -1):
             n_s = math.ceil(
                 (self._B / self.max_budget) * (self._eta ** s / (s + 1))

@@ -24,9 +24,9 @@ from grid_search import GridSearch
 from successive_halving import SuccessiveHalving
 from hyperband import Hyperband
 
-# ---------------------------------------------------------------------------
+# =========================================
 # Configuration
-# ---------------------------------------------------------------------------
+# =========================================
 
 N_SEEDS = 10          # Number of independent runs per (algorithm, benchmark)
 BUDGET_MULTIPLIER = 50  # total_budget = BUDGET_MULTIPLIER × max_budget
@@ -46,9 +46,9 @@ OPTIMISERS = [
 ]
 
 
-# ---------------------------------------------------------------------------
+# =========================================
 # Runner
-# ---------------------------------------------------------------------------
+# =========================================
 
 def run(
     optimiser_class,
@@ -157,9 +157,9 @@ def run(
     return runs
 
 
-# ---------------------------------------------------------------------------
+# =========================================
 # Main
-# ---------------------------------------------------------------------------
+# =========================================
 
 if __name__ == "__main__":
     os.makedirs("results", exist_ok=True)
@@ -200,6 +200,10 @@ if __name__ == "__main__":
                     flush=True,
                 )
 
+                # NOTE: all HPO algorithms use np.random.RandomState(seed),
+                # not the global numpy RNG.  np.random.seed() has no effect
+                # on their behaviour; it is kept here only to guard any
+                # third-party code that may rely on the global state.
                 np.random.seed(seed)
                 results = run(
                     optimiser_class,
