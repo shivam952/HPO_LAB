@@ -28,22 +28,35 @@ env/
 *.swp
 *.swo
 
-# LaTeX build artifacts (keep .tex and .pdf, drop intermediates)
-report/*.aux
-report/*.log
-report/*.out
-report/*.toc
-report/*.bbl
-report/*.blg
-report/*.synctex.gz
-report/*.fls
-report/*.fdb_latexmk
+# LaTeX build artifacts (root-level and report/)
+*.aux
+*.log
+*.nav
+*.snm
+*.toc
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
 
-# Test scripts (not part of submission)
+# Presentation folder (Overleaf source — not part of code submission)
+presentation/
+
+# Test / planning / helper scripts (not part of submission)
 test_yahpo_api.py
 PLAN.md
 push_to_github.sh
 
-# Ignore results and root PDFs
+# Scratch / temp files
+/zid1RAUj
+/"9.4 Telefongespräche.tex"
+/"9.5 Berufe.pdf"
+
+# Run artefacts (generated, not source)
 results/
 /*.pdf
+/*.zip
+/part1.pdf
+/part2.pdf

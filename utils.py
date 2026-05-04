@@ -12,6 +12,7 @@ Also provides:
 """
 
 import itertools
+import math as _math
 import numpy as np
 from ConfigSpace import Configuration, ConfigurationSpace
 from ConfigSpace.hyperparameters import (
@@ -23,9 +24,9 @@ from ConfigSpace.hyperparameters import (
 )
 
 
-# ---------------------------------------------------------------------------
-# 1. Manual Random Sampler
-# ---------------------------------------------------------------------------
+# =========================================
+# 1. Random Sampler
+# =========================================
 
 def _sample_hp_value(hp, rng: np.random.RandomState):
     """
@@ -118,10 +119,9 @@ def sample_config(cs: ConfigurationSpace, rng: np.random.RandomState) -> Configu
     return Configuration(cs, values=active_values)
 
 
-
-# ---------------------------------------------------------------------------
-# 2. Config → NumPy Array Encoder (for BO's GP)
-# ---------------------------------------------------------------------------
+# =========================================
+# 2. Config -> NumPy Array Encoder
+# =========================================
 
 def config_to_array(config: Configuration, cs: ConfigurationSpace) -> np.ndarray:
     """
@@ -164,10 +164,21 @@ def config_to_array(config: Configuration, cs: ConfigurationSpace) -> np.ndarray
 
         val = config_dict[hp.name]
         if isinstance(hp, (UniformFloatHyperparameter, UniformIntegerHyperparameter)):
-            # Linear normalisation to [0, 1]
-            denom = hp.upper - hp.lower
-            normalised = (val - hp.lower) / denom if denom > 0 else 0.0
-            vec.append(float(normalised))
+            # Normalise to [0, 1].
+            # For log-scale HPs (e.g. learning rate over [1e-5, 1.0]) we
+            # normalise in log space so the GP kernel sees uniform spacing.
+            # Linear normalisation on a log-scale HP collapses ~99% of the
+            # value range into a tiny corner of [0,1], degrading surrogate
+            # quality severely (e.g. lr=1e-3 maps to 0.001 linear vs 0.4 log).
+            if getattr(hp, 'log', False):
+                log_lower = _math.log(hp.lower)
+                log_upper = _math.log(hp.upper)
+                denom = log_upper - log_lower
+                normalised = (_math.log(float(val)) - log_lower) / denom if denom > 0 else 0.0
+            else:
+                denom = hp.upper - hp.lower
+                normalised = (float(val) - hp.lower) / denom if denom > 0 else 0.0
+            vec.append(float(np.clip(normalised, 0.0, 1.0)))
         elif isinstance(hp, CategoricalHyperparameter):
             # One-hot encoding
             one_hot = [1.0 if val == c else 0.0 for c in hp.choices]
@@ -180,9 +191,9 @@ def config_to_array(config: Configuration, cs: ConfigurationSpace) -> np.ndarray
     return np.array(vec, dtype=np.float64)
 
 
-# ---------------------------------------------------------------------------
+# =========================================
 # 3. Grid Builder
-# ---------------------------------------------------------------------------
+# =========================================
 
 def build_grid(
     cs: ConfigurationSpace,
@@ -310,9 +321,9 @@ def build_grid(
     return configs
 
 
-# ---------------------------------------------------------------------------
+# =========================================
 # 4. Config Identity Helper
-# ---------------------------------------------------------------------------
+# =========================================
 
 def config_key(config: Configuration):
     """
@@ -324,9 +335,9 @@ def config_key(config: Configuration):
     return frozenset(dict(config).items())
 
 
-# ---------------------------------------------------------------------------
-# 5. NumPy-Only Normal Distribution Functions (no scipy)
-# ---------------------------------------------------------------------------
+# =========================================
+# 5. Normal Distribution (No SciPy)
+# =========================================
 
 def _norm_pdf(x: np.ndarray) -> np.ndarray:
     """Standard normal probability density function — numpy only."""
@@ -335,7 +346,6 @@ def _norm_pdf(x: np.ndarray) -> np.ndarray:
 
 # Vectorised erf at module level — created once, reused on every EI call.
 # Uses Python stdlib math.erf — no scipy dependency.
-import math as _math
 _erf_vec = np.vectorize(_math.erf)
 
 
