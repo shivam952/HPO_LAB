@@ -1,0 +1,18 @@
+{
+  "objectives": [
+    {
+      "name": "1 - accuracy",
+      "lower": -93.49644470214844,
+      "upper": -90.98247528076172,
+      "lock_lower": false,
+      "lock_upper": false,
+      "optimize": "lower"
+    }
+  ],
+  "budgets": [
+    98.0
+  ],
+  "seeds": [
+    6
+  ]
+}

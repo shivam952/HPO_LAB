@@ -1,0 +1,176 @@
+% ===
+% HPO Assignment 1 – 2-Page Report
+% RWTH Aachen University | Chair for AI Methodology
+% ===
+
+\documentclass{AIM_report}
+
+\input{includes/preamble}
+\input{includes/macros/commenting}
+
+\title{Hyperparameter Optimisation: A Comparative Study of Five Algorithms on YAHPO Gym}
+\subtitle{Hyperparameter Optimisation for Machine Learning --- Assignment 1}
+\author{Shivam Sen Gupta (473710) \and Dlyaver Djebarov (423901)}
+
+\institute{RWTH Aachen University, Germany\\
+\email{shivam.sengupta@rwth-aachen.de, dlyaver.djebarov@rwth-aachen.de}}
+
+\addbibresource{bib.bib}
+
+\begin{document}
+
+\maketitle
+
+% ----------------------------------------------------------------
+\section{Introduction}
+% ----------------------------------------------------------------
+
+We compare Random Search (RS), Grid Search (GS), Successive Halving (SH),
+Hyperband (HB), and Bayesian Optimisation (BO) on two YAHPO Gym surrogate
+benchmarks~\cite{pfisterer2022yahpo}: NB301 (neural architecture search,
+CIFAR-10) and rbv2\_xgboost (XGBoost tuning, dataset~16).
+HB achieves the best final accuracy on NB301; on rbv2\_xgboost the
+multi-fidelity methods converge faster without improving final quality.
+
+% ----------------------------------------------------------------
+\section{Methods}
+% ----------------------------------------------------------------
+
+\paragraph{Random Search (RS).}
+RS~\cite{bergstra2012random} samples configurations uniformly at random
+and evaluates each at maximum fidelity, ignoring all prior observations.
+
+\paragraph{Grid Search (GS).}
+GS discretises each continuous dimension into 5 evenly-spaced values
+crossed with all categorical choices; due to the infeasible $8^{34}$
+Cartesian explosion of NB301's 34-dimensional categorical space, GS
+falls back to uniform random sampling of unique configurations to remain
+computationally tractable.
+
+\paragraph{Successive Halving (SH).}
+SH~\cite{jamieson2016non} starts with $n{=}\lceil\eta^{s_{\max}+1}/(s_{\max}+1)\rceil$
+configurations at $r_{\min}$, keeps the top $1/\eta$ fraction per round,
+and promotes survivors to $r \cdot\eta$ until the highest rung below
+$r_{\max}$ ($\eta{=}3$, $s_{\max}{=}\lfloor\log_\eta(r_{\max}/r_{\min})\rfloor$).
+
+\paragraph{Hyperband (HB).}
+HB~\cite{li2018hyperband} runs $s_{\max}{+}1$ SH brackets with
+$(n_s{=}\lceil(B/r_{\max})\cdot\eta^s/(s{+}1)\rceil,\;
+r_s{=}\max(r_{\min}, r_{\max}{\cdot}\eta^{-s}))$,
+hedging against the sensitivity of any single bracket to its initial
+candidate count.
+
+\paragraph{Bayesian Optimisation (BO).}
+BO~\cite{snoek2012practical} fits a GP (Mat\'{e}rn-5/2 + WhiteKernel)
+to all past evaluations and selects the next configuration by maximising
+Expected Improvement over 1\,000 random candidates (5 random warm-up
+evaluations; GP and EI implemented from scratch in NumPy).
+
+% ----------------------------------------------------------------
+\section{Experimental Setup}
+% ----------------------------------------------------------------
+
+\textbf{NB301}: fidelity = epochs ($r_{\min}{=}1$, $r_{\max}{=}98$),
+metric = val.\ accuracy.
+\textbf{rbv2\_xgboost/16}: fidelity = training fraction, metric = accuracy.
+Budget $B{=}50{\times}r_{\max}$ fidelity units for all algorithms.
+Hyperparameter spaces accessed via ConfigSpace without the forbidden
+sampling methods; 10 independent random seeds per algorithm.
+
+% ----------------------------------------------------------------
+\section{Results}
+% ----------------------------------------------------------------
+
+\begin{table}[h]
+  \centering
+  \renewcommand{\tabcolsep}{4pt}
+  \renewcommand{\arraystretch}{1.05}
+  \caption{Final incumbent (mean $\pm$ std, 10 seeds). Best in \textbf{bold}.}
+  \label{tab:results}
+  \small
+  \begin{tabular}{lcc}
+    \toprule
+    \textbf{Algorithm} & \textbf{NB301} & \textbf{rbv2\_xgb} \\
+    \midrule
+    Random Search    & $93.73 \pm 0.17$ & $0.962 \pm 0.005$ \\
+    Grid Search      & $93.71 \pm 0.18$ & $0.963 \pm 0.010$ \\
+    Succ.\ Halving   & $92.79 \pm 0.17$ & $0.968 \pm 0.007$ \\
+    Hyperband        & $\mathbf{94.16 \pm 0.20}$ & $0.967 \pm 0.007$ \\
+    Bayesian Opt.    & $94.08 \pm 0.32$ & $\mathbf{0.974 \pm 0.009}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth,height=0.24\textheight,keepaspectratio]{figures/incumbent_curves.pdf}
+    \caption{Incumbent curves (mean $\pm$ 1\,std). Top: NB301. Bottom: rbv2.}
+    \label{fig:incumbent}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth,height=0.24\textheight,keepaspectratio]{figures/final_performance.pdf}
+    \caption{Final incumbent per seed. HB best on NB301; BO widest spread.}
+    \label{fig:boxplot}
+  \end{minipage}
+\end{figure}
+
+\paragraph{NB301.}
+All methods reach ${\approx}93\%$ within 500 budget units
+(Figure~\ref{fig:incumbent}) but diverge afterwards.
+HB achieves the highest final accuracy ($94.16{\pm}0.20$); SH is
+weakest ($92.79{\pm}0.17$) because with $\eta{=}3$ its rungs top out
+at $r{=}81$, never reaching $r_{\max}{=}98$, whereas HB anchors its
+top bracket from $r_{\max}$ and always evaluates at full fidelity.
+BO matches HB in mean ($94.08$) but is less consistent
+(std~$=0.32$, Figure~\ref{fig:boxplot}): NB301's 34 categorical
+hyperparameters produce a ${\approx}272$-dimensional one-hot vector,
+making the GP surrogate difficult to optimise with random candidate
+sampling and leading to high variance across seeds, though BO still
+outperforms Random Search on average.
+RS and GS perform nearly identically, as expected.
+
+\paragraph{rbv2\_xgboost.}
+BO achieves the highest final accuracy ($0.974{\pm}0.009$), but
+the more interesting story is in convergence speed
+(Figure~\ref{fig:incumbent}).
+SH and HB reach ${\approx}0.96$ after only~10 budget units, while
+RS, GS, and BO need 20--30 units to match that level.
+XGBoost rankings at small training fractions correlate well with
+full-data rankings, so multi-fidelity methods can cheaply discard
+poor configurations early and reach a strong incumbent fast.
+
+% ----------------------------------------------------------------
+\section{Conclusions}
+% ----------------------------------------------------------------
+
+HB achieves the best final accuracy on NB301; its bracket portfolio
+hedges against a poor initial candidate count, the key advantage over
+a single SH bracket.
+On rbv2\_xgboost, BO reaches the highest final accuracy
+($0.974{\pm}0.009$), but SH and HB find a good incumbent significantly
+faster, making them the practical choice when convergence speed matters.
+BO shows high variance on NB301 ($\text{std}{=}0.32$) due to the
+${\approx}272$-dimensional one-hot encoding making GP optimisation
+difficult with random candidate sampling, yet it still outperforms
+Random Search on average, confirming the surrogate is learning the
+landscape despite the dimensionality challenge.
+
+% ----------------------------------------------------------------
+\section*{Statement of Contributions}
+% ----------------------------------------------------------------
+
+Shivam Sen Gupta implemented Random Search, Grid Search, and Bayesian
+Optimisation, ran all experiments, and wrote the report.
+Dlyaver Djebarov implemented Successive Halving and Hyperband, and
+contributed to the presentation slides and result visualisations.
+
+\printbibliography
+
+\newpage
+\pagestyle{empty}
+\includepdf[pages=-,pagecommand={},width=\textwidth]{files/oathstatement.pdf}
+
+\end{document}

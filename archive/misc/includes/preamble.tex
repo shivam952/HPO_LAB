@@ -1,0 +1,25 @@
+%% includes/preamble.tex
+%% Minimal package set — no bibliography packages, no tikz.
+%% References are hardcoded in the presentation (thebibliography).
+%% Target: single-pass pdfLaTeX compile well under 60 s on Overleaf free.
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+%% Mathematics
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%% Tables
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+
+%% Graphics / colour (no tikz — saves ~5 s)
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+%% Layout helpers
+\usepackage{calc}
+\usepackage{ifthen}

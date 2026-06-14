@@ -1,0 +1,290 @@
+% ===
+% HPO Assignment 2 – 2-Page Report
+% RWTH Aachen University | Chair for AI Methodology
+% ===
+
+\documentclass{AIM_report}
+
+\input{includes/preamble}
+\input{includes/macros/commenting}
+
+\title{BOHB: Bayesian Optimisation and Hyperband on YAHPO Gym}
+\subtitle{Hyperparameter Optimisation for Machine Learning --- Assignment 2}
+\author{Shivam Sen Gupta (473710) \and Dlyaver Djebarov (423901)}
+
+\institute{RWTH Aachen University, Germany\\
+\email{shivam.sengupta@rwth-aachen.de, dlyaver.djebarov@rwth-aachen.de}}
+
+\begin{document}
+
+\maketitle
+
+% ----------------------------------------------------------------
+\section{Introduction}
+% ----------------------------------------------------------------
+
+We extend our Assignment~1 comparison with BOHB~\cite{falkner2018bohb},
+which combines the bracket portfolio of Hyperband~\cite{li2018hyperband}
+with model-guided configuration proposal via a Random Forest
+surrogate~\cite{hutter2011smac} and Expected Improvement.
+We evaluate all seven algorithms across six YAHPO Gym
+benchmarks~\cite{pfisterer2022yahpo} and study two surrogate
+refitting strategies (per-round and per-bracket).
+
+% ----------------------------------------------------------------
+\section{Methods}
+% ----------------------------------------------------------------
+
+\paragraph{BOHB.}
+BOHB~\cite{falkner2018bohb} runs the same $s_{\max}{+}1$ Successive
+Halving brackets as Hyperband.
+Before each round, it attempts to fit a Random Forest surrogate
+(100 trees, \texttt{min\_samples\_leaf}~=~3;
+following~\cite{hutter2011smac}) on all observations collected at
+the highest fidelity with at least $N_{\min}{=}\max(10,\,n_\text{hp}+1)$
+data points, where $n_\text{hp}$ is the number of hyperparameters.
+The next configuration is drawn by maximising Expected Improvement
+(EI)~\cite{snoek2012practical} over a pool of 64 random candidates:
+$\text{EI}(x)=(\mu{-}f^*)\Phi(Z)+\sigma\phi(Z)$,
+$Z{=}(\mu{-}f^*)/\sigma$, where $\mu$ and $\sigma$ are the
+per-candidate mean and standard deviation of tree predictions.
+A fraction $\rho{=}1/3$ of configurations is always drawn uniformly
+at random (Algorithm~2, Falkner et~al.), preserving the convergence
+guarantee when low-fidelity rankings are misleading.
+
+Categorical hyperparameters are \emph{label-encoded}
+(each mapped to $\mathrm{index}/(|\mathrm{choices}|-1)$) rather than
+one-hot encoded.
+For NB301 this reduces the encoded dimension from~272 to~34, bringing
+$N_{\min}$ from~273 down to~35 and allowing the surrogate to activate
+early in the run.
+No output transformation is applied; the RF is trained on raw
+performance values, which is consistent with prior work~\cite{falkner2018bohb}
+and appropriate here since YAHPO Gym metrics are bounded and
+well-conditioned (accuracy in $[0,1]$ or $[0,100]$).
+
+We compare two surrogate refitting strategies:
+\textbf{BOHB-Round} fits the model once at the start of each round;
+all brackets share the same snapshot.
+\textbf{BOHB-Bracket} refits at the start of each bracket within a
+round, so later brackets benefit from observations accumulated by
+earlier ones.
+
+\paragraph{Baselines.} Random Search (RS)~\cite{bergstra2012random},
+Grid Search (GS), Successive Halving (SH)~\cite{jamieson2016non},
+Hyperband (HB)~\cite{li2018hyperband}, and Bayesian Optimisation (BO)
+with a GP surrogate~\cite{snoek2012practical} are as in Assignment~1.
+
+% ----------------------------------------------------------------
+\section{Experimental Setup}
+% ----------------------------------------------------------------
+
+Six YAHPO Gym benchmarks:
+NB301/CIFAR-10 ($r_{\max}{=}98$ epochs, val.\ accuracy),
+rbv2\_xgboost/16 ($r_{\max}{=}1$, acc),
+rbv2\_svm/16, rbv2\_glmnet/16, rbv2\_ranger/16
+($r_{\max}{=}1$, acc), and LCBench/3945 ($r_{\max}{=}51$ epochs,
+val.\ accuracy).
+Total budget $B{=}50{\times}r_{\max}$ fidelity units, $\eta{=}3$,
+10 independent seeds per algorithm (420 runs total).
+
+% ----------------------------------------------------------------
+\section{Results}
+% ----------------------------------------------------------------
+
+\begin{table}[h]
+  \centering
+  \renewcommand{\tabcolsep}{3pt}
+  \renewcommand{\arraystretch}{1.05}
+  \caption{Final incumbent (mean $\pm$ std, 10 seeds).
+           \textbf{Bold} = best per benchmark.}
+  \label{tab:results}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{lcccccc}
+    \toprule
+    \textbf{Algorithm}
+      & \textbf{NB301}
+      & \textbf{xgb/16}
+      & \textbf{svm/16}
+      & \textbf{glmnet/16}
+      & \textbf{ranger/16}
+      & \textbf{lcb/3945} \\
+    \midrule
+    Random Search
+      & $93.73{\pm}0.17$
+      & $0.962{\pm}0.005$
+      & $0.980{\pm}0.002$
+      & $0.973{\pm}0.001$
+      & $0.959{\pm}0.003$
+      & $99.35{\pm}0.13$ \\
+    Grid Search
+      & $93.71{\pm}0.18$
+      & $0.963{\pm}0.010$
+      & $0.978{\pm}0.003$
+      & $\mathbf{0.979{\pm}0.005}$
+      & $0.959{\pm}0.004$
+      & $98.77{\pm}0.72$ \\
+    Succ.\ Halving
+      & $92.79{\pm}0.17$
+      & $0.968{\pm}0.007$
+      & $0.976{\pm}0.002$
+      & $0.975{\pm}0.002$
+      & $0.964{\pm}0.003$
+      & $99.48{\pm}0.03$ \\
+    Bayesian Opt.
+      & $94.08{\pm}0.32$
+      & $0.974{\pm}0.009$
+      & $\mathbf{0.981{\pm}0.002}$
+      & $0.976{\pm}0.001$
+      & $\mathbf{0.967{\pm}0.003}$
+      & $\mathbf{99.62{\pm}0.01}$ \\
+    Hyperband
+      & $94.16{\pm}0.20$
+      & $0.967{\pm}0.007$
+      & $0.979{\pm}0.003$
+      & $0.974{\pm}0.001$
+      & $0.963{\pm}0.003$
+      & $99.41{\pm}0.16$ \\
+    BOHB-Round
+      & $94.05{\pm}0.33$
+      & $\mathbf{0.976{\pm}0.008}$
+      & $0.979{\pm}0.002$
+      & $0.974{\pm}0.001$
+      & $0.964{\pm}0.003$
+      & $99.52{\pm}0.07$ \\
+    BOHB-Bracket
+      & $\mathbf{94.23{\pm}0.43}$
+      & $0.972{\pm}0.002$
+      & $0.979{\pm}0.002$
+      & $0.975{\pm}0.002$
+      & $0.965{\pm}0.002$
+      & $99.56{\pm}0.03$ \\
+    \bottomrule
+  \end{tabular}}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[t]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figures/nb301_cifar10_regret.pdf}
+    \caption{Regret on NB301. BOHB-Bracket achieves the lowest
+             median regret; all multi-fidelity methods improve
+             over RS/GS.}
+    \label{fig:nb301}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figures/rbv2_xgboost_16_regret.pdf}
+    \caption{Regret on rbv2\_xgboost. BOHB-Round converges
+             fastest; model-guided sampling outperforms pure
+             multi-fidelity exploration.}
+    \label{fig:xgb}
+  \end{minipage}
+\end{figure}
+
+\paragraph{NB301.}
+BOHB-Bracket achieves the highest mean ($94.23{\pm}0.43$), narrowly
+ahead of Hyperband ($94.16{\pm}0.20$), though the difference lies
+within one standard deviation.
+BOHB-Round ($94.05{\pm}0.33$) is slightly below Hyperband because
+the shared model is fitted with fewer observations before the run
+warms up: the surrogate only activates once $N_{\min}{=}35$ points
+are available at a single fidelity, which requires about a full round.
+BOHB-Bracket mitigates this by refitting before each bracket, so
+brackets~$s{>}0$ benefit from observations already accumulated.
+The higher variance of both BOHB variants relative to Hyperband reflects
+that the RF occasionally proposes a configuration that looks promising
+under EI but underperforms at full fidelity, a consequence of the
+limited 35-point warm-up data available on a 34-dimensional space.
+SH underperforms ($92.79{\pm}0.17$) because its single bracket never
+reaches $r_{\max}{=}98$ with $\eta{=}3$.
+
+\paragraph{rbv2\_xgboost.}
+BOHB-Round achieves the best mean ($0.976{\pm}0.008$), surpassing
+Bayesian Optimisation ($0.974{\pm}0.009$) and Hyperband ($0.967{\pm}0.007$).
+XGBoost's search space is lower-dimensional and largely continuous,
+making the RF surrogate easier to fit; model-guided sampling at low
+fidelity cheaply identifies promising regions before promoting to full
+training fraction.
+BOHB-Bracket scores slightly lower ($0.972{\pm}0.002$): the additional
+refit overhead consumes budget that BOHB-Round can spend on evaluations.
+
+\paragraph{Other benchmarks.}
+On rbv2\_svm and rbv2\_ranger, Bayesian Optimisation leads, which is
+expected given their smaller search spaces where a GP surrogate modelling
+at full fidelity is highly effective.
+On rbv2\_glmnet, Grid Search achieves the best mean, suggesting the
+parameter space is small enough for uniform coverage to be competitive.
+LCBench/3945 is dominated by Bayesian Optimisation ($99.62{\pm}0.01$),
+with BOHB-Bracket a close second ($99.56{\pm}0.03$).
+Across all six benchmarks, both BOHB variants consistently outperform
+Random Search and Grid Search, and are competitive with or better than
+Hyperband.
+
+% ----------------------------------------------------------------
+\section{Surrogate Analysis}
+% ----------------------------------------------------------------
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\linewidth]{figures/nb301_cifar10_surrogate_usage_ratio.pdf}
+  \caption{Cumulative model-usage ratio on NB301 (median $\pm$ IQR).
+           BOHB-Bracket reaches a higher model-usage ratio earlier
+           because per-bracket refitting provides fresh data sooner.}
+  \label{fig:usage}
+\end{figure}
+
+Figure~\ref{fig:usage} plots the fraction of configurations proposed
+by the RF surrogate (versus random sampling) over the course of the run
+on NB301.
+Both variants start at zero (no data yet) and climb toward
+$1{-}\rho{=}0.67$ as observations accumulate.
+BOHB-Bracket consistently exceeds BOHB-Round early in the run because
+it refits with all available data before each bracket, whereas
+BOHB-Round fits once per round and then freezes the model.
+The convergence of both curves toward the same plateau confirms that
+$\rho{=}1/3$ random exploration is maintained throughout, as required
+by Algorithm~2 of Falkner et~al.
+
+% ----------------------------------------------------------------
+\section{Conclusions}
+% ----------------------------------------------------------------
+
+BOHB matches or exceeds Hyperband on every benchmark tested.
+On NB301, BOHB-Bracket achieves the highest mean accuracy
+($94.23{\pm}0.43$) but with greater variance, reflecting the warmup
+phase of the surrogate.
+On rbv2\_xgboost, BOHB-Round clearly wins, demonstrating the benefit
+of model-guided sampling on a well-structured continuous space.
+Per-bracket refitting (BOHB-Bracket) is preferable on
+high-dimensional or structured benchmarks where earlier brackets
+provide informative priors; per-round refitting (BOHB-Round) is
+advantageous when the additional refitting overhead would otherwise
+consume useful evaluation budget.
+Label encoding (instead of one-hot) is critical: it keeps NB301's
+encoded dimension at 34 rather than 272, reducing $N_{\min}$ from
+273 to 35 and allowing the surrogate to activate early enough to
+influence the run outcome.
+
+% ----------------------------------------------------------------
+\section*{Statement of Contributions}
+% ----------------------------------------------------------------
+
+Shivam Sen Gupta and Dlyaver Djebarov jointly designed the BOHB
+implementation.
+Dlyaver Djebarov implemented the $\rho$ parameter, the per-bracket
+refitting mode, and the diagnostic logging framework.
+Shivam Sen Gupta integrated all components, ran the full experiment
+sweep (420 runs), and wrote the report.
+AI tools (ChatGPT) were used for language polishing (grammar and
+wording improvements only).
+
+\bibliographystyle{abbrvnat}
+\bibliography{bib}
+
+\newpage
+\pagestyle{empty}
+\includepdf[pages=-,pagecommand={},width=\textwidth]{files/oathstatement.pdf}
+
+\end{document}

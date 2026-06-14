@@ -1,0 +1,75 @@
+%% includes/macros/general.tex
+%% General utility macros for the RWTH AIM Beamer template.
+
+%% ── Two-column layout ──────────────────────────────────────────────
+%% \twocol{left content}{right content}
+%% Produces two equally-wide columns, aligned at the top.
+\newcommand{\twocol}[2]{%
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      #1
+    \end{column}%
+    % NOTE: no \hfill here — only \begin{column} environments are valid
+    % children of beamer's columns environment; anything else is dropped.
+    \begin{column}{0.48\textwidth}
+      #2
+    \end{column}
+  \end{columns}%
+}
+
+%% ── Centred image ──────────────────────────────────────────────────
+%% \ig{fraction_of_textwidth}{path-to-image}
+%% Example: \ig{0.8}{figures/plot.pdf}
+\newcommand{\ig}[2]{%
+  \begin{center}
+    \includegraphics[width=#1\textwidth]{#2}
+  \end{center}%
+}
+
+%% ── Plain frame (no header) ────────────────────────────────────────
+%% \plainframe{content}             -- white background
+%% \plainframe[color]{content}      -- custom background color
+%% Uses \providecommand so it doesn't conflict if beamerthemeAIM.sty
+%% already defines \plainframe.
+\providecommand{\plainframe}[2][white]{%
+  {%
+    \setbeamertemplate{headline}{}%
+    \setbeamertemplate{frametitle}{}%
+    \setbeamertemplate{footline}{}%
+    \setbeamercolor{background canvas}{bg=#1}%
+    \begin{frame}[c,plain]
+      \begin{center}
+        #2
+      \end{center}
+    \end{frame}%
+  }%
+}
+
+%% ── Quick inline reference (no bib entry needed) ───────────────────
+%% \refer{Author et al., 2024}
+\newcommand{\refer}[1]{%
+  {\color{rwth-blue-75}\small[#1]}%
+}
+
+%% ── Temporarily hide a block of content ────────────────────────────
+%% \hide{...}  renders nothing — useful during editing
+\newcommand{\hide}[1]{}
+
+%% ── Alert shorthand ────────────────────────────────────────────────
+%% \hlblue{text}  highlights text in RWTH blue (bold)
+%% Note: \hl is reserved by the soul package (yellow highlight).
+\newcommand{\hlblue}[1]{{\color{rwth-blue-100}\textbf{#1}}}
+
+%% ── Emphasis shortcuts ─────────────────────────────────────────────
+%% \xspace is NOT used here — it requires \usepackage{xspace} which is
+%% not in the lean preamble. Use a trailing space at call-site instead.
+\newcommand{\eg}{e.g.,}
+\newcommand{\ie}{i.e.,}
+\newcommand{\cf}{cf.}
+
+%% ── Math shorthands ────────────────────────────────────────────────
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Exp}[1]{\mathbb{E}\!\left[#1\right]}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}

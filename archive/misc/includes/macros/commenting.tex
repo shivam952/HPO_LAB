@@ -1,0 +1,49 @@
+%% includes/macros/commenting.tex
+%% Commenting and annotation macros for collaborative writing.
+%% Edit the author-specific macros at the bottom to match your team.
+
+\usepackage{xcolor}  % may already be loaded; safe to repeat
+
+%% ── General annotations ────────────────────────────────────────────
+
+%% \todo{text}  — marks a to-do item in red
+\newcommand{\todo}[1]{%
+  {\color{col-todo}\textbf{[TODO: #1]}}%
+}
+
+%% \changed{text}  — highlights changed text in orange
+\newcommand{\changed}[1]{%
+  {\color{col-changed}\textbf{[CHANGED: #1]}}%
+}
+
+%% \added{text}  — highlights newly added text in green
+\newcommand{\added}[1]{%
+  {\color{col-added}\textbf{[ADDED: #1]}}%
+}
+
+%% ── Author-specific macros ─────────────────────────────────────────
+%% Add or rename authors below.  Each author gets a unique colour.
+
+%% Jane (sample author)
+\definecolor{col-jane}{RGB}{0,120,200}
+\newcommand{\jane}[1]{%
+  {\color{col-jane}\textbf{[Jane: #1]}}%
+}
+
+%% John / Joe (sample author)
+\definecolor{col-john}{RGB}{160,0,160}
+\newcommand{\john}[1]{%
+  {\color{col-john}\textbf{[John: #1]}}%
+}
+
+%% Shivam
+\definecolor{col-shivam}{RGB}{0,140,80}
+\newcommand{\shivam}[1]{%
+  {\color{col-shivam}\textbf{[Shivam: #1]}}%
+}
+
+%% Partner (Dlyaver / second author — rename as needed)
+\definecolor{col-partner}{RGB}{180,80,0}
+\newcommand{\partner}[1]{%
+  {\color{col-partner}\textbf{[Partner: #1]}}%
+}

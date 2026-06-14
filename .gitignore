@@ -55,7 +55,7 @@ push_to_github.sh
 /"9.5 Berufe.pdf"
 
 # Run artefacts (generated, not source)
-results/
+
 /*.pdf
 /*.zip
 /part1.pdf

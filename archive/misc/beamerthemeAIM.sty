@@ -1,0 +1,190 @@
+%% beamerthemeAIM.sty
+%% RWTH Aachen University -- Chair for AI Methodology (AIM)
+%% Reconstructed from the official Jakob Bossek / Holger Hoos template.
+%% Colors match the RWTH Corporate Design (CD) specification.
+%%
+%% Options
+%%   authorinfo={0,1}  show short author + short title in footer  (default 1)
+%%   progress={0,1}    show x/total page counter instead of x     (default 0)
+%%   outline={0,1}     auto-insert outline slide at each section  (default 0)
+
+\ProvidesPackage{beamerthemeAIM}[2024/01/01 RWTH AIM Beamer Theme]
+
+\mode<presentation>
+
+%% ── Option declarations ────────────────────────────────────────────
+\newif\if@AIM@authorinfo  \@AIM@authorinfotrue
+\newif\if@AIM@progress    \@AIM@progressfalse
+\newif\if@AIM@outline     \@AIM@outlinefalse
+
+\DeclareOptionBeamer{authorinfo}{%
+  \ifnum#1=1\@AIM@authorinfotrue\else\@AIM@authorinfofalse\fi}
+\DeclareOptionBeamer{progress}{%
+  \ifnum#1=1\@AIM@progresstrue\else\@AIM@progressfalse\fi}
+\DeclareOptionBeamer{outline}{%
+  \ifnum#1=1\@AIM@outlinetrue\else\@AIM@outlinefalse\fi}
+\ProcessOptionsBeamer
+
+%% ── Required packages ──────────────────────────────────────────────
+%% Note: tikz is NOT required here — it is only needed if slides use
+%% tikz drawings directly. Loading it unconditionally wastes ~5 s on
+%% Overleaf's free tier. Load in the main document if needed.
+\RequirePackage{ifthen}
+
+%% ── RWTH color palette ─────────────────────────────────────────────
+%% Primary
+\definecolor{rwth-blue-100}{RGB}{0,84,159}
+\definecolor{rwth-blue-75}{RGB}{64,127,183}
+\definecolor{rwth-blue-50}{RGB}{142,186,229}
+\definecolor{rwth-blue-25}{RGB}{199,221,242}
+\definecolor{rwth-blue-10}{RGB}{232,241,250}
+%% Secondary palette
+\definecolor{rwth-black}{RGB}{0,0,0}
+\definecolor{rwth-magenta}{RGB}{227,0,102}
+\definecolor{rwth-yellow}{RGB}{255,237,0}
+\definecolor{rwth-petrol}{RGB}{0,97,101}
+\definecolor{rwth-turquoise}{RGB}{0,152,161}
+\definecolor{rwth-green}{RGB}{87,171,39}
+\definecolor{rwth-red}{RGB}{204,7,30}
+\definecolor{rwth-orange}{RGB}{246,168,0}
+
+%% ── Beamer color assignments ───────────────────────────────────────
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=rwth-red}
+\setbeamercolor{example text}{fg=rwth-green}
+
+\setbeamercolor{structure}{fg=rwth-blue-100}
+
+\setbeamercolor{palette primary}{bg=rwth-blue-100,fg=white}
+\setbeamercolor{palette secondary}{bg=rwth-blue-75,fg=white}
+\setbeamercolor{palette tertiary}{bg=rwth-blue-50,fg=black}
+\setbeamercolor{palette quaternary}{bg=rwth-blue-25,fg=black}
+
+\setbeamercolor{frametitle}{bg=rwth-blue-100,fg=white}
+\setbeamercolor{framesubtitle}{fg=rwth-blue-25}
+
+\setbeamercolor{title}{fg=rwth-blue-100,bg=white}
+\setbeamercolor{subtitle}{fg=rwth-blue-75,bg=white}
+\setbeamercolor{author}{fg=rwth-blue-100}
+\setbeamercolor{date}{fg=rwth-blue-100}
+
+\setbeamercolor{block title}{bg=rwth-blue-100,fg=white}
+\setbeamercolor{block body}{bg=rwth-blue-10,fg=black}
+\setbeamercolor{block title alerted}{bg=rwth-red,fg=white}
+\setbeamercolor{block body alerted}{bg=rwth-blue-10,fg=black}
+\setbeamercolor{block title example}{bg=rwth-green,fg=white}
+\setbeamercolor{block body example}{bg=rwth-blue-10,fg=black}
+
+\setbeamercolor{itemize item}{fg=rwth-blue-100}
+\setbeamercolor{itemize subitem}{fg=rwth-blue-75}
+\setbeamercolor{itemize subsubitem}{fg=rwth-blue-50}
+\setbeamercolor{enumerate item}{fg=rwth-blue-100}
+\setbeamercolor{enumerate subitem}{fg=rwth-blue-75}
+
+\setbeamercolor{section in toc}{fg=rwth-blue-100}
+\setbeamercolor{subsection in toc}{fg=rwth-blue-75}
+
+\setbeamercolor{footline}{bg=rwth-blue-100,fg=white}
+\setbeamercolor{headline}{bg=rwth-blue-100,fg=white}
+\setbeamercolor{separation line}{bg=rwth-blue-100}
+
+%% ── Beamer font assignments ────────────────────────────────────────
+\setbeamerfont{title}{size=\Large,series=\bfseries}
+\setbeamerfont{subtitle}{size=\normalsize,series=\mdseries}
+\setbeamerfont{author}{size=\small}
+\setbeamerfont{date}{size=\small}
+\setbeamerfont{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\small,series=\mdseries}
+\setbeamerfont{footline}{size=\tiny}
+\setbeamerfont{block title}{size=\normalsize,series=\bfseries}
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%% ── Inner theme ────────────────────────────────────────────────────
+\useinnertheme{rectangles}
+\setbeamertemplate{itemize item}{%
+  \color{rwth-blue-100}\small$\blacktriangleright$}
+\setbeamertemplate{itemize subitem}{%
+  \color{rwth-blue-75}\small$\triangleright$}
+\setbeamertemplate{itemize subsubitem}{%
+  \color{rwth-blue-50}\small$\cdot$}
+
+%% ── No navigation symbols ──────────────────────────────────────────
+\setbeamertemplate{navigation symbols}{}
+
+%% ── Header line (thin blue rule under frametitle) ──────────────────
+\setbeamertemplate{headline}{}
+
+%% ── Frame title ────────────────────────────────────────────────────
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.6ex,dp=0.8ex,
+                         left,leftskip=0.8em]{frametitle}%
+    \usebeamerfont{frametitle}\insertframetitle%
+    \ifx\insertframesubtitle\@empty\else%
+      \hspace{1em}{\usebeamerfont{framesubtitle}%
+        \usebeamercolor[fg]{framesubtitle}\insertframesubtitle}%
+    \fi
+  \end{beamercolorbox}%
+  \nointerlineskip
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.25ex,dp=0ex]{separation line}
+  \end{beamercolorbox}%
+}
+
+%% ── Title page ─────────────────────────────────────────────────────
+\setbeamertemplate{title page}{%
+  \vspace{0.5cm}
+  \begin{beamercolorbox}[wd=\textwidth,sep=6pt,center]{title}
+    \usebeamerfont{title}\inserttitle
+  \end{beamercolorbox}
+  \vspace{0.2cm}
+  \begin{beamercolorbox}[wd=\textwidth,sep=4pt,center]{subtitle}
+    \usebeamerfont{subtitle}\insertsubtitle
+  \end{beamercolorbox}
+  \vspace{0.4cm}
+  \begin{beamercolorbox}[wd=\textwidth,sep=3pt,center]{author}
+    \usebeamerfont{author}\insertauthor
+  \end{beamercolorbox}
+  \vspace{0.1cm}
+  \begin{beamercolorbox}[wd=\textwidth,sep=3pt,center]{date}
+    \usebeamerfont{date}\insertdate
+  \end{beamercolorbox}
+  \vfill
+  \begin{center}
+    \inserttitlegraphic
+  \end{center}
+}
+
+%% ── Footer ─────────────────────────────────────────────────────────
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=0.65\paperwidth,ht=2.25ex,dp=1ex,
+                           left,leftskip=4pt]{footline}%
+      \usebeamerfont{footline}%
+      \if@AIM@authorinfo%
+        \insertshortauthor\enspace|\enspace\insertshorttitle%
+      \fi
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=0.35\paperwidth,ht=2.25ex,dp=1ex,
+                           right,rightskip=4pt]{footline}%
+      \usebeamerfont{footline}%
+      \if@AIM@progress%
+        \insertframenumber\,/\,\inserttotalframenumber%
+      \else%
+        \insertframenumber%
+      \fi
+    \end{beamercolorbox}%
+  }%
+  \vskip0pt%
+}
+
+%% ── Outline at section start ───────────────────────────────────────
+\if@AIM@outline
+  \AtBeginSection[]{%
+    \begin{frame}[plain,noframenumbering]{Outline}
+      \tableofcontents[currentsection]
+    \end{frame}%
+  }
+\fi
+
+\mode<all>

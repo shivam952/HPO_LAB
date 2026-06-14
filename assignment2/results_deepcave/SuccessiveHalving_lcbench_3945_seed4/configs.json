@@ -1,0 +1,6302 @@
+{
+  "0": {
+    "OpenML_task_id": "3945",
+    "batch_size": 457,
+    "learning_rate": 0.004382245941855638,
+    "max_dropout": 0.9726843599648843,
+    "max_units": 464,
+    "momentum": 0.720978653891571,
+    "num_layers": 3,
+    "weight_decay": 0.014155002719966187
+  },
+  "1": {
+    "OpenML_task_id": "3945",
+    "batch_size": 35,
+    "learning_rate": 0.012452619203268595,
+    "max_dropout": 0.9031785237401092,
+    "max_units": 370,
+    "momentum": 0.10459164221539875,
+    "num_layers": 3,
+    "weight_decay": 0.03615601944506343
+  },
+  "2": {
+    "OpenML_task_id": "3945",
+    "batch_size": 130,
+    "learning_rate": 0.0014972646975855565,
+    "max_dropout": 0.8119477481319464,
+    "max_units": 350,
+    "momentum": 0.3371616623498682,
+    "num_layers": 1,
+    "weight_decay": 0.0019122841775286266
+  },
+  "3": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.06839298419711455,
+    "max_dropout": 0.4463491974261806,
+    "max_units": 218,
+    "momentum": 0.1584814934779779,
+    "num_layers": 5,
+    "weight_decay": 0.08658961715139957
+  },
+  "4": {
+    "OpenML_task_id": "3945",
+    "batch_size": 298,
+    "learning_rate": 0.059629269314084694,
+    "max_dropout": 0.8703064764855174,
+    "max_units": 649,
+    "momentum": 0.3322651476136752,
+    "num_layers": 2,
+    "weight_decay": 0.015830758484408097
+  },
+  "5": {
+    "OpenML_task_id": "3945",
+    "batch_size": 106,
+    "learning_rate": 0.00374293461221929,
+    "max_dropout": 0.6376102441259937,
+    "max_units": 195,
+    "momentum": 0.6783265470272146,
+    "num_layers": 1,
+    "weight_decay": 0.062395372193686835
+  },
+  "6": {
+    "OpenML_task_id": "3945",
+    "batch_size": 229,
+    "learning_rate": 0.00034428787656013506,
+    "max_dropout": 0.3755757685875424,
+    "max_units": 258,
+    "momentum": 0.7111337011255477,
+    "num_layers": 5,
+    "weight_decay": 0.06249683509796914
+  },
+  "7": {
+    "OpenML_task_id": "3945",
+    "batch_size": 356,
+    "learning_rate": 0.0012261984570196135,
+    "max_dropout": 0.6375570730187367,
+    "max_units": 109,
+    "momentum": 0.5430367620094021,
+    "num_layers": 1,
+    "weight_decay": 0.09183912008358489
+  },
+  "8": {
+    "OpenML_task_id": "3945",
+    "batch_size": 71,
+    "learning_rate": 0.030943134587424384,
+    "max_dropout": 0.4167763046783626,
+    "max_units": 786,
+    "momentum": 0.46029444340670633,
+    "num_layers": 5,
+    "weight_decay": 0.057218155639572145
+  },
+  "9": {
+    "OpenML_task_id": "3945",
+    "batch_size": 300,
+    "learning_rate": 0.038286259204109295,
+    "max_dropout": 0.5956881170683345,
+    "max_units": 81,
+    "momentum": 0.6315672805140656,
+    "num_layers": 4,
+    "weight_decay": 0.009528855814352772
+  },
+  "10": {
+    "OpenML_task_id": "3945",
+    "batch_size": 34,
+    "learning_rate": 0.026366327586609416,
+    "max_dropout": 0.10038042518171297,
+    "max_units": 76,
+    "momentum": 0.9401160980810709,
+    "num_layers": 1,
+    "weight_decay": 0.06146013900656971
+  },
+  "11": {
+    "OpenML_task_id": "3945",
+    "batch_size": 56,
+    "learning_rate": 0.02010361242663734,
+    "max_dropout": 0.04853413641955251,
+    "max_units": 87,
+    "momentum": 0.7087806614600286,
+    "num_layers": 5,
+    "weight_decay": 0.09293756676478998
+  },
+  "12": {
+    "OpenML_task_id": "3945",
+    "batch_size": 25,
+    "learning_rate": 0.031146288298417438,
+    "max_dropout": 0.7867531464259655,
+    "max_units": 433,
+    "momentum": 0.6788925875334546,
+    "num_layers": 2,
+    "weight_decay": 0.023622805139058803
+  },
+  "13": {
+    "OpenML_task_id": "3945",
+    "batch_size": 85,
+    "learning_rate": 0.060565573897328376,
+    "max_dropout": 0.1774079825750381,
+    "max_units": 98,
+    "momentum": 0.9612348713772965,
+    "num_layers": 2,
+    "weight_decay": 0.06189680336514293
+  },
+  "14": {
+    "OpenML_task_id": "3945",
+    "batch_size": 73,
+    "learning_rate": 0.0006064101640249457,
+    "max_dropout": 0.4124722116627568,
+    "max_units": 205,
+    "momentum": 0.9031554517297654,
+    "num_layers": 1,
+    "weight_decay": 0.06236064825229733
+  },
+  "15": {
+    "OpenML_task_id": "3945",
+    "batch_size": 21,
+    "learning_rate": 0.015812340317944342,
+    "max_dropout": 0.678685402478984,
+    "max_units": 632,
+    "momentum": 0.4092316896728395,
+    "num_layers": 3,
+    "weight_decay": 0.04623831294846582
+  },
+  "16": {
+    "OpenML_task_id": "3945",
+    "batch_size": 26,
+    "learning_rate": 0.0008440801576096224,
+    "max_dropout": 0.7532120853246995,
+    "max_units": 520,
+    "momentum": 0.9165855135022087,
+    "num_layers": 5,
+    "weight_decay": 0.017386241577590035
+  },
+  "17": {
+    "OpenML_task_id": "3945",
+    "batch_size": 420,
+    "learning_rate": 0.002491546658256944,
+    "max_dropout": 0.7629936412753662,
+    "max_units": 516,
+    "momentum": 0.973276828026822,
+    "num_layers": 2,
+    "weight_decay": 0.008447397687500047
+  },
+  "18": {
+    "OpenML_task_id": "3945",
+    "batch_size": 159,
+    "learning_rate": 0.005631584525870293,
+    "max_dropout": 0.7268630194207848,
+    "max_units": 786,
+    "momentum": 0.11487871867465455,
+    "num_layers": 1,
+    "weight_decay": 0.06665917402606501
+  },
+  "19": {
+    "OpenML_task_id": "3945",
+    "batch_size": 74,
+    "learning_rate": 0.0006567716171462566,
+    "max_dropout": 0.949668939947844,
+    "max_units": 482,
+    "momentum": 0.10562830416627965,
+    "num_layers": 5,
+    "weight_decay": 0.09314211247401614
+  },
+  "20": {
+    "OpenML_task_id": "3945",
+    "batch_size": 410,
+    "learning_rate": 0.0031614357583442114,
+    "max_dropout": 0.40963549004145794,
+    "max_units": 606,
+    "momentum": 0.5590367943344239,
+    "num_layers": 2,
+    "weight_decay": 0.0870405101173902
+  },
+  "21": {
+    "OpenML_task_id": "3945",
+    "batch_size": 360,
+    "learning_rate": 0.0002615443769348766,
+    "max_dropout": 0.7295545917964115,
+    "max_units": 307,
+    "momentum": 0.8929790881689683,
+    "num_layers": 2,
+    "weight_decay": 0.01348391317410771
+  },
+  "22": {
+    "OpenML_task_id": "3945",
+    "batch_size": 208,
+    "learning_rate": 0.0317207983970793,
+    "max_dropout": 0.08877285739020269,
+    "max_units": 638,
+    "momentum": 0.8001917598472252,
+    "num_layers": 3,
+    "weight_decay": 0.06507600115872354
+  },
+  "23": {
+    "OpenML_task_id": "3945",
+    "batch_size": 46,
+    "learning_rate": 0.09822272269743168,
+    "max_dropout": 0.2946325603162203,
+    "max_units": 408,
+    "momentum": 0.3351918543658534,
+    "num_layers": 2,
+    "weight_decay": 0.09199953489631281
+  },
+  "24": {
+    "OpenML_task_id": "3945",
+    "batch_size": 459,
+    "learning_rate": 0.02646347423883031,
+    "max_dropout": 0.08691561764276523,
+    "max_units": 82,
+    "momentum": 0.5958030469860316,
+    "num_layers": 1,
+    "weight_decay": 0.040527304057244196
+  },
+  "25": {
+    "OpenML_task_id": "3945",
+    "batch_size": 433,
+    "learning_rate": 0.00011206005736964993,
+    "max_dropout": 0.3133666233836183,
+    "max_units": 996,
+    "momentum": 0.8867977218967406,
+    "num_layers": 4,
+    "weight_decay": 0.010288495717148238
+  },
+  "26": {
+    "OpenML_task_id": "3945",
+    "batch_size": 22,
+    "learning_rate": 0.0006271796726462136,
+    "max_dropout": 0.1949476863278572,
+    "max_units": 191,
+    "momentum": 0.8026127351534472,
+    "num_layers": 4,
+    "weight_decay": 0.0611851167366869
+  },
+  "27": {
+    "OpenML_task_id": "3945",
+    "batch_size": 406,
+    "learning_rate": 0.015979278241268616,
+    "max_dropout": 0.8248209282060244,
+    "max_units": 162,
+    "momentum": 0.9076435353209923,
+    "num_layers": 2,
+    "weight_decay": 0.04080414706670615
+  },
+  "28": {
+    "OpenML_task_id": "3945",
+    "batch_size": 206,
+    "learning_rate": 0.0010008503497876394,
+    "max_dropout": 0.8861342313541327,
+    "max_units": 696,
+    "momentum": 0.24695512715589968,
+    "num_layers": 1,
+    "weight_decay": 0.005252963519853398
+  },
+  "29": {
+    "OpenML_task_id": "3945",
+    "batch_size": 314,
+    "learning_rate": 0.001041537052890674,
+    "max_dropout": 0.3932467283665556,
+    "max_units": 135,
+    "momentum": 0.20967282096917653,
+    "num_layers": 1,
+    "weight_decay": 0.023479358137753335
+  },
+  "30": {
+    "OpenML_task_id": "3945",
+    "batch_size": 113,
+    "learning_rate": 0.00040578420961946715,
+    "max_dropout": 0.5113872821357487,
+    "max_units": 887,
+    "momentum": 0.4309319986629455,
+    "num_layers": 2,
+    "weight_decay": 0.01845429243996754
+  },
+  "31": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.00018697221672243537,
+    "max_dropout": 0.5275144052636125,
+    "max_units": 113,
+    "momentum": 0.3606460743003074,
+    "num_layers": 2,
+    "weight_decay": 0.07595101915512643
+  },
+  "32": {
+    "OpenML_task_id": "3945",
+    "batch_size": 471,
+    "learning_rate": 0.016199469477019373,
+    "max_dropout": 0.9539559739542827,
+    "max_units": 864,
+    "momentum": 0.5287727736459387,
+    "num_layers": 4,
+    "weight_decay": 0.03891114235485468
+  },
+  "33": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.004475336379765343,
+    "max_dropout": 0.7920005811544661,
+    "max_units": 1018,
+    "momentum": 0.8439283370918217,
+    "num_layers": 5,
+    "weight_decay": 0.04130997371284669
+  },
+  "34": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.0003873228981404316,
+    "max_dropout": 0.4538292366482207,
+    "max_units": 169,
+    "momentum": 0.2633327864810163,
+    "num_layers": 4,
+    "weight_decay": 0.05674122275998642
+  },
+  "35": {
+    "OpenML_task_id": "3945",
+    "batch_size": 145,
+    "learning_rate": 0.0002503375625826955,
+    "max_dropout": 0.08270761181285646,
+    "max_units": 99,
+    "momentum": 0.9777400037637468,
+    "num_layers": 3,
+    "weight_decay": 0.04227136558734579
+  },
+  "36": {
+    "OpenML_task_id": "3945",
+    "batch_size": 332,
+    "learning_rate": 0.005660137195369052,
+    "max_dropout": 0.01753367137178896,
+    "max_units": 752,
+    "momentum": 0.4418914202617288,
+    "num_layers": 2,
+    "weight_decay": 0.04017589211169341
+  },
+  "37": {
+    "OpenML_task_id": "3945",
+    "batch_size": 254,
+    "learning_rate": 0.0011664468463804729,
+    "max_dropout": 0.30740488799891263,
+    "max_units": 93,
+    "momentum": 0.8912193367155387,
+    "num_layers": 4,
+    "weight_decay": 0.042607515844932164
+  },
+  "38": {
+    "OpenML_task_id": "3945",
+    "batch_size": 31,
+    "learning_rate": 0.00011587493899400424,
+    "max_dropout": 0.5839198739466547,
+    "max_units": 220,
+    "momentum": 0.8494304167573977,
+    "num_layers": 2,
+    "weight_decay": 0.062060719038512555
+  },
+  "39": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.04985091265875176,
+    "max_dropout": 0.7846107360373186,
+    "max_units": 65,
+    "momentum": 0.9308529370882659,
+    "num_layers": 4,
+    "weight_decay": 0.026498923235763572
+  },
+  "40": {
+    "OpenML_task_id": "3945",
+    "batch_size": 339,
+    "learning_rate": 0.07469288870482788,
+    "max_dropout": 0.24102883681566467,
+    "max_units": 250,
+    "momentum": 0.7591697018547455,
+    "num_layers": 5,
+    "weight_decay": 0.01902109825928223
+  },
+  "41": {
+    "OpenML_task_id": "3945",
+    "batch_size": 146,
+    "learning_rate": 0.0019251516431237556,
+    "max_dropout": 0.5058070707782574,
+    "max_units": 389,
+    "momentum": 0.9365479657364446,
+    "num_layers": 1,
+    "weight_decay": 0.05665233918567856
+  },
+  "42": {
+    "OpenML_task_id": "3945",
+    "batch_size": 417,
+    "learning_rate": 0.0001984256868417981,
+    "max_dropout": 0.9616031850128843,
+    "max_units": 183,
+    "momentum": 0.20088764756410554,
+    "num_layers": 2,
+    "weight_decay": 0.05718675111740206
+  },
+  "43": {
+    "OpenML_task_id": "3945",
+    "batch_size": 27,
+    "learning_rate": 0.0012188390355347958,
+    "max_dropout": 0.4357347412439997,
+    "max_units": 75,
+    "momentum": 0.7441219345664651,
+    "num_layers": 1,
+    "weight_decay": 0.09480629995411269
+  },
+  "44": {
+    "OpenML_task_id": "3945",
+    "batch_size": 324,
+    "learning_rate": 0.0006596119726034395,
+    "max_dropout": 0.4002717027882252,
+    "max_units": 312,
+    "momentum": 0.20633890681049888,
+    "num_layers": 2,
+    "weight_decay": 0.09088316059019919
+  },
+  "45": {
+    "OpenML_task_id": "3945",
+    "batch_size": 298,
+    "learning_rate": 0.0005424976062999996,
+    "max_dropout": 0.9107562956527534,
+    "max_units": 620,
+    "momentum": 0.4295111932251825,
+    "num_layers": 3,
+    "weight_decay": 0.025021689694620628
+  },
+  "46": {
+    "OpenML_task_id": "3945",
+    "batch_size": 72,
+    "learning_rate": 0.00016462745340277096,
+    "max_dropout": 0.5322285229150201,
+    "max_units": 864,
+    "momentum": 0.3712859798469863,
+    "num_layers": 1,
+    "weight_decay": 0.06581109096470587
+  },
+  "47": {
+    "OpenML_task_id": "3945",
+    "batch_size": 86,
+    "learning_rate": 0.0015615055317002046,
+    "max_dropout": 0.43175621262572317,
+    "max_units": 711,
+    "momentum": 0.7621328466662918,
+    "num_layers": 2,
+    "weight_decay": 0.08313441994174843
+  },
+  "48": {
+    "OpenML_task_id": "3945",
+    "batch_size": 28,
+    "learning_rate": 0.03440466244854204,
+    "max_dropout": 0.4156423241576631,
+    "max_units": 142,
+    "momentum": 0.6000574200353903,
+    "num_layers": 2,
+    "weight_decay": 0.055508475919262314
+  },
+  "49": {
+    "OpenML_task_id": "3945",
+    "batch_size": 52,
+    "learning_rate": 0.00017124331111463895,
+    "max_dropout": 0.057581340499605504,
+    "max_units": 144,
+    "momentum": 0.3177669165255964,
+    "num_layers": 1,
+    "weight_decay": 8.808150511947252e-05
+  },
+  "50": {
+    "OpenML_task_id": "3945",
+    "batch_size": 494,
+    "learning_rate": 0.041006257164664627,
+    "max_dropout": 0.9655293125585297,
+    "max_units": 271,
+    "momentum": 0.7683307566584563,
+    "num_layers": 1,
+    "weight_decay": 0.0074075048531528406
+  },
+  "51": {
+    "OpenML_task_id": "3945",
+    "batch_size": 84,
+    "learning_rate": 0.006583133148836142,
+    "max_dropout": 0.9825118679501008,
+    "max_units": 68,
+    "momentum": 0.559904619854567,
+    "num_layers": 2,
+    "weight_decay": 0.004337615890114512
+  },
+  "52": {
+    "OpenML_task_id": "3945",
+    "batch_size": 297,
+    "learning_rate": 0.022424442436314963,
+    "max_dropout": 0.5303338138206389,
+    "max_units": 187,
+    "momentum": 0.6099400918098793,
+    "num_layers": 4,
+    "weight_decay": 0.07244245662369915
+  },
+  "53": {
+    "OpenML_task_id": "3945",
+    "batch_size": 155,
+    "learning_rate": 0.0013178424610239491,
+    "max_dropout": 0.8034959993593959,
+    "max_units": 440,
+    "momentum": 0.537767209908336,
+    "num_layers": 1,
+    "weight_decay": 0.09231210194851797
+  },
+  "54": {
+    "OpenML_task_id": "3945",
+    "batch_size": 81,
+    "learning_rate": 0.0017274307365134967,
+    "max_dropout": 0.2728925152170649,
+    "max_units": 218,
+    "momentum": 0.9684058411897849,
+    "num_layers": 4,
+    "weight_decay": 0.030956002873367916
+  },
+  "55": {
+    "OpenML_task_id": "3945",
+    "batch_size": 50,
+    "learning_rate": 0.010461390594778354,
+    "max_dropout": 0.2888549243542371,
+    "max_units": 80,
+    "momentum": 0.35640817374316414,
+    "num_layers": 3,
+    "weight_decay": 0.021689742191668755
+  },
+  "56": {
+    "OpenML_task_id": "3945",
+    "batch_size": 90,
+    "learning_rate": 0.0009357568900359916,
+    "max_dropout": 0.0550770054392834,
+    "max_units": 424,
+    "momentum": 0.5967762240133466,
+    "num_layers": 2,
+    "weight_decay": 0.09633858302515802
+  },
+  "57": {
+    "OpenML_task_id": "3945",
+    "batch_size": 177,
+    "learning_rate": 0.025418052284854338,
+    "max_dropout": 0.7513834523770657,
+    "max_units": 870,
+    "momentum": 0.40300283603722376,
+    "num_layers": 2,
+    "weight_decay": 0.0012020135911558643
+  },
+  "58": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.076740346934571,
+    "max_dropout": 0.4749270723471193,
+    "max_units": 90,
+    "momentum": 0.19601696086878953,
+    "num_layers": 4,
+    "weight_decay": 0.05738244969720859
+  },
+  "59": {
+    "OpenML_task_id": "3945",
+    "batch_size": 36,
+    "learning_rate": 0.005211726329021405,
+    "max_dropout": 0.9152617628418099,
+    "max_units": 76,
+    "momentum": 0.29175960233097165,
+    "num_layers": 3,
+    "weight_decay": 0.03328583241192019
+  },
+  "60": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.011017095215242762,
+    "max_dropout": 0.5396516534703896,
+    "max_units": 216,
+    "momentum": 0.3049369021422176,
+    "num_layers": 4,
+    "weight_decay": 0.028783198378775326
+  },
+  "61": {
+    "OpenML_task_id": "3945",
+    "batch_size": 314,
+    "learning_rate": 0.00020197450216389036,
+    "max_dropout": 0.9944916638527223,
+    "max_units": 605,
+    "momentum": 0.1139369460989048,
+    "num_layers": 3,
+    "weight_decay": 0.018215680021596847
+  },
+  "62": {
+    "OpenML_task_id": "3945",
+    "batch_size": 226,
+    "learning_rate": 0.00018545859604044126,
+    "max_dropout": 0.47835052792857613,
+    "max_units": 81,
+    "momentum": 0.9577370034965748,
+    "num_layers": 2,
+    "weight_decay": 0.00450262051489283
+  },
+  "63": {
+    "OpenML_task_id": "3945",
+    "batch_size": 355,
+    "learning_rate": 0.0015351641829492225,
+    "max_dropout": 0.24730253300403537,
+    "max_units": 626,
+    "momentum": 0.8789079152885226,
+    "num_layers": 4,
+    "weight_decay": 0.0707175914008871
+  },
+  "64": {
+    "OpenML_task_id": "3945",
+    "batch_size": 53,
+    "learning_rate": 0.00024375377177563446,
+    "max_dropout": 0.4948697181695981,
+    "max_units": 532,
+    "momentum": 0.563797096441931,
+    "num_layers": 4,
+    "weight_decay": 0.03472726861999266
+  },
+  "65": {
+    "OpenML_task_id": "3945",
+    "batch_size": 190,
+    "learning_rate": 0.009354706283281465,
+    "max_dropout": 0.7754925695452347,
+    "max_units": 73,
+    "momentum": 0.9759753245829542,
+    "num_layers": 4,
+    "weight_decay": 0.07996015863294123
+  },
+  "66": {
+    "OpenML_task_id": "3945",
+    "batch_size": 347,
+    "learning_rate": 0.0007852012597045268,
+    "max_dropout": 0.9121553424077364,
+    "max_units": 325,
+    "momentum": 0.36180868102404196,
+    "num_layers": 2,
+    "weight_decay": 0.07717209374964572
+  },
+  "67": {
+    "OpenML_task_id": "3945",
+    "batch_size": 234,
+    "learning_rate": 0.07753994718517544,
+    "max_dropout": 0.3807697691044305,
+    "max_units": 125,
+    "momentum": 0.1546282155565768,
+    "num_layers": 5,
+    "weight_decay": 0.07996064524069686
+  },
+  "68": {
+    "OpenML_task_id": "3945",
+    "batch_size": 131,
+    "learning_rate": 0.08298174182967359,
+    "max_dropout": 0.41796989159074205,
+    "max_units": 798,
+    "momentum": 0.36705504015813184,
+    "num_layers": 1,
+    "weight_decay": 0.06216206729373865
+  },
+  "69": {
+    "OpenML_task_id": "3945",
+    "batch_size": 74,
+    "learning_rate": 0.01298640915443392,
+    "max_dropout": 0.06903491700751652,
+    "max_units": 946,
+    "momentum": 0.27206630336288895,
+    "num_layers": 2,
+    "weight_decay": 0.06857438740036666
+  },
+  "70": {
+    "OpenML_task_id": "3945",
+    "batch_size": 123,
+    "learning_rate": 0.0007317595981903943,
+    "max_dropout": 0.3740293599488108,
+    "max_units": 263,
+    "momentum": 0.4488604877650423,
+    "num_layers": 2,
+    "weight_decay": 0.0019116978612737962
+  },
+  "71": {
+    "OpenML_task_id": "3945",
+    "batch_size": 137,
+    "learning_rate": 0.026367053713029633,
+    "max_dropout": 0.28585677559016565,
+    "max_units": 98,
+    "momentum": 0.8925074763949704,
+    "num_layers": 5,
+    "weight_decay": 0.03582822246096081
+  },
+  "72": {
+    "OpenML_task_id": "3945",
+    "batch_size": 118,
+    "learning_rate": 0.0004827835722661479,
+    "max_dropout": 0.331314234773714,
+    "max_units": 429,
+    "momentum": 0.777455143970926,
+    "num_layers": 2,
+    "weight_decay": 0.09710494225161759
+  },
+  "73": {
+    "OpenML_task_id": "3945",
+    "batch_size": 82,
+    "learning_rate": 0.0001319917855651034,
+    "max_dropout": 0.5264281460575647,
+    "max_units": 75,
+    "momentum": 0.3378041472942579,
+    "num_layers": 3,
+    "weight_decay": 0.07843090571749797
+  },
+  "74": {
+    "OpenML_task_id": "3945",
+    "batch_size": 353,
+    "learning_rate": 0.002318722203162569,
+    "max_dropout": 0.317729034170636,
+    "max_units": 376,
+    "momentum": 0.6210837212906443,
+    "num_layers": 1,
+    "weight_decay": 0.09065711749775618
+  },
+  "75": {
+    "OpenML_task_id": "3945",
+    "batch_size": 60,
+    "learning_rate": 0.09713304379577903,
+    "max_dropout": 0.6928323437478527,
+    "max_units": 545,
+    "momentum": 0.7891621399510256,
+    "num_layers": 4,
+    "weight_decay": 0.07605463407107683
+  },
+  "76": {
+    "OpenML_task_id": "3945",
+    "batch_size": 248,
+    "learning_rate": 0.005314133080676207,
+    "max_dropout": 0.2765269572177108,
+    "max_units": 200,
+    "momentum": 0.31660757911634657,
+    "num_layers": 1,
+    "weight_decay": 0.04487352635012523
+  },
+  "77": {
+    "OpenML_task_id": "3945",
+    "batch_size": 200,
+    "learning_rate": 0.030071724598254652,
+    "max_dropout": 0.4942666893385149,
+    "max_units": 480,
+    "momentum": 0.5373154065115188,
+    "num_layers": 2,
+    "weight_decay": 0.07691633428447178
+  },
+  "78": {
+    "OpenML_task_id": "3945",
+    "batch_size": 183,
+    "learning_rate": 0.031727493770508604,
+    "max_dropout": 0.6398800167427172,
+    "max_units": 370,
+    "momentum": 0.11236744328430216,
+    "num_layers": 5,
+    "weight_decay": 0.02164197419926475
+  },
+  "79": {
+    "OpenML_task_id": "3945",
+    "batch_size": 61,
+    "learning_rate": 0.03421271897480641,
+    "max_dropout": 0.28617016336311085,
+    "max_units": 163,
+    "momentum": 0.6514888100418481,
+    "num_layers": 4,
+    "weight_decay": 0.01969084037520278
+  },
+  "80": {
+    "OpenML_task_id": "3945",
+    "batch_size": 313,
+    "learning_rate": 0.005715619154817352,
+    "max_dropout": 0.1287005000780993,
+    "max_units": 351,
+    "momentum": 0.42796534260346664,
+    "num_layers": 3,
+    "weight_decay": 0.036261294315734105
+  },
+  "81": {
+    "OpenML_task_id": "3945",
+    "batch_size": 52,
+    "learning_rate": 0.0009775521133696683,
+    "max_dropout": 0.893347962819491,
+    "max_units": 916,
+    "momentum": 0.14188837879186944,
+    "num_layers": 2,
+    "weight_decay": 0.022100676413342932
+  },
+  "82": {
+    "OpenML_task_id": "3945",
+    "batch_size": 496,
+    "learning_rate": 0.057405121851199434,
+    "max_dropout": 0.6281934267322344,
+    "max_units": 238,
+    "momentum": 0.8029686839482002,
+    "num_layers": 5,
+    "weight_decay": 0.09756722320783917
+  },
+  "83": {
+    "OpenML_task_id": "3945",
+    "batch_size": 229,
+    "learning_rate": 0.008149917672633789,
+    "max_dropout": 0.11207881367463868,
+    "max_units": 472,
+    "momentum": 0.20454621463153042,
+    "num_layers": 4,
+    "weight_decay": 0.05666043265349037
+  },
+  "84": {
+    "OpenML_task_id": "3945",
+    "batch_size": 91,
+    "learning_rate": 0.014879118411494216,
+    "max_dropout": 0.7278563581289947,
+    "max_units": 958,
+    "momentum": 0.4973737166272467,
+    "num_layers": 1,
+    "weight_decay": 0.0064715835875997305
+  },
+  "85": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.00017087459842934452,
+    "max_dropout": 0.9779961759660692,
+    "max_units": 281,
+    "momentum": 0.4342527780332719,
+    "num_layers": 2,
+    "weight_decay": 0.01667276936124891
+  },
+  "86": {
+    "OpenML_task_id": "3945",
+    "batch_size": 132,
+    "learning_rate": 0.08555989646821828,
+    "max_dropout": 0.2227222895236911,
+    "max_units": 802,
+    "momentum": 0.11994426135727312,
+    "num_layers": 3,
+    "weight_decay": 0.0041249114321846685
+  },
+  "87": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.00031317215880799325,
+    "max_dropout": 0.9898192568657341,
+    "max_units": 131,
+    "momentum": 0.7113975388953758,
+    "num_layers": 3,
+    "weight_decay": 0.07707331989196847
+  },
+  "88": {
+    "OpenML_task_id": "3945",
+    "batch_size": 34,
+    "learning_rate": 0.0009029616393827032,
+    "max_dropout": 0.9113368919641689,
+    "max_units": 119,
+    "momentum": 0.8100851082879302,
+    "num_layers": 1,
+    "weight_decay": 0.032328647162736215
+  },
+  "89": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.0001815140376571747,
+    "max_dropout": 0.5007160870497286,
+    "max_units": 904,
+    "momentum": 0.7226746006139282,
+    "num_layers": 2,
+    "weight_decay": 0.035816698865883914
+  },
+  "90": {
+    "OpenML_task_id": "3945",
+    "batch_size": 170,
+    "learning_rate": 0.00017072355185165821,
+    "max_dropout": 0.1966681161544238,
+    "max_units": 78,
+    "momentum": 0.5191431593364166,
+    "num_layers": 3,
+    "weight_decay": 0.071968275876707
+  },
+  "91": {
+    "OpenML_task_id": "3945",
+    "batch_size": 105,
+    "learning_rate": 0.00024661356900177,
+    "max_dropout": 0.804466995701837,
+    "max_units": 392,
+    "momentum": 0.47718560637212026,
+    "num_layers": 2,
+    "weight_decay": 0.0761633809838533
+  },
+  "92": {
+    "OpenML_task_id": "3945",
+    "batch_size": 98,
+    "learning_rate": 0.0013120295193657491,
+    "max_dropout": 0.15415760989914384,
+    "max_units": 766,
+    "momentum": 0.6935825977697054,
+    "num_layers": 2,
+    "weight_decay": 0.06481280581178242
+  },
+  "93": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.0004792772741077761,
+    "max_dropout": 0.5339995251335468,
+    "max_units": 351,
+    "momentum": 0.21780650768898419,
+    "num_layers": 2,
+    "weight_decay": 0.06718852852694161
+  },
+  "94": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.004140599587817895,
+    "max_dropout": 0.7094779588302756,
+    "max_units": 73,
+    "momentum": 0.5122526278979539,
+    "num_layers": 2,
+    "weight_decay": 0.04670393024756047
+  },
+  "95": {
+    "OpenML_task_id": "3945",
+    "batch_size": 124,
+    "learning_rate": 0.01874425582086724,
+    "max_dropout": 0.06018704686058729,
+    "max_units": 697,
+    "momentum": 0.3053890450230772,
+    "num_layers": 3,
+    "weight_decay": 0.047824628824427694
+  },
+  "96": {
+    "OpenML_task_id": "3945",
+    "batch_size": 307,
+    "learning_rate": 0.0011830290466984348,
+    "max_dropout": 0.47770922107263736,
+    "max_units": 340,
+    "momentum": 0.7151641271718444,
+    "num_layers": 3,
+    "weight_decay": 0.017526846762890506
+  },
+  "97": {
+    "OpenML_task_id": "3945",
+    "batch_size": 35,
+    "learning_rate": 0.000260406796182549,
+    "max_dropout": 0.9720532140046497,
+    "max_units": 92,
+    "momentum": 0.7957177665092074,
+    "num_layers": 3,
+    "weight_decay": 0.01822263003536824
+  },
+  "98": {
+    "OpenML_task_id": "3945",
+    "batch_size": 53,
+    "learning_rate": 0.0015734856474587484,
+    "max_dropout": 0.3356988729325273,
+    "max_units": 159,
+    "momentum": 0.6722549785401399,
+    "num_layers": 1,
+    "weight_decay": 0.018040720384044986
+  },
+  "99": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.014428171838608977,
+    "max_dropout": 0.7125540875301611,
+    "max_units": 84,
+    "momentum": 0.6400524163452834,
+    "num_layers": 2,
+    "weight_decay": 0.08607907825023797
+  },
+  "100": {
+    "OpenML_task_id": "3945",
+    "batch_size": 29,
+    "learning_rate": 0.0006697947037262566,
+    "max_dropout": 0.5345126066065917,
+    "max_units": 419,
+    "momentum": 0.9263615136500767,
+    "num_layers": 5,
+    "weight_decay": 0.004879978445539119
+  },
+  "101": {
+    "OpenML_task_id": "3945",
+    "batch_size": 134,
+    "learning_rate": 0.005255206106608003,
+    "max_dropout": 0.7293538027731684,
+    "max_units": 106,
+    "momentum": 0.7972090289847044,
+    "num_layers": 3,
+    "weight_decay": 0.06017634995548474
+  },
+  "102": {
+    "OpenML_task_id": "3945",
+    "batch_size": 120,
+    "learning_rate": 0.00011312155468406966,
+    "max_dropout": 0.4316264617681912,
+    "max_units": 663,
+    "momentum": 0.22202855840079866,
+    "num_layers": 2,
+    "weight_decay": 0.041996113747564255
+  },
+  "103": {
+    "OpenML_task_id": "3945",
+    "batch_size": 27,
+    "learning_rate": 0.000770507393948589,
+    "max_dropout": 0.24439851139152657,
+    "max_units": 465,
+    "momentum": 0.6534726815977985,
+    "num_layers": 4,
+    "weight_decay": 0.09846535999297816
+  },
+  "104": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.007558581959878759,
+    "max_dropout": 0.3960827612142237,
+    "max_units": 494,
+    "momentum": 0.42164800026270377,
+    "num_layers": 5,
+    "weight_decay": 0.0723970900826375
+  },
+  "105": {
+    "OpenML_task_id": "3945",
+    "batch_size": 275,
+    "learning_rate": 0.00018780075279548874,
+    "max_dropout": 0.8036906552381377,
+    "max_units": 191,
+    "momentum": 0.2389017325699339,
+    "num_layers": 1,
+    "weight_decay": 0.0026950668318055223
+  },
+  "106": {
+    "OpenML_task_id": "3945",
+    "batch_size": 372,
+    "learning_rate": 0.003610792894109407,
+    "max_dropout": 0.5514500255682702,
+    "max_units": 89,
+    "momentum": 0.7814641637034668,
+    "num_layers": 3,
+    "weight_decay": 0.056623655840989454
+  },
+  "107": {
+    "OpenML_task_id": "3945",
+    "batch_size": 21,
+    "learning_rate": 0.0001665095885701465,
+    "max_dropout": 0.9560174218029903,
+    "max_units": 251,
+    "momentum": 0.6912003526546535,
+    "num_layers": 5,
+    "weight_decay": 0.03328552880717781
+  },
+  "108": {
+    "OpenML_task_id": "3945",
+    "batch_size": 422,
+    "learning_rate": 0.0017504636722674499,
+    "max_dropout": 0.9975838221707023,
+    "max_units": 745,
+    "momentum": 0.341365183706887,
+    "num_layers": 1,
+    "weight_decay": 0.09760011844185364
+  },
+  "109": {
+    "OpenML_task_id": "3945",
+    "batch_size": 304,
+    "learning_rate": 0.00812713203689944,
+    "max_dropout": 0.0723699026927237,
+    "max_units": 216,
+    "momentum": 0.895918915534192,
+    "num_layers": 4,
+    "weight_decay": 0.08003502139059929
+  },
+  "110": {
+    "OpenML_task_id": "3945",
+    "batch_size": 111,
+    "learning_rate": 0.08785833310539921,
+    "max_dropout": 0.18278713526611012,
+    "max_units": 668,
+    "momentum": 0.6752745704621386,
+    "num_layers": 1,
+    "weight_decay": 0.07430879484573379
+  },
+  "111": {
+    "OpenML_task_id": "3945",
+    "batch_size": 68,
+    "learning_rate": 0.00024140394722162292,
+    "max_dropout": 0.8119464258285223,
+    "max_units": 246,
+    "momentum": 0.8215304898212151,
+    "num_layers": 4,
+    "weight_decay": 0.03962970300710086
+  },
+  "112": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.0005857954071869632,
+    "max_dropout": 0.6046105844993753,
+    "max_units": 430,
+    "momentum": 0.3922504298541649,
+    "num_layers": 4,
+    "weight_decay": 0.02347569071949138
+  },
+  "113": {
+    "OpenML_task_id": "3945",
+    "batch_size": 122,
+    "learning_rate": 0.0006582957296700044,
+    "max_dropout": 0.6649260417802465,
+    "max_units": 360,
+    "momentum": 0.7384729169211531,
+    "num_layers": 1,
+    "weight_decay": 0.020799145999432587
+  },
+  "114": {
+    "OpenML_task_id": "3945",
+    "batch_size": 29,
+    "learning_rate": 0.003426376617011152,
+    "max_dropout": 0.20567713969313406,
+    "max_units": 511,
+    "momentum": 0.17593567299198398,
+    "num_layers": 4,
+    "weight_decay": 0.00997711178550945
+  },
+  "115": {
+    "OpenML_task_id": "3945",
+    "batch_size": 111,
+    "learning_rate": 0.07170128000942419,
+    "max_dropout": 0.3289459959069916,
+    "max_units": 497,
+    "momentum": 0.8362034385076351,
+    "num_layers": 3,
+    "weight_decay": 0.007265277995546934
+  },
+  "116": {
+    "OpenML_task_id": "3945",
+    "batch_size": 507,
+    "learning_rate": 0.0007948123864271158,
+    "max_dropout": 0.9626745455076038,
+    "max_units": 476,
+    "momentum": 0.4670675715685494,
+    "num_layers": 1,
+    "weight_decay": 0.09663959796848098
+  },
+  "117": {
+    "OpenML_task_id": "3945",
+    "batch_size": 106,
+    "learning_rate": 0.0006988168009851651,
+    "max_dropout": 0.5806866485261754,
+    "max_units": 624,
+    "momentum": 0.8265559944089679,
+    "num_layers": 3,
+    "weight_decay": 0.005121077977782435
+  },
+  "118": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.00013762360446581003,
+    "max_dropout": 0.3070090699502157,
+    "max_units": 584,
+    "momentum": 0.9400154109259573,
+    "num_layers": 1,
+    "weight_decay": 0.08474632448980395
+  },
+  "119": {
+    "OpenML_task_id": "3945",
+    "batch_size": 46,
+    "learning_rate": 0.0036310617331152847,
+    "max_dropout": 0.11309604814269747,
+    "max_units": 113,
+    "momentum": 0.7395818783524801,
+    "num_layers": 1,
+    "weight_decay": 0.07227572859369283
+  },
+  "120": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.0016644839739063328,
+    "max_dropout": 0.3569885800963334,
+    "max_units": 557,
+    "momentum": 0.22222312426303722,
+    "num_layers": 3,
+    "weight_decay": 0.054841270676369853
+  },
+  "121": {
+    "OpenML_task_id": "3945",
+    "batch_size": 147,
+    "learning_rate": 0.062473935944433116,
+    "max_dropout": 0.766952435305982,
+    "max_units": 283,
+    "momentum": 0.34328641944155724,
+    "num_layers": 3,
+    "weight_decay": 0.02424993012200186
+  },
+  "122": {
+    "OpenML_task_id": "3945",
+    "batch_size": 154,
+    "learning_rate": 0.04941641176524158,
+    "max_dropout": 0.06320180282148069,
+    "max_units": 869,
+    "momentum": 0.11187007844769058,
+    "num_layers": 3,
+    "weight_decay": 0.07087453397350914
+  },
+  "123": {
+    "OpenML_task_id": "3945",
+    "batch_size": 41,
+    "learning_rate": 0.04280648008559333,
+    "max_dropout": 0.5116240062172297,
+    "max_units": 750,
+    "momentum": 0.8910304040481839,
+    "num_layers": 3,
+    "weight_decay": 0.02379553822938747
+  },
+  "124": {
+    "OpenML_task_id": "3945",
+    "batch_size": 60,
+    "learning_rate": 0.0028305851179672805,
+    "max_dropout": 0.40430082288006086,
+    "max_units": 269,
+    "momentum": 0.49623830088291365,
+    "num_layers": 5,
+    "weight_decay": 0.003960513363608094
+  },
+  "125": {
+    "OpenML_task_id": "3945",
+    "batch_size": 406,
+    "learning_rate": 0.02027841402256142,
+    "max_dropout": 0.6054367732652008,
+    "max_units": 69,
+    "momentum": 0.9592603282946577,
+    "num_layers": 3,
+    "weight_decay": 0.0743343820793754
+  },
+  "126": {
+    "OpenML_task_id": "3945",
+    "batch_size": 81,
+    "learning_rate": 0.0738954819790608,
+    "max_dropout": 0.16063142926685148,
+    "max_units": 154,
+    "momentum": 0.5049719138727297,
+    "num_layers": 3,
+    "weight_decay": 0.06596642813539892
+  },
+  "127": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.002750463641688794,
+    "max_dropout": 0.7332060681457395,
+    "max_units": 968,
+    "momentum": 0.6421988890120317,
+    "num_layers": 1,
+    "weight_decay": 0.052254612548820016
+  },
+  "128": {
+    "OpenML_task_id": "3945",
+    "batch_size": 74,
+    "learning_rate": 0.08942266007822658,
+    "max_dropout": 0.3590190603194612,
+    "max_units": 85,
+    "momentum": 0.9671896936860913,
+    "num_layers": 5,
+    "weight_decay": 0.05290124386804785
+  },
+  "129": {
+    "OpenML_task_id": "3945",
+    "batch_size": 315,
+    "learning_rate": 0.0017793178436000946,
+    "max_dropout": 0.2656102824872304,
+    "max_units": 399,
+    "momentum": 0.484224467874139,
+    "num_layers": 4,
+    "weight_decay": 0.042134751457487254
+  },
+  "130": {
+    "OpenML_task_id": "3945",
+    "batch_size": 153,
+    "learning_rate": 0.00016334520304255674,
+    "max_dropout": 0.3650113111784429,
+    "max_units": 68,
+    "momentum": 0.6109487798164099,
+    "num_layers": 3,
+    "weight_decay": 0.021145298845431475
+  },
+  "131": {
+    "OpenML_task_id": "3945",
+    "batch_size": 231,
+    "learning_rate": 0.0006120631478126993,
+    "max_dropout": 0.9082572890769328,
+    "max_units": 110,
+    "momentum": 0.5156162360890713,
+    "num_layers": 3,
+    "weight_decay": 0.03420600062139466
+  },
+  "132": {
+    "OpenML_task_id": "3945",
+    "batch_size": 76,
+    "learning_rate": 0.04458354276594231,
+    "max_dropout": 0.7975789017368818,
+    "max_units": 267,
+    "momentum": 0.5616338423565873,
+    "num_layers": 3,
+    "weight_decay": 0.06043696028150818
+  },
+  "133": {
+    "OpenML_task_id": "3945",
+    "batch_size": 190,
+    "learning_rate": 0.0015549915664213123,
+    "max_dropout": 0.8240419447975317,
+    "max_units": 368,
+    "momentum": 0.13934260334545212,
+    "num_layers": 2,
+    "weight_decay": 0.06660364787366871
+  },
+  "134": {
+    "OpenML_task_id": "3945",
+    "batch_size": 287,
+    "learning_rate": 0.01114960148800862,
+    "max_dropout": 0.8703069665356691,
+    "max_units": 725,
+    "momentum": 0.9170616800005077,
+    "num_layers": 2,
+    "weight_decay": 0.04179376743745326
+  },
+  "135": {
+    "OpenML_task_id": "3945",
+    "batch_size": 135,
+    "learning_rate": 0.0050732737896283,
+    "max_dropout": 0.9663691212256708,
+    "max_units": 457,
+    "momentum": 0.6124554766113743,
+    "num_layers": 4,
+    "weight_decay": 0.08121127452934399
+  },
+  "136": {
+    "OpenML_task_id": "3945",
+    "batch_size": 262,
+    "learning_rate": 0.059709713791535945,
+    "max_dropout": 0.62563948529801,
+    "max_units": 469,
+    "momentum": 0.18788966023241602,
+    "num_layers": 4,
+    "weight_decay": 0.027925348858659774
+  },
+  "137": {
+    "OpenML_task_id": "3945",
+    "batch_size": 97,
+    "learning_rate": 0.0021992654353667667,
+    "max_dropout": 0.3645519107144285,
+    "max_units": 964,
+    "momentum": 0.3548943325114511,
+    "num_layers": 5,
+    "weight_decay": 0.08608853042147636
+  },
+  "138": {
+    "OpenML_task_id": "3945",
+    "batch_size": 44,
+    "learning_rate": 0.028460766159951998,
+    "max_dropout": 0.6250023049638475,
+    "max_units": 268,
+    "momentum": 0.4917820355951812,
+    "num_layers": 2,
+    "weight_decay": 0.007657083784496264
+  },
+  "139": {
+    "OpenML_task_id": "3945",
+    "batch_size": 25,
+    "learning_rate": 0.010341374530306296,
+    "max_dropout": 0.4042509211218832,
+    "max_units": 450,
+    "momentum": 0.6436408474088867,
+    "num_layers": 1,
+    "weight_decay": 0.018146683349252585
+  },
+  "140": {
+    "OpenML_task_id": "3945",
+    "batch_size": 27,
+    "learning_rate": 0.06848975228888829,
+    "max_dropout": 0.8905300389327085,
+    "max_units": 736,
+    "momentum": 0.32662289138090533,
+    "num_layers": 4,
+    "weight_decay": 0.021376062049005752
+  },
+  "141": {
+    "OpenML_task_id": "3945",
+    "batch_size": 141,
+    "learning_rate": 0.0523507833712993,
+    "max_dropout": 0.4861142665166057,
+    "max_units": 290,
+    "momentum": 0.7265728809669595,
+    "num_layers": 4,
+    "weight_decay": 0.04227475911952578
+  },
+  "142": {
+    "OpenML_task_id": "3945",
+    "batch_size": 231,
+    "learning_rate": 0.00012493226259357464,
+    "max_dropout": 0.6103274529085732,
+    "max_units": 167,
+    "momentum": 0.9651516729857724,
+    "num_layers": 2,
+    "weight_decay": 0.005704274259750288
+  },
+  "143": {
+    "OpenML_task_id": "3945",
+    "batch_size": 36,
+    "learning_rate": 0.018756140492524963,
+    "max_dropout": 0.1410749559395149,
+    "max_units": 76,
+    "momentum": 0.9437630480026891,
+    "num_layers": 5,
+    "weight_decay": 0.09433570305840788
+  },
+  "144": {
+    "OpenML_task_id": "3945",
+    "batch_size": 132,
+    "learning_rate": 0.0003501612448928616,
+    "max_dropout": 0.25855810277689073,
+    "max_units": 165,
+    "momentum": 0.6730378535068616,
+    "num_layers": 3,
+    "weight_decay": 0.09237344786478821
+  },
+  "145": {
+    "OpenML_task_id": "3945",
+    "batch_size": 79,
+    "learning_rate": 0.08192824248330019,
+    "max_dropout": 0.06526926247244436,
+    "max_units": 185,
+    "momentum": 0.7273414109100311,
+    "num_layers": 4,
+    "weight_decay": 0.09914911501122912
+  },
+  "146": {
+    "OpenML_task_id": "3945",
+    "batch_size": 68,
+    "learning_rate": 0.007876742603132087,
+    "max_dropout": 0.34829365368424736,
+    "max_units": 662,
+    "momentum": 0.5358398256369934,
+    "num_layers": 1,
+    "weight_decay": 0.014977656689443763
+  },
+  "147": {
+    "OpenML_task_id": "3945",
+    "batch_size": 45,
+    "learning_rate": 0.0010320997234961502,
+    "max_dropout": 0.3827280080509198,
+    "max_units": 899,
+    "momentum": 0.12999479198136565,
+    "num_layers": 3,
+    "weight_decay": 0.026011943132285685
+  },
+  "148": {
+    "OpenML_task_id": "3945",
+    "batch_size": 43,
+    "learning_rate": 0.03423314082295243,
+    "max_dropout": 0.4717171306900798,
+    "max_units": 65,
+    "momentum": 0.8973935111069193,
+    "num_layers": 4,
+    "weight_decay": 0.048593088829979016
+  },
+  "149": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.09264746611817753,
+    "max_dropout": 0.5148242662508374,
+    "max_units": 104,
+    "momentum": 0.24254026055581654,
+    "num_layers": 4,
+    "weight_decay": 0.026139540315235143
+  },
+  "150": {
+    "OpenML_task_id": "3945",
+    "batch_size": 29,
+    "learning_rate": 0.010869624095222519,
+    "max_dropout": 0.07547675281413635,
+    "max_units": 1001,
+    "momentum": 0.3079068894457897,
+    "num_layers": 1,
+    "weight_decay": 0.06208244420696748
+  },
+  "151": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.059314857669318106,
+    "max_dropout": 0.3285124169285333,
+    "max_units": 94,
+    "momentum": 0.3272766670224545,
+    "num_layers": 3,
+    "weight_decay": 0.07614716105442054
+  },
+  "152": {
+    "OpenML_task_id": "3945",
+    "batch_size": 105,
+    "learning_rate": 0.0028306717290747466,
+    "max_dropout": 0.7558149872286568,
+    "max_units": 846,
+    "momentum": 0.5361297597320549,
+    "num_layers": 1,
+    "weight_decay": 0.07623313471161298
+  },
+  "153": {
+    "OpenML_task_id": "3945",
+    "batch_size": 85,
+    "learning_rate": 0.016567803899048474,
+    "max_dropout": 0.25569310584085336,
+    "max_units": 371,
+    "momentum": 0.7265919705416914,
+    "num_layers": 4,
+    "weight_decay": 0.07860158589058698
+  },
+  "154": {
+    "OpenML_task_id": "3945",
+    "batch_size": 197,
+    "learning_rate": 0.004447342921849917,
+    "max_dropout": 0.7236834944912961,
+    "max_units": 172,
+    "momentum": 0.8622396224147213,
+    "num_layers": 2,
+    "weight_decay": 0.021211643814115774
+  },
+  "155": {
+    "OpenML_task_id": "3945",
+    "batch_size": 32,
+    "learning_rate": 0.0009717447875362703,
+    "max_dropout": 0.06856721990021997,
+    "max_units": 273,
+    "momentum": 0.9431104467814381,
+    "num_layers": 4,
+    "weight_decay": 0.08905249221919749
+  },
+  "156": {
+    "OpenML_task_id": "3945",
+    "batch_size": 380,
+    "learning_rate": 0.0001290369436663663,
+    "max_dropout": 0.4169631834007721,
+    "max_units": 869,
+    "momentum": 0.8027386946979138,
+    "num_layers": 5,
+    "weight_decay": 0.025956726662718796
+  },
+  "157": {
+    "OpenML_task_id": "3945",
+    "batch_size": 98,
+    "learning_rate": 0.0005006368293721688,
+    "max_dropout": 0.024487786649336596,
+    "max_units": 466,
+    "momentum": 0.42524984437693536,
+    "num_layers": 5,
+    "weight_decay": 0.0014727613597486939
+  },
+  "158": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.00464938953190382,
+    "max_dropout": 0.67709290625496,
+    "max_units": 382,
+    "momentum": 0.9433207165805636,
+    "num_layers": 3,
+    "weight_decay": 0.06684818622246681
+  },
+  "159": {
+    "OpenML_task_id": "3945",
+    "batch_size": 151,
+    "learning_rate": 0.012346081579678337,
+    "max_dropout": 0.677595458112924,
+    "max_units": 566,
+    "momentum": 0.9782891209091914,
+    "num_layers": 2,
+    "weight_decay": 0.018989506640027822
+  },
+  "160": {
+    "OpenML_task_id": "3945",
+    "batch_size": 113,
+    "learning_rate": 0.004624356400589436,
+    "max_dropout": 0.9693742368165914,
+    "max_units": 307,
+    "momentum": 0.8213696645848515,
+    "num_layers": 3,
+    "weight_decay": 0.08665083271633973
+  },
+  "161": {
+    "OpenML_task_id": "3945",
+    "batch_size": 403,
+    "learning_rate": 0.0013868886118212202,
+    "max_dropout": 0.4357397939812674,
+    "max_units": 933,
+    "momentum": 0.6994176177904061,
+    "num_layers": 2,
+    "weight_decay": 0.06584194459319653
+  },
+  "162": {
+    "OpenML_task_id": "3945",
+    "batch_size": 305,
+    "learning_rate": 0.03799401414731843,
+    "max_dropout": 0.06442991378093788,
+    "max_units": 837,
+    "momentum": 0.4809089980172553,
+    "num_layers": 3,
+    "weight_decay": 0.08206471633758794
+  },
+  "163": {
+    "OpenML_task_id": "3945",
+    "batch_size": 135,
+    "learning_rate": 0.008387670855300329,
+    "max_dropout": 0.5475220303547869,
+    "max_units": 76,
+    "momentum": 0.24669683572817336,
+    "num_layers": 4,
+    "weight_decay": 0.09388913073398762
+  },
+  "164": {
+    "OpenML_task_id": "3945",
+    "batch_size": 240,
+    "learning_rate": 0.001809454446784808,
+    "max_dropout": 0.38815405987689544,
+    "max_units": 556,
+    "momentum": 0.4585288208840561,
+    "num_layers": 3,
+    "weight_decay": 0.06820337579131473
+  },
+  "165": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.00035962545034829904,
+    "max_dropout": 0.08794567505928863,
+    "max_units": 67,
+    "momentum": 0.7673254551237593,
+    "num_layers": 5,
+    "weight_decay": 0.004623812647238043
+  },
+  "166": {
+    "OpenML_task_id": "3945",
+    "batch_size": 78,
+    "learning_rate": 0.004091737510396048,
+    "max_dropout": 0.5908172104470678,
+    "max_units": 120,
+    "momentum": 0.8209180157942131,
+    "num_layers": 2,
+    "weight_decay": 0.07679855877440396
+  },
+  "167": {
+    "OpenML_task_id": "3945",
+    "batch_size": 454,
+    "learning_rate": 0.09046232259089072,
+    "max_dropout": 0.6007073615194168,
+    "max_units": 203,
+    "momentum": 0.5882958314386383,
+    "num_layers": 2,
+    "weight_decay": 0.07964612339141174
+  },
+  "168": {
+    "OpenML_task_id": "3945",
+    "batch_size": 104,
+    "learning_rate": 0.00021115777607982588,
+    "max_dropout": 0.2827583412302245,
+    "max_units": 169,
+    "momentum": 0.5043744378002788,
+    "num_layers": 4,
+    "weight_decay": 0.04741088158663608
+  },
+  "169": {
+    "OpenML_task_id": "3945",
+    "batch_size": 409,
+    "learning_rate": 0.006487218890079504,
+    "max_dropout": 0.9028664120463102,
+    "max_units": 160,
+    "momentum": 0.9546135818209035,
+    "num_layers": 5,
+    "weight_decay": 0.0727932456120956
+  },
+  "170": {
+    "OpenML_task_id": "3945",
+    "batch_size": 172,
+    "learning_rate": 0.007718570368478819,
+    "max_dropout": 0.46121798635318256,
+    "max_units": 1010,
+    "momentum": 0.7144917248065571,
+    "num_layers": 2,
+    "weight_decay": 0.002387353750218356
+  },
+  "171": {
+    "OpenML_task_id": "3945",
+    "batch_size": 198,
+    "learning_rate": 0.00015486639175677522,
+    "max_dropout": 0.5237943614670191,
+    "max_units": 686,
+    "momentum": 0.17188061169801971,
+    "num_layers": 2,
+    "weight_decay": 0.04171680430786923
+  },
+  "172": {
+    "OpenML_task_id": "3945",
+    "batch_size": 122,
+    "learning_rate": 0.08961725240204603,
+    "max_dropout": 0.7535727226575111,
+    "max_units": 168,
+    "momentum": 0.32242227327187334,
+    "num_layers": 1,
+    "weight_decay": 0.02321571093528106
+  },
+  "173": {
+    "OpenML_task_id": "3945",
+    "batch_size": 49,
+    "learning_rate": 0.00016533987118645923,
+    "max_dropout": 0.17552087332739097,
+    "max_units": 631,
+    "momentum": 0.19994748546536645,
+    "num_layers": 4,
+    "weight_decay": 0.005987529636889266
+  },
+  "174": {
+    "OpenML_task_id": "3945",
+    "batch_size": 395,
+    "learning_rate": 0.09476012881848771,
+    "max_dropout": 0.4840917534860605,
+    "max_units": 506,
+    "momentum": 0.9426173697383715,
+    "num_layers": 3,
+    "weight_decay": 0.0006838081457798126
+  },
+  "175": {
+    "OpenML_task_id": "3945",
+    "batch_size": 69,
+    "learning_rate": 0.004354923424893268,
+    "max_dropout": 0.9776114427631188,
+    "max_units": 471,
+    "momentum": 0.44339666413699164,
+    "num_layers": 2,
+    "weight_decay": 0.04163724693645787
+  },
+  "176": {
+    "OpenML_task_id": "3945",
+    "batch_size": 36,
+    "learning_rate": 0.00032677364960660536,
+    "max_dropout": 0.17701785353721533,
+    "max_units": 572,
+    "momentum": 0.9836159924110732,
+    "num_layers": 3,
+    "weight_decay": 0.09415666583305551
+  },
+  "177": {
+    "OpenML_task_id": "3945",
+    "batch_size": 456,
+    "learning_rate": 0.0862750938774316,
+    "max_dropout": 0.18677540544415172,
+    "max_units": 329,
+    "momentum": 0.26105223633416785,
+    "num_layers": 3,
+    "weight_decay": 0.09716854867754557
+  },
+  "178": {
+    "OpenML_task_id": "3945",
+    "batch_size": 484,
+    "learning_rate": 0.00015517349694004628,
+    "max_dropout": 0.20050619746493648,
+    "max_units": 126,
+    "momentum": 0.9559274732866194,
+    "num_layers": 2,
+    "weight_decay": 0.04840402663762544
+  },
+  "179": {
+    "OpenML_task_id": "3945",
+    "batch_size": 146,
+    "learning_rate": 0.00023900817682222703,
+    "max_dropout": 0.6436229038184617,
+    "max_units": 799,
+    "momentum": 0.9603343845414588,
+    "num_layers": 3,
+    "weight_decay": 0.08032452953747522
+  },
+  "180": {
+    "OpenML_task_id": "3945",
+    "batch_size": 48,
+    "learning_rate": 0.001889154960061155,
+    "max_dropout": 0.000439003555645634,
+    "max_units": 379,
+    "momentum": 0.15541698002383236,
+    "num_layers": 3,
+    "weight_decay": 0.019472189616336323
+  },
+  "181": {
+    "OpenML_task_id": "3945",
+    "batch_size": 452,
+    "learning_rate": 0.0005392584072783693,
+    "max_dropout": 0.9674118642520408,
+    "max_units": 372,
+    "momentum": 0.3879101220121839,
+    "num_layers": 3,
+    "weight_decay": 0.05105617269257547
+  },
+  "182": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.005824638491980914,
+    "max_dropout": 0.10483913776547882,
+    "max_units": 87,
+    "momentum": 0.9035139636241615,
+    "num_layers": 1,
+    "weight_decay": 0.007912879148585007
+  },
+  "183": {
+    "OpenML_task_id": "3945",
+    "batch_size": 83,
+    "learning_rate": 0.00012770904886698982,
+    "max_dropout": 0.9928617852252418,
+    "max_units": 84,
+    "momentum": 0.5698059819121348,
+    "num_layers": 1,
+    "weight_decay": 0.0894486404173999
+  },
+  "184": {
+    "OpenML_task_id": "3945",
+    "batch_size": 493,
+    "learning_rate": 0.0023343211766579893,
+    "max_dropout": 0.5906501219714928,
+    "max_units": 101,
+    "momentum": 0.9382290073785351,
+    "num_layers": 1,
+    "weight_decay": 0.09955490615486443
+  },
+  "185": {
+    "OpenML_task_id": "3945",
+    "batch_size": 131,
+    "learning_rate": 0.0007874937358410497,
+    "max_dropout": 0.98129162279059,
+    "max_units": 963,
+    "momentum": 0.42147573373813707,
+    "num_layers": 3,
+    "weight_decay": 0.029649655564071592
+  },
+  "186": {
+    "OpenML_task_id": "3945",
+    "batch_size": 86,
+    "learning_rate": 0.0020057080956231267,
+    "max_dropout": 0.3366064008353912,
+    "max_units": 515,
+    "momentum": 0.7667048522754053,
+    "num_layers": 2,
+    "weight_decay": 0.022977434305666903
+  },
+  "187": {
+    "OpenML_task_id": "3945",
+    "batch_size": 69,
+    "learning_rate": 0.05219364886915657,
+    "max_dropout": 0.16452473693908964,
+    "max_units": 156,
+    "momentum": 0.5138272478252565,
+    "num_layers": 3,
+    "weight_decay": 0.01405987658696845
+  },
+  "188": {
+    "OpenML_task_id": "3945",
+    "batch_size": 206,
+    "learning_rate": 0.0024619620440635035,
+    "max_dropout": 0.034392789869038154,
+    "max_units": 241,
+    "momentum": 0.3226916940408364,
+    "num_layers": 2,
+    "weight_decay": 0.038851998969255896
+  },
+  "189": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.0006674200516459183,
+    "max_dropout": 0.24903134662689919,
+    "max_units": 120,
+    "momentum": 0.32728355880648713,
+    "num_layers": 5,
+    "weight_decay": 0.06496320143141142
+  },
+  "190": {
+    "OpenML_task_id": "3945",
+    "batch_size": 92,
+    "learning_rate": 0.004409519253065151,
+    "max_dropout": 0.7102358640326245,
+    "max_units": 180,
+    "momentum": 0.749835835375583,
+    "num_layers": 2,
+    "weight_decay": 0.008630135655189847
+  },
+  "191": {
+    "OpenML_task_id": "3945",
+    "batch_size": 336,
+    "learning_rate": 0.011122028373089572,
+    "max_dropout": 0.9683622223076366,
+    "max_units": 213,
+    "momentum": 0.652737166971822,
+    "num_layers": 2,
+    "weight_decay": 0.06261430951848138
+  },
+  "192": {
+    "OpenML_task_id": "3945",
+    "batch_size": 326,
+    "learning_rate": 0.07678397136026627,
+    "max_dropout": 0.6792944632044552,
+    "max_units": 127,
+    "momentum": 0.8747086276531646,
+    "num_layers": 1,
+    "weight_decay": 0.06031744786042554
+  },
+  "193": {
+    "OpenML_task_id": "3945",
+    "batch_size": 174,
+    "learning_rate": 0.00043739395047686795,
+    "max_dropout": 0.9716321507415754,
+    "max_units": 123,
+    "momentum": 0.5560576095324281,
+    "num_layers": 4,
+    "weight_decay": 0.08879675226495283
+  },
+  "194": {
+    "OpenML_task_id": "3945",
+    "batch_size": 25,
+    "learning_rate": 0.08240161249732965,
+    "max_dropout": 0.25775553181718014,
+    "max_units": 122,
+    "momentum": 0.9452844884306968,
+    "num_layers": 4,
+    "weight_decay": 0.016346032705179002
+  },
+  "195": {
+    "OpenML_task_id": "3945",
+    "batch_size": 190,
+    "learning_rate": 0.0005669975208348144,
+    "max_dropout": 0.5308759037099532,
+    "max_units": 715,
+    "momentum": 0.17269522764994893,
+    "num_layers": 1,
+    "weight_decay": 0.09392357337242734
+  },
+  "196": {
+    "OpenML_task_id": "3945",
+    "batch_size": 50,
+    "learning_rate": 0.0009914178164364294,
+    "max_dropout": 0.39263257276882424,
+    "max_units": 781,
+    "momentum": 0.22594051618643804,
+    "num_layers": 1,
+    "weight_decay": 0.030035620676581547
+  },
+  "197": {
+    "OpenML_task_id": "3945",
+    "batch_size": 276,
+    "learning_rate": 0.0024024347566859636,
+    "max_dropout": 0.14141866858417584,
+    "max_units": 236,
+    "momentum": 0.12328006385899323,
+    "num_layers": 1,
+    "weight_decay": 0.0033775173783357625
+  },
+  "198": {
+    "OpenML_task_id": "3945",
+    "batch_size": 328,
+    "learning_rate": 0.010855790607888086,
+    "max_dropout": 0.6453996827720093,
+    "max_units": 120,
+    "momentum": 0.6546477915948438,
+    "num_layers": 1,
+    "weight_decay": 0.01742022590392147
+  },
+  "199": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.0005806209363116204,
+    "max_dropout": 0.2259790501304081,
+    "max_units": 223,
+    "momentum": 0.3982795165787656,
+    "num_layers": 1,
+    "weight_decay": 0.03553469844769911
+  },
+  "200": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.0005317155828449699,
+    "max_dropout": 0.8976460976213845,
+    "max_units": 343,
+    "momentum": 0.7137495539088368,
+    "num_layers": 2,
+    "weight_decay": 0.07346690624461884
+  },
+  "201": {
+    "OpenML_task_id": "3945",
+    "batch_size": 27,
+    "learning_rate": 0.03284965508145071,
+    "max_dropout": 0.0581797375676667,
+    "max_units": 157,
+    "momentum": 0.6269689622386294,
+    "num_layers": 2,
+    "weight_decay": 0.08384792749874627
+  },
+  "202": {
+    "OpenML_task_id": "3945",
+    "batch_size": 33,
+    "learning_rate": 0.0001363198176955321,
+    "max_dropout": 0.24349367972675462,
+    "max_units": 284,
+    "momentum": 0.9263134196434742,
+    "num_layers": 4,
+    "weight_decay": 0.040897679687462725
+  },
+  "203": {
+    "OpenML_task_id": "3945",
+    "batch_size": 349,
+    "learning_rate": 0.0008897050649329528,
+    "max_dropout": 0.40105668865070365,
+    "max_units": 848,
+    "momentum": 0.14551189707119436,
+    "num_layers": 2,
+    "weight_decay": 0.03692670932694691
+  },
+  "204": {
+    "OpenML_task_id": "3945",
+    "batch_size": 98,
+    "learning_rate": 0.00013638131779336536,
+    "max_dropout": 0.4590416075537892,
+    "max_units": 685,
+    "momentum": 0.37489575722995894,
+    "num_layers": 3,
+    "weight_decay": 0.013585896782410917
+  },
+  "205": {
+    "OpenML_task_id": "3945",
+    "batch_size": 44,
+    "learning_rate": 0.04811584737562756,
+    "max_dropout": 0.47626489209913314,
+    "max_units": 944,
+    "momentum": 0.644072018902315,
+    "num_layers": 4,
+    "weight_decay": 0.02076970526579425
+  },
+  "206": {
+    "OpenML_task_id": "3945",
+    "batch_size": 388,
+    "learning_rate": 0.00028687044498320685,
+    "max_dropout": 0.7246688540034637,
+    "max_units": 454,
+    "momentum": 0.16578060973588232,
+    "num_layers": 1,
+    "weight_decay": 0.022250980096457932
+  },
+  "207": {
+    "OpenML_task_id": "3945",
+    "batch_size": 51,
+    "learning_rate": 0.0018471180474772448,
+    "max_dropout": 0.7951401166586356,
+    "max_units": 169,
+    "momentum": 0.7795218744663095,
+    "num_layers": 5,
+    "weight_decay": 0.06737189733758484
+  },
+  "208": {
+    "OpenML_task_id": "3945",
+    "batch_size": 104,
+    "learning_rate": 0.003315629554674482,
+    "max_dropout": 0.8379047945850646,
+    "max_units": 213,
+    "momentum": 0.5827727562921057,
+    "num_layers": 4,
+    "weight_decay": 0.02976341937948666
+  },
+  "209": {
+    "OpenML_task_id": "3945",
+    "batch_size": 103,
+    "learning_rate": 0.006362937296680245,
+    "max_dropout": 0.7065464199318144,
+    "max_units": 698,
+    "momentum": 0.6042616189076315,
+    "num_layers": 4,
+    "weight_decay": 0.0755627454321678
+  },
+  "210": {
+    "OpenML_task_id": "3945",
+    "batch_size": 29,
+    "learning_rate": 0.0025786153572793175,
+    "max_dropout": 0.29031463758825937,
+    "max_units": 658,
+    "momentum": 0.278597455140408,
+    "num_layers": 1,
+    "weight_decay": 0.06310315833495643
+  },
+  "211": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.00038096690760957576,
+    "max_dropout": 0.50150175611657,
+    "max_units": 173,
+    "momentum": 0.6368331075785416,
+    "num_layers": 3,
+    "weight_decay": 0.031415638426659245
+  },
+  "212": {
+    "OpenML_task_id": "3945",
+    "batch_size": 242,
+    "learning_rate": 0.0010555291648334834,
+    "max_dropout": 0.5652088468619291,
+    "max_units": 456,
+    "momentum": 0.2515035387105323,
+    "num_layers": 1,
+    "weight_decay": 0.07427252227725835
+  },
+  "213": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.00015061110491939577,
+    "max_dropout": 0.9162408434143903,
+    "max_units": 323,
+    "momentum": 0.22908061435703717,
+    "num_layers": 3,
+    "weight_decay": 0.07583035854195541
+  },
+  "214": {
+    "OpenML_task_id": "3945",
+    "batch_size": 50,
+    "learning_rate": 0.00024340897609797323,
+    "max_dropout": 0.21109795032895373,
+    "max_units": 213,
+    "momentum": 0.49974607017588923,
+    "num_layers": 3,
+    "weight_decay": 0.08676517418355416
+  },
+  "215": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.001466016760424833,
+    "max_dropout": 0.6345135682079572,
+    "max_units": 604,
+    "momentum": 0.49283968040383386,
+    "num_layers": 1,
+    "weight_decay": 0.05498158842849854
+  },
+  "216": {
+    "OpenML_task_id": "3945",
+    "batch_size": 153,
+    "learning_rate": 0.04373141940887912,
+    "max_dropout": 0.41661773252516554,
+    "max_units": 145,
+    "momentum": 0.31036083894982136,
+    "num_layers": 5,
+    "weight_decay": 0.07133780595682616
+  },
+  "217": {
+    "OpenML_task_id": "3945",
+    "batch_size": 396,
+    "learning_rate": 0.0021027983080446006,
+    "max_dropout": 0.5800128802613712,
+    "max_units": 109,
+    "momentum": 0.5071588621138599,
+    "num_layers": 5,
+    "weight_decay": 0.05909575099136786
+  },
+  "218": {
+    "OpenML_task_id": "3945",
+    "batch_size": 126,
+    "learning_rate": 0.00047821093314414574,
+    "max_dropout": 0.6094205972319828,
+    "max_units": 182,
+    "momentum": 0.4967773445982492,
+    "num_layers": 4,
+    "weight_decay": 0.008494686270678673
+  },
+  "219": {
+    "OpenML_task_id": "3945",
+    "batch_size": 79,
+    "learning_rate": 0.07749531589636169,
+    "max_dropout": 0.3649136645093163,
+    "max_units": 198,
+    "momentum": 0.5685438403839302,
+    "num_layers": 2,
+    "weight_decay": 0.06822365478675574
+  },
+  "220": {
+    "OpenML_task_id": "3945",
+    "batch_size": 337,
+    "learning_rate": 0.0002538173493312214,
+    "max_dropout": 0.6023360866021128,
+    "max_units": 87,
+    "momentum": 0.579175879674271,
+    "num_layers": 5,
+    "weight_decay": 0.054031084547136274
+  },
+  "221": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.00856969680947181,
+    "max_dropout": 0.21377681751316557,
+    "max_units": 388,
+    "momentum": 0.5828435466030537,
+    "num_layers": 3,
+    "weight_decay": 0.04641584662618265
+  },
+  "222": {
+    "OpenML_task_id": "3945",
+    "batch_size": 86,
+    "learning_rate": 0.00022005722687799917,
+    "max_dropout": 0.25782775728201923,
+    "max_units": 299,
+    "momentum": 0.644122237449122,
+    "num_layers": 5,
+    "weight_decay": 0.04988302228439026
+  },
+  "223": {
+    "OpenML_task_id": "3945",
+    "batch_size": 48,
+    "learning_rate": 0.001525974107097431,
+    "max_dropout": 0.513898703308432,
+    "max_units": 187,
+    "momentum": 0.11761940684393947,
+    "num_layers": 4,
+    "weight_decay": 0.031720966982231175
+  },
+  "224": {
+    "OpenML_task_id": "3945",
+    "batch_size": 106,
+    "learning_rate": 0.002950428307006636,
+    "max_dropout": 0.12755976183752593,
+    "max_units": 64,
+    "momentum": 0.18941339725902137,
+    "num_layers": 2,
+    "weight_decay": 0.08098422787555226
+  },
+  "225": {
+    "OpenML_task_id": "3945",
+    "batch_size": 176,
+    "learning_rate": 0.0007287521503824576,
+    "max_dropout": 0.642364851825031,
+    "max_units": 70,
+    "momentum": 0.1815782452670091,
+    "num_layers": 2,
+    "weight_decay": 0.023318794431594334
+  },
+  "226": {
+    "OpenML_task_id": "3945",
+    "batch_size": 103,
+    "learning_rate": 0.01259990807653855,
+    "max_dropout": 0.020386563542109992,
+    "max_units": 308,
+    "momentum": 0.8362097921537223,
+    "num_layers": 2,
+    "weight_decay": 0.08657710656386836
+  },
+  "227": {
+    "OpenML_task_id": "3945",
+    "batch_size": 393,
+    "learning_rate": 0.011878619443876692,
+    "max_dropout": 0.20974517090245492,
+    "max_units": 300,
+    "momentum": 0.3921475699945106,
+    "num_layers": 5,
+    "weight_decay": 0.008131411157378038
+  },
+  "228": {
+    "OpenML_task_id": "3945",
+    "batch_size": 59,
+    "learning_rate": 0.07152409915991897,
+    "max_dropout": 0.4481619930162125,
+    "max_units": 219,
+    "momentum": 0.6056472829244335,
+    "num_layers": 1,
+    "weight_decay": 0.016843940523899068
+  },
+  "229": {
+    "OpenML_task_id": "3945",
+    "batch_size": 125,
+    "learning_rate": 0.09049582743203159,
+    "max_dropout": 0.07126934765496229,
+    "max_units": 197,
+    "momentum": 0.39244215297158125,
+    "num_layers": 1,
+    "weight_decay": 0.07494518143046167
+  },
+  "230": {
+    "OpenML_task_id": "3945",
+    "batch_size": 39,
+    "learning_rate": 0.01962302395756433,
+    "max_dropout": 0.04794230184345183,
+    "max_units": 160,
+    "momentum": 0.3825789758305006,
+    "num_layers": 1,
+    "weight_decay": 0.07490138577030607
+  },
+  "231": {
+    "OpenML_task_id": "3945",
+    "batch_size": 84,
+    "learning_rate": 0.0003739470629145069,
+    "max_dropout": 0.10048797107550289,
+    "max_units": 172,
+    "momentum": 0.15847010167902412,
+    "num_layers": 5,
+    "weight_decay": 0.06901438120476179
+  },
+  "232": {
+    "OpenML_task_id": "3945",
+    "batch_size": 28,
+    "learning_rate": 0.0001706502858874927,
+    "max_dropout": 0.8454393909629656,
+    "max_units": 205,
+    "momentum": 0.5677866219407096,
+    "num_layers": 4,
+    "weight_decay": 0.08950352509845474
+  },
+  "233": {
+    "OpenML_task_id": "3945",
+    "batch_size": 37,
+    "learning_rate": 0.00014720360218924538,
+    "max_dropout": 0.22720703202932147,
+    "max_units": 188,
+    "momentum": 0.4560054923884803,
+    "num_layers": 1,
+    "weight_decay": 0.023406418970654007
+  },
+  "234": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.0017176430664814142,
+    "max_dropout": 0.029549065566540467,
+    "max_units": 95,
+    "momentum": 0.5201898095613707,
+    "num_layers": 2,
+    "weight_decay": 0.0720693656032253
+  },
+  "235": {
+    "OpenML_task_id": "3945",
+    "batch_size": 64,
+    "learning_rate": 0.0907324026768753,
+    "max_dropout": 0.8873041972702906,
+    "max_units": 656,
+    "momentum": 0.4069944706889701,
+    "num_layers": 3,
+    "weight_decay": 0.06173715126094909
+  },
+  "236": {
+    "OpenML_task_id": "3945",
+    "batch_size": 171,
+    "learning_rate": 0.00014379064697689716,
+    "max_dropout": 0.4557738011325019,
+    "max_units": 326,
+    "momentum": 0.801262953372354,
+    "num_layers": 4,
+    "weight_decay": 0.08443078585620713
+  },
+  "237": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.000339374020937031,
+    "max_dropout": 0.7950947254593768,
+    "max_units": 112,
+    "momentum": 0.1425227906120612,
+    "num_layers": 1,
+    "weight_decay": 0.012583612333355075
+  },
+  "238": {
+    "OpenML_task_id": "3945",
+    "batch_size": 136,
+    "learning_rate": 0.0979217015091208,
+    "max_dropout": 0.7605651204660819,
+    "max_units": 315,
+    "momentum": 0.4209967184288035,
+    "num_layers": 5,
+    "weight_decay": 0.03395575811542795
+  },
+  "239": {
+    "OpenML_task_id": "3945",
+    "batch_size": 335,
+    "learning_rate": 0.00222470223007422,
+    "max_dropout": 0.7696831502509717,
+    "max_units": 339,
+    "momentum": 0.3805482876247971,
+    "num_layers": 5,
+    "weight_decay": 0.05373596254465235
+  },
+  "240": {
+    "OpenML_task_id": "3945",
+    "batch_size": 241,
+    "learning_rate": 0.029677927320287685,
+    "max_dropout": 0.7170492202020636,
+    "max_units": 202,
+    "momentum": 0.347506697457646,
+    "num_layers": 5,
+    "weight_decay": 0.09012712252712263
+  },
+  "241": {
+    "OpenML_task_id": "3945",
+    "batch_size": 343,
+    "learning_rate": 0.0007485505214592453,
+    "max_dropout": 0.449980018417932,
+    "max_units": 72,
+    "momentum": 0.35941466024319724,
+    "num_layers": 2,
+    "weight_decay": 0.0655389930215897
+  },
+  "242": {
+    "OpenML_task_id": "3945",
+    "batch_size": 331,
+    "learning_rate": 0.0012547203163593983,
+    "max_dropout": 0.5207015429501164,
+    "max_units": 94,
+    "momentum": 0.6453656631788252,
+    "num_layers": 3,
+    "weight_decay": 0.04768379950709339
+  },
+  "243": {
+    "OpenML_task_id": "3945",
+    "batch_size": 118,
+    "learning_rate": 0.01942086224578961,
+    "max_dropout": 0.6533658748364591,
+    "max_units": 428,
+    "momentum": 0.4438502761261459,
+    "num_layers": 5,
+    "weight_decay": 0.03393532157696152
+  },
+  "244": {
+    "OpenML_task_id": "3945",
+    "batch_size": 253,
+    "learning_rate": 0.0013766736961542101,
+    "max_dropout": 0.010357530090297495,
+    "max_units": 882,
+    "momentum": 0.619366802997621,
+    "num_layers": 5,
+    "weight_decay": 0.04229465269274914
+  },
+  "245": {
+    "OpenML_task_id": "3945",
+    "batch_size": 269,
+    "learning_rate": 0.00011258725496995689,
+    "max_dropout": 0.1960962461395399,
+    "max_units": 809,
+    "momentum": 0.14615761509269623,
+    "num_layers": 5,
+    "weight_decay": 0.03829534198395005
+  },
+  "246": {
+    "OpenML_task_id": "3945",
+    "batch_size": 64,
+    "learning_rate": 0.00019764609485108198,
+    "max_dropout": 0.16906332846368688,
+    "max_units": 375,
+    "momentum": 0.2865392600062865,
+    "num_layers": 3,
+    "weight_decay": 0.08670117028138
+  },
+  "247": {
+    "OpenML_task_id": "3945",
+    "batch_size": 133,
+    "learning_rate": 0.0004430976176768179,
+    "max_dropout": 0.5646818766902875,
+    "max_units": 70,
+    "momentum": 0.30480615524709065,
+    "num_layers": 1,
+    "weight_decay": 0.007298514840093863
+  },
+  "248": {
+    "OpenML_task_id": "3945",
+    "batch_size": 112,
+    "learning_rate": 0.00021354086864802552,
+    "max_dropout": 0.2969606966527727,
+    "max_units": 266,
+    "momentum": 0.8754439185505845,
+    "num_layers": 3,
+    "weight_decay": 0.0628870370577328
+  },
+  "249": {
+    "OpenML_task_id": "3945",
+    "batch_size": 92,
+    "learning_rate": 0.0007629247448704121,
+    "max_dropout": 0.6093727375552035,
+    "max_units": 112,
+    "momentum": 0.7130588519649474,
+    "num_layers": 1,
+    "weight_decay": 0.03402166102380537
+  },
+  "250": {
+    "OpenML_task_id": "3945",
+    "batch_size": 21,
+    "learning_rate": 0.0056902601662712216,
+    "max_dropout": 0.6833001292547274,
+    "max_units": 75,
+    "momentum": 0.3697565624702477,
+    "num_layers": 3,
+    "weight_decay": 0.09842579839348858
+  },
+  "251": {
+    "OpenML_task_id": "3945",
+    "batch_size": 150,
+    "learning_rate": 0.002435121109864066,
+    "max_dropout": 0.46038718761546005,
+    "max_units": 150,
+    "momentum": 0.4142920353459505,
+    "num_layers": 3,
+    "weight_decay": 0.005787219934610633
+  },
+  "252": {
+    "OpenML_task_id": "3945",
+    "batch_size": 43,
+    "learning_rate": 0.0014515393971310025,
+    "max_dropout": 0.46656314068964677,
+    "max_units": 337,
+    "momentum": 0.9762812205255396,
+    "num_layers": 3,
+    "weight_decay": 0.03717877106605123
+  },
+  "253": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.012306486548927667,
+    "max_dropout": 0.2894234424089871,
+    "max_units": 96,
+    "momentum": 0.28157550743303067,
+    "num_layers": 4,
+    "weight_decay": 0.08399135931789561
+  },
+  "254": {
+    "OpenML_task_id": "3945",
+    "batch_size": 45,
+    "learning_rate": 0.0010700299388066265,
+    "max_dropout": 0.20843240538765673,
+    "max_units": 309,
+    "momentum": 0.18221613304270723,
+    "num_layers": 2,
+    "weight_decay": 0.08425474254551824
+  },
+  "255": {
+    "OpenML_task_id": "3945",
+    "batch_size": 22,
+    "learning_rate": 0.0076143495787291795,
+    "max_dropout": 0.8949361452676015,
+    "max_units": 97,
+    "momentum": 0.12004008750222073,
+    "num_layers": 3,
+    "weight_decay": 0.06103132481448658
+  },
+  "256": {
+    "OpenML_task_id": "3945",
+    "batch_size": 488,
+    "learning_rate": 0.006299772847417688,
+    "max_dropout": 0.578248562855252,
+    "max_units": 725,
+    "momentum": 0.8494746987755138,
+    "num_layers": 2,
+    "weight_decay": 0.0031946924166453123
+  },
+  "257": {
+    "OpenML_task_id": "3945",
+    "batch_size": 214,
+    "learning_rate": 0.00219004487969129,
+    "max_dropout": 0.9953613554297609,
+    "max_units": 156,
+    "momentum": 0.4732529556286764,
+    "num_layers": 3,
+    "weight_decay": 0.07277009661729388
+  },
+  "258": {
+    "OpenML_task_id": "3945",
+    "batch_size": 16,
+    "learning_rate": 0.0043438475823986645,
+    "max_dropout": 0.8062555686422267,
+    "max_units": 211,
+    "momentum": 0.9229508927502,
+    "num_layers": 1,
+    "weight_decay": 0.06451295288287749
+  },
+  "259": {
+    "OpenML_task_id": "3945",
+    "batch_size": 259,
+    "learning_rate": 0.018170110162387305,
+    "max_dropout": 0.3530497890075267,
+    "max_units": 628,
+    "momentum": 0.5996057699800311,
+    "num_layers": 3,
+    "weight_decay": 0.08282816246450499
+  },
+  "260": {
+    "OpenML_task_id": "3945",
+    "batch_size": 16,
+    "learning_rate": 0.0383595530920622,
+    "max_dropout": 0.7664652950952114,
+    "max_units": 117,
+    "momentum": 0.21061800222292443,
+    "num_layers": 2,
+    "weight_decay": 0.002909189247504806
+  },
+  "261": {
+    "OpenML_task_id": "3945",
+    "batch_size": 46,
+    "learning_rate": 0.027235041112175534,
+    "max_dropout": 0.5376474526709522,
+    "max_units": 137,
+    "momentum": 0.14587423699951535,
+    "num_layers": 1,
+    "weight_decay": 0.005612815337954708
+  },
+  "262": {
+    "OpenML_task_id": "3945",
+    "batch_size": 177,
+    "learning_rate": 0.025938822438636648,
+    "max_dropout": 0.7574051749151473,
+    "max_units": 99,
+    "momentum": 0.6686775655609423,
+    "num_layers": 2,
+    "weight_decay": 0.07425363307874429
+  },
+  "263": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.0071866137124307955,
+    "max_dropout": 0.7847309358715001,
+    "max_units": 434,
+    "momentum": 0.3688410880406001,
+    "num_layers": 2,
+    "weight_decay": 0.07738863416910724
+  },
+  "264": {
+    "OpenML_task_id": "3945",
+    "batch_size": 403,
+    "learning_rate": 0.008259235165272468,
+    "max_dropout": 0.9272034105282834,
+    "max_units": 336,
+    "momentum": 0.2730178508204694,
+    "num_layers": 2,
+    "weight_decay": 0.07360918062066049
+  },
+  "265": {
+    "OpenML_task_id": "3945",
+    "batch_size": 33,
+    "learning_rate": 0.0010364456489915768,
+    "max_dropout": 0.1383968760830595,
+    "max_units": 801,
+    "momentum": 0.1526668638707627,
+    "num_layers": 1,
+    "weight_decay": 0.0915641693439772
+  },
+  "266": {
+    "OpenML_task_id": "3945",
+    "batch_size": 335,
+    "learning_rate": 0.00700769621403901,
+    "max_dropout": 0.9754213219537962,
+    "max_units": 302,
+    "momentum": 0.4804928703464838,
+    "num_layers": 3,
+    "weight_decay": 0.09876365295858758
+  },
+  "267": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.0002089296874210509,
+    "max_dropout": 0.11544072904230229,
+    "max_units": 125,
+    "momentum": 0.5351968497882409,
+    "num_layers": 4,
+    "weight_decay": 0.081248649539864
+  },
+  "268": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.00026804985894351784,
+    "max_dropout": 0.14626440641285698,
+    "max_units": 95,
+    "momentum": 0.15134830374299207,
+    "num_layers": 5,
+    "weight_decay": 0.032916287152154396
+  },
+  "269": {
+    "OpenML_task_id": "3945",
+    "batch_size": 371,
+    "learning_rate": 0.01684338242320447,
+    "max_dropout": 0.17386514837047673,
+    "max_units": 600,
+    "momentum": 0.8299622004441415,
+    "num_layers": 2,
+    "weight_decay": 0.08805831455416106
+  },
+  "270": {
+    "OpenML_task_id": "3945",
+    "batch_size": 107,
+    "learning_rate": 0.0028434423678459072,
+    "max_dropout": 0.9765898696849732,
+    "max_units": 163,
+    "momentum": 0.38401020352820636,
+    "num_layers": 4,
+    "weight_decay": 0.028415752258152766
+  },
+  "271": {
+    "OpenML_task_id": "3945",
+    "batch_size": 412,
+    "learning_rate": 0.00010372381229031098,
+    "max_dropout": 0.6674319505652115,
+    "max_units": 188,
+    "momentum": 0.21764433811131062,
+    "num_layers": 4,
+    "weight_decay": 0.002147130930664345
+  },
+  "272": {
+    "OpenML_task_id": "3945",
+    "batch_size": 198,
+    "learning_rate": 0.09951358001275823,
+    "max_dropout": 0.3329583111950952,
+    "max_units": 71,
+    "momentum": 0.2788865150002342,
+    "num_layers": 3,
+    "weight_decay": 0.09004886942542017
+  },
+  "273": {
+    "OpenML_task_id": "3945",
+    "batch_size": 25,
+    "learning_rate": 0.0636079589797886,
+    "max_dropout": 0.8827687865483638,
+    "max_units": 109,
+    "momentum": 0.18287014979827035,
+    "num_layers": 5,
+    "weight_decay": 0.022237516878264106
+  },
+  "274": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.000541212775572704,
+    "max_dropout": 0.15844241835364492,
+    "max_units": 299,
+    "momentum": 0.72537658814884,
+    "num_layers": 5,
+    "weight_decay": 0.03394486237622518
+  },
+  "275": {
+    "OpenML_task_id": "3945",
+    "batch_size": 271,
+    "learning_rate": 0.0006098266360892527,
+    "max_dropout": 0.7945428840832293,
+    "max_units": 178,
+    "momentum": 0.18744335544988716,
+    "num_layers": 4,
+    "weight_decay": 0.09343794498479216
+  },
+  "276": {
+    "OpenML_task_id": "3945",
+    "batch_size": 444,
+    "learning_rate": 0.002466934995659517,
+    "max_dropout": 0.7147114029717908,
+    "max_units": 543,
+    "momentum": 0.7649286932563667,
+    "num_layers": 1,
+    "weight_decay": 0.0034867407257382077
+  },
+  "277": {
+    "OpenML_task_id": "3945",
+    "batch_size": 68,
+    "learning_rate": 0.015659508155520196,
+    "max_dropout": 0.4053883484114148,
+    "max_units": 218,
+    "momentum": 0.2791902188375869,
+    "num_layers": 3,
+    "weight_decay": 0.02243452637767787
+  },
+  "278": {
+    "OpenML_task_id": "3945",
+    "batch_size": 54,
+    "learning_rate": 0.00012307408085802682,
+    "max_dropout": 0.8464316492539609,
+    "max_units": 205,
+    "momentum": 0.9178408440530599,
+    "num_layers": 4,
+    "weight_decay": 0.08820891069687625
+  },
+  "279": {
+    "OpenML_task_id": "3945",
+    "batch_size": 301,
+    "learning_rate": 0.05094824045456262,
+    "max_dropout": 0.08081074841488933,
+    "max_units": 217,
+    "momentum": 0.15758725100377768,
+    "num_layers": 4,
+    "weight_decay": 0.050168558714895777
+  },
+  "280": {
+    "OpenML_task_id": "3945",
+    "batch_size": 182,
+    "learning_rate": 0.00027302420096839006,
+    "max_dropout": 0.3558502321049518,
+    "max_units": 440,
+    "momentum": 0.5647926134145399,
+    "num_layers": 5,
+    "weight_decay": 0.09638040962953737
+  },
+  "281": {
+    "OpenML_task_id": "3945",
+    "batch_size": 139,
+    "learning_rate": 0.005697454663483528,
+    "max_dropout": 0.2193055247955209,
+    "max_units": 228,
+    "momentum": 0.1294591351508036,
+    "num_layers": 1,
+    "weight_decay": 0.03987408146209907
+  },
+  "282": {
+    "OpenML_task_id": "3945",
+    "batch_size": 191,
+    "learning_rate": 0.0004365314191019833,
+    "max_dropout": 0.8666018308296368,
+    "max_units": 112,
+    "momentum": 0.4419871185142744,
+    "num_layers": 2,
+    "weight_decay": 0.0525216329704136
+  },
+  "283": {
+    "OpenML_task_id": "3945",
+    "batch_size": 145,
+    "learning_rate": 0.06304062754109148,
+    "max_dropout": 0.15688196067537052,
+    "max_units": 659,
+    "momentum": 0.42928238683682063,
+    "num_layers": 4,
+    "weight_decay": 0.09671297608932716
+  },
+  "284": {
+    "OpenML_task_id": "3945",
+    "batch_size": 50,
+    "learning_rate": 0.0015721151740473742,
+    "max_dropout": 0.03753313831700811,
+    "max_units": 131,
+    "momentum": 0.737484205072162,
+    "num_layers": 3,
+    "weight_decay": 0.020528342529867877
+  },
+  "285": {
+    "OpenML_task_id": "3945",
+    "batch_size": 442,
+    "learning_rate": 0.0067146138551579335,
+    "max_dropout": 0.5401309517358012,
+    "max_units": 101,
+    "momentum": 0.4067462064561558,
+    "num_layers": 5,
+    "weight_decay": 0.09179225970204802
+  },
+  "286": {
+    "OpenML_task_id": "3945",
+    "batch_size": 339,
+    "learning_rate": 0.000440281500983443,
+    "max_dropout": 0.3122246352317998,
+    "max_units": 192,
+    "momentum": 0.7825860468190615,
+    "num_layers": 4,
+    "weight_decay": 0.008666305534266854
+  },
+  "287": {
+    "OpenML_task_id": "3945",
+    "batch_size": 38,
+    "learning_rate": 0.0005448915781957531,
+    "max_dropout": 0.8397813945171597,
+    "max_units": 283,
+    "momentum": 0.24349385162957832,
+    "num_layers": 2,
+    "weight_decay": 0.012945150564092203
+  },
+  "288": {
+    "OpenML_task_id": "3945",
+    "batch_size": 314,
+    "learning_rate": 0.024056099513106666,
+    "max_dropout": 0.8596789239074507,
+    "max_units": 575,
+    "momentum": 0.4467255636254498,
+    "num_layers": 4,
+    "weight_decay": 0.058107816658488486
+  },
+  "289": {
+    "OpenML_task_id": "3945",
+    "batch_size": 41,
+    "learning_rate": 0.017721407648578845,
+    "max_dropout": 0.5316620772457392,
+    "max_units": 721,
+    "momentum": 0.17724537202718382,
+    "num_layers": 2,
+    "weight_decay": 0.02212887229395204
+  },
+  "290": {
+    "OpenML_task_id": "3945",
+    "batch_size": 450,
+    "learning_rate": 0.006790489069434126,
+    "max_dropout": 0.35545649357567166,
+    "max_units": 68,
+    "momentum": 0.10150613703774189,
+    "num_layers": 5,
+    "weight_decay": 0.06197867847483336
+  },
+  "291": {
+    "OpenML_task_id": "3945",
+    "batch_size": 428,
+    "learning_rate": 0.0011350682044985636,
+    "max_dropout": 0.8734327290095246,
+    "max_units": 874,
+    "momentum": 0.17062392136631616,
+    "num_layers": 2,
+    "weight_decay": 0.07380505203779653
+  },
+  "292": {
+    "OpenML_task_id": "3945",
+    "batch_size": 267,
+    "learning_rate": 0.006276714550815989,
+    "max_dropout": 0.4598538140823474,
+    "max_units": 484,
+    "momentum": 0.4682466210177211,
+    "num_layers": 4,
+    "weight_decay": 0.008813829788326687
+  },
+  "293": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.09143524581570793,
+    "max_dropout": 0.6510126213461616,
+    "max_units": 228,
+    "momentum": 0.6332165133200435,
+    "num_layers": 4,
+    "weight_decay": 0.008133050115964185
+  },
+  "294": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.00011109907835766523,
+    "max_dropout": 0.17824255335405736,
+    "max_units": 465,
+    "momentum": 0.6014074174676168,
+    "num_layers": 4,
+    "weight_decay": 0.03628914366756597
+  },
+  "295": {
+    "OpenML_task_id": "3945",
+    "batch_size": 56,
+    "learning_rate": 0.0008100766479528955,
+    "max_dropout": 0.6510715131494307,
+    "max_units": 668,
+    "momentum": 0.668733893722094,
+    "num_layers": 2,
+    "weight_decay": 0.03672425542915806
+  },
+  "296": {
+    "OpenML_task_id": "3945",
+    "batch_size": 281,
+    "learning_rate": 0.016543704714831287,
+    "max_dropout": 0.3849425187514821,
+    "max_units": 110,
+    "momentum": 0.7791446303650496,
+    "num_layers": 2,
+    "weight_decay": 0.03830029667376003
+  },
+  "297": {
+    "OpenML_task_id": "3945",
+    "batch_size": 422,
+    "learning_rate": 0.07633246771854679,
+    "max_dropout": 0.044838924951267956,
+    "max_units": 382,
+    "momentum": 0.6123320116053091,
+    "num_layers": 5,
+    "weight_decay": 0.06812347280695126
+  },
+  "298": {
+    "OpenML_task_id": "3945",
+    "batch_size": 147,
+    "learning_rate": 0.005706658336859078,
+    "max_dropout": 0.14372439646213098,
+    "max_units": 409,
+    "momentum": 0.5848694866934407,
+    "num_layers": 2,
+    "weight_decay": 0.0033889263094665227
+  },
+  "299": {
+    "OpenML_task_id": "3945",
+    "batch_size": 22,
+    "learning_rate": 0.04497900839824088,
+    "max_dropout": 0.8261711492654915,
+    "max_units": 90,
+    "momentum": 0.8042547626172858,
+    "num_layers": 5,
+    "weight_decay": 0.01080861969810148
+  },
+  "300": {
+    "OpenML_task_id": "3945",
+    "batch_size": 46,
+    "learning_rate": 0.012784931462576943,
+    "max_dropout": 0.2877037666431864,
+    "max_units": 992,
+    "momentum": 0.16205872840858374,
+    "num_layers": 5,
+    "weight_decay": 0.0698458163951645
+  },
+  "301": {
+    "OpenML_task_id": "3945",
+    "batch_size": 188,
+    "learning_rate": 0.0003881432760578296,
+    "max_dropout": 0.36913355884841637,
+    "max_units": 461,
+    "momentum": 0.4263170095329962,
+    "num_layers": 1,
+    "weight_decay": 0.05080327931470799
+  },
+  "302": {
+    "OpenML_task_id": "3945",
+    "batch_size": 414,
+    "learning_rate": 0.0028976310111232307,
+    "max_dropout": 0.22468370831641227,
+    "max_units": 232,
+    "momentum": 0.7899518791189319,
+    "num_layers": 1,
+    "weight_decay": 0.006859843873104302
+  },
+  "303": {
+    "OpenML_task_id": "3945",
+    "batch_size": 294,
+    "learning_rate": 0.03643793042068862,
+    "max_dropout": 0.9689276157272732,
+    "max_units": 92,
+    "momentum": 0.2577373128990355,
+    "num_layers": 2,
+    "weight_decay": 0.09419059546888167
+  },
+  "304": {
+    "OpenML_task_id": "3945",
+    "batch_size": 491,
+    "learning_rate": 0.03414283477790302,
+    "max_dropout": 0.9662801496779423,
+    "max_units": 348,
+    "momentum": 0.33643134470812563,
+    "num_layers": 3,
+    "weight_decay": 0.06029411076674229
+  },
+  "305": {
+    "OpenML_task_id": "3945",
+    "batch_size": 60,
+    "learning_rate": 0.054762531349364964,
+    "max_dropout": 0.31002749680456265,
+    "max_units": 493,
+    "momentum": 0.1442822737626478,
+    "num_layers": 2,
+    "weight_decay": 0.00856526419978
+  },
+  "306": {
+    "OpenML_task_id": "3945",
+    "batch_size": 36,
+    "learning_rate": 0.07247537039816726,
+    "max_dropout": 0.19779947447563162,
+    "max_units": 92,
+    "momentum": 0.288102024818665,
+    "num_layers": 4,
+    "weight_decay": 0.07487717726636718
+  },
+  "307": {
+    "OpenML_task_id": "3945",
+    "batch_size": 41,
+    "learning_rate": 0.007741571885645258,
+    "max_dropout": 0.6692906109479909,
+    "max_units": 423,
+    "momentum": 0.12440733341757994,
+    "num_layers": 5,
+    "weight_decay": 0.016694636507070478
+  },
+  "308": {
+    "OpenML_task_id": "3945",
+    "batch_size": 37,
+    "learning_rate": 0.005289405176582634,
+    "max_dropout": 0.1350810990507072,
+    "max_units": 157,
+    "momentum": 0.4145734681073102,
+    "num_layers": 3,
+    "weight_decay": 0.08604646741021929
+  },
+  "309": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.0013164597518547554,
+    "max_dropout": 0.43300005481881043,
+    "max_units": 76,
+    "momentum": 0.8552974044626594,
+    "num_layers": 4,
+    "weight_decay": 0.03975068882135192
+  },
+  "310": {
+    "OpenML_task_id": "3945",
+    "batch_size": 32,
+    "learning_rate": 0.0017467186420216507,
+    "max_dropout": 0.5645960711766391,
+    "max_units": 113,
+    "momentum": 0.44902552156664644,
+    "num_layers": 5,
+    "weight_decay": 0.0641910236760276
+  },
+  "311": {
+    "OpenML_task_id": "3945",
+    "batch_size": 505,
+    "learning_rate": 0.000545166872510781,
+    "max_dropout": 0.14539189003335606,
+    "max_units": 140,
+    "momentum": 0.5383337480501765,
+    "num_layers": 4,
+    "weight_decay": 0.08824979361896924
+  },
+  "312": {
+    "OpenML_task_id": "3945",
+    "batch_size": 61,
+    "learning_rate": 0.0011409829850411461,
+    "max_dropout": 0.10763816090965428,
+    "max_units": 105,
+    "momentum": 0.9299022119442715,
+    "num_layers": 2,
+    "weight_decay": 0.019288445326583678
+  },
+  "313": {
+    "OpenML_task_id": "3945",
+    "batch_size": 450,
+    "learning_rate": 0.00966064055043375,
+    "max_dropout": 0.4550563097176541,
+    "max_units": 555,
+    "momentum": 0.18431955747328144,
+    "num_layers": 2,
+    "weight_decay": 0.013786560491460199
+  },
+  "314": {
+    "OpenML_task_id": "3945",
+    "batch_size": 143,
+    "learning_rate": 0.0005490009505474566,
+    "max_dropout": 0.6443405591580255,
+    "max_units": 511,
+    "momentum": 0.5090095193111206,
+    "num_layers": 5,
+    "weight_decay": 0.0779731279793893
+  },
+  "315": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.02047985217943902,
+    "max_dropout": 0.9985526916542676,
+    "max_units": 218,
+    "momentum": 0.5226259058542205,
+    "num_layers": 3,
+    "weight_decay": 0.07228624434985668
+  },
+  "316": {
+    "OpenML_task_id": "3945",
+    "batch_size": 335,
+    "learning_rate": 0.000896934566412857,
+    "max_dropout": 0.5720719831121109,
+    "max_units": 980,
+    "momentum": 0.44693642345728635,
+    "num_layers": 2,
+    "weight_decay": 0.0341817599419658
+  },
+  "317": {
+    "OpenML_task_id": "3945",
+    "batch_size": 499,
+    "learning_rate": 0.012159567437040487,
+    "max_dropout": 0.5241978679847363,
+    "max_units": 844,
+    "momentum": 0.6003432121345477,
+    "num_layers": 5,
+    "weight_decay": 0.0980745798583987
+  },
+  "318": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.0011844485802039372,
+    "max_dropout": 0.3044968628396594,
+    "max_units": 125,
+    "momentum": 0.691523673877552,
+    "num_layers": 2,
+    "weight_decay": 0.021893178320526667
+  },
+  "319": {
+    "OpenML_task_id": "3945",
+    "batch_size": 289,
+    "learning_rate": 0.0021361310875420755,
+    "max_dropout": 0.5075386640823794,
+    "max_units": 960,
+    "momentum": 0.46657389522438664,
+    "num_layers": 2,
+    "weight_decay": 0.03662340190020723
+  },
+  "320": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.0408472494992138,
+    "max_dropout": 0.7986507054373019,
+    "max_units": 104,
+    "momentum": 0.5876005909875335,
+    "num_layers": 4,
+    "weight_decay": 0.03389968217796154
+  },
+  "321": {
+    "OpenML_task_id": "3945",
+    "batch_size": 44,
+    "learning_rate": 0.02433932129748813,
+    "max_dropout": 0.6606303612351911,
+    "max_units": 74,
+    "momentum": 0.18321623499260767,
+    "num_layers": 1,
+    "weight_decay": 0.09538252638348636
+  },
+  "322": {
+    "OpenML_task_id": "3945",
+    "batch_size": 283,
+    "learning_rate": 0.0025264542252824607,
+    "max_dropout": 0.35332716166040035,
+    "max_units": 748,
+    "momentum": 0.712706401779237,
+    "num_layers": 5,
+    "weight_decay": 0.04199918340211727
+  },
+  "323": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.08753947975315238,
+    "max_dropout": 0.5484996517985171,
+    "max_units": 66,
+    "momentum": 0.6973651296339294,
+    "num_layers": 3,
+    "weight_decay": 0.06979876386860687
+  },
+  "324": {
+    "OpenML_task_id": "3945",
+    "batch_size": 170,
+    "learning_rate": 0.00019643401266810075,
+    "max_dropout": 0.5661251012018341,
+    "max_units": 991,
+    "momentum": 0.7629355435521002,
+    "num_layers": 4,
+    "weight_decay": 0.09737370074196597
+  },
+  "325": {
+    "OpenML_task_id": "3945",
+    "batch_size": 112,
+    "learning_rate": 0.06188274952545373,
+    "max_dropout": 0.4574716844230362,
+    "max_units": 561,
+    "momentum": 0.6492187123778843,
+    "num_layers": 2,
+    "weight_decay": 0.029809060070066038
+  },
+  "326": {
+    "OpenML_task_id": "3945",
+    "batch_size": 25,
+    "learning_rate": 0.0017441359409800018,
+    "max_dropout": 0.8140944127044476,
+    "max_units": 112,
+    "momentum": 0.7451133830023844,
+    "num_layers": 2,
+    "weight_decay": 0.05563837369440282
+  },
+  "327": {
+    "OpenML_task_id": "3945",
+    "batch_size": 60,
+    "learning_rate": 0.00012980272808227114,
+    "max_dropout": 0.8703282033233791,
+    "max_units": 762,
+    "momentum": 0.21910236426834404,
+    "num_layers": 1,
+    "weight_decay": 0.023972147275353857
+  },
+  "328": {
+    "OpenML_task_id": "3945",
+    "batch_size": 410,
+    "learning_rate": 0.005614644820023659,
+    "max_dropout": 0.894581726914972,
+    "max_units": 346,
+    "momentum": 0.9589924938981387,
+    "num_layers": 3,
+    "weight_decay": 0.06236753419960974
+  },
+  "329": {
+    "OpenML_task_id": "3945",
+    "batch_size": 69,
+    "learning_rate": 0.0005136192299909661,
+    "max_dropout": 0.5599778066628478,
+    "max_units": 1011,
+    "momentum": 0.7490353752069244,
+    "num_layers": 3,
+    "weight_decay": 0.030712818216544223
+  },
+  "330": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.04051441390602918,
+    "max_dropout": 0.6528185452729277,
+    "max_units": 111,
+    "momentum": 0.3361122536553399,
+    "num_layers": 1,
+    "weight_decay": 0.04296612890178358
+  },
+  "331": {
+    "OpenML_task_id": "3945",
+    "batch_size": 476,
+    "learning_rate": 0.00013539791622919166,
+    "max_dropout": 0.6897078223641655,
+    "max_units": 139,
+    "momentum": 0.8327020139889174,
+    "num_layers": 5,
+    "weight_decay": 0.032795886952953504
+  },
+  "332": {
+    "OpenML_task_id": "3945",
+    "batch_size": 28,
+    "learning_rate": 0.005761724624574425,
+    "max_dropout": 0.270293251229872,
+    "max_units": 1010,
+    "momentum": 0.42072200631962375,
+    "num_layers": 5,
+    "weight_decay": 0.038319442002020386
+  },
+  "333": {
+    "OpenML_task_id": "3945",
+    "batch_size": 16,
+    "learning_rate": 0.00043741718157001505,
+    "max_dropout": 0.5419404967170142,
+    "max_units": 411,
+    "momentum": 0.29193898322021045,
+    "num_layers": 4,
+    "weight_decay": 0.07328437838681655
+  },
+  "334": {
+    "OpenML_task_id": "3945",
+    "batch_size": 53,
+    "learning_rate": 0.049001220420747026,
+    "max_dropout": 0.11818174717659291,
+    "max_units": 601,
+    "momentum": 0.3361366666056952,
+    "num_layers": 1,
+    "weight_decay": 0.07911916688198393
+  },
+  "335": {
+    "OpenML_task_id": "3945",
+    "batch_size": 102,
+    "learning_rate": 0.07818778522395219,
+    "max_dropout": 0.19032153285818787,
+    "max_units": 66,
+    "momentum": 0.5999495195298328,
+    "num_layers": 2,
+    "weight_decay": 0.06795651190850145
+  },
+  "336": {
+    "OpenML_task_id": "3945",
+    "batch_size": 278,
+    "learning_rate": 0.014778714064805232,
+    "max_dropout": 0.9935590490193374,
+    "max_units": 442,
+    "momentum": 0.9432897036214374,
+    "num_layers": 5,
+    "weight_decay": 0.034856960334035465
+  },
+  "337": {
+    "OpenML_task_id": "3945",
+    "batch_size": 74,
+    "learning_rate": 0.00012852399475898787,
+    "max_dropout": 0.7905908554953813,
+    "max_units": 380,
+    "momentum": 0.36398507983682415,
+    "num_layers": 4,
+    "weight_decay": 0.08178091993371304
+  },
+  "338": {
+    "OpenML_task_id": "3945",
+    "batch_size": 386,
+    "learning_rate": 0.008025748198378027,
+    "max_dropout": 0.6198759888168281,
+    "max_units": 113,
+    "momentum": 0.9404394506853229,
+    "num_layers": 3,
+    "weight_decay": 0.05674901939938943
+  },
+  "339": {
+    "OpenML_task_id": "3945",
+    "batch_size": 508,
+    "learning_rate": 0.0001237362262907406,
+    "max_dropout": 0.621868677414958,
+    "max_units": 433,
+    "momentum": 0.2661297194711151,
+    "num_layers": 1,
+    "weight_decay": 0.05908514229785848
+  },
+  "340": {
+    "OpenML_task_id": "3945",
+    "batch_size": 29,
+    "learning_rate": 0.0007878821590469161,
+    "max_dropout": 0.6797232642636127,
+    "max_units": 64,
+    "momentum": 0.3991406755510909,
+    "num_layers": 2,
+    "weight_decay": 0.08585380286779781
+  },
+  "341": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.002839717833757014,
+    "max_dropout": 0.9774770614908157,
+    "max_units": 512,
+    "momentum": 0.6809761145795732,
+    "num_layers": 1,
+    "weight_decay": 0.017966527654279585
+  },
+  "342": {
+    "OpenML_task_id": "3945",
+    "batch_size": 51,
+    "learning_rate": 0.0036406695514687648,
+    "max_dropout": 0.8168341275524226,
+    "max_units": 632,
+    "momentum": 0.7007411122264728,
+    "num_layers": 3,
+    "weight_decay": 0.052386083750208715
+  },
+  "343": {
+    "OpenML_task_id": "3945",
+    "batch_size": 104,
+    "learning_rate": 0.0005323603180915532,
+    "max_dropout": 0.3392179524458735,
+    "max_units": 536,
+    "momentum": 0.9115148003165963,
+    "num_layers": 4,
+    "weight_decay": 0.01243243113233001
+  },
+  "344": {
+    "OpenML_task_id": "3945",
+    "batch_size": 28,
+    "learning_rate": 0.0004141089851106371,
+    "max_dropout": 0.1329160487043064,
+    "max_units": 138,
+    "momentum": 0.3281901245836103,
+    "num_layers": 3,
+    "weight_decay": 0.08272514590561153
+  },
+  "345": {
+    "OpenML_task_id": "3945",
+    "batch_size": 480,
+    "learning_rate": 0.009545765386630071,
+    "max_dropout": 0.8880116079614823,
+    "max_units": 308,
+    "momentum": 0.3560087132640394,
+    "num_layers": 1,
+    "weight_decay": 0.07943053887298901
+  },
+  "346": {
+    "OpenML_task_id": "3945",
+    "batch_size": 178,
+    "learning_rate": 0.04468569504617532,
+    "max_dropout": 0.06440556934948616,
+    "max_units": 875,
+    "momentum": 0.38441225275838997,
+    "num_layers": 3,
+    "weight_decay": 0.0772125394253484
+  },
+  "347": {
+    "OpenML_task_id": "3945",
+    "batch_size": 190,
+    "learning_rate": 0.00016668532733596052,
+    "max_dropout": 0.32313045359172565,
+    "max_units": 316,
+    "momentum": 0.11401105317244285,
+    "num_layers": 4,
+    "weight_decay": 0.08890272357741062
+  },
+  "348": {
+    "OpenML_task_id": "3945",
+    "batch_size": 35,
+    "learning_rate": 0.09252483168397106,
+    "max_dropout": 0.9746996487141887,
+    "max_units": 78,
+    "momentum": 0.10527257833678769,
+    "num_layers": 2,
+    "weight_decay": 0.007750683887839159
+  },
+  "349": {
+    "OpenML_task_id": "3945",
+    "batch_size": 173,
+    "learning_rate": 0.015903167510281025,
+    "max_dropout": 0.4369132406925478,
+    "max_units": 280,
+    "momentum": 0.8498012094118671,
+    "num_layers": 1,
+    "weight_decay": 0.06436461695558086
+  },
+  "350": {
+    "OpenML_task_id": "3945",
+    "batch_size": 335,
+    "learning_rate": 0.004000916048254199,
+    "max_dropout": 0.22728605498589505,
+    "max_units": 923,
+    "momentum": 0.5900978051851439,
+    "num_layers": 5,
+    "weight_decay": 0.03486811717815963
+  },
+  "351": {
+    "OpenML_task_id": "3945",
+    "batch_size": 117,
+    "learning_rate": 0.0002697607325046626,
+    "max_dropout": 0.6356639918273994,
+    "max_units": 84,
+    "momentum": 0.46130569224176765,
+    "num_layers": 3,
+    "weight_decay": 0.020357124661717237
+  },
+  "352": {
+    "OpenML_task_id": "3945",
+    "batch_size": 34,
+    "learning_rate": 0.02254470797753154,
+    "max_dropout": 0.6353062421856918,
+    "max_units": 256,
+    "momentum": 0.6020824083202823,
+    "num_layers": 4,
+    "weight_decay": 0.07670007535179774
+  },
+  "353": {
+    "OpenML_task_id": "3945",
+    "batch_size": 99,
+    "learning_rate": 0.01300826766728255,
+    "max_dropout": 0.68930477972603,
+    "max_units": 653,
+    "momentum": 0.877808951732592,
+    "num_layers": 4,
+    "weight_decay": 0.02132465147473805
+  },
+  "354": {
+    "OpenML_task_id": "3945",
+    "batch_size": 33,
+    "learning_rate": 0.0004204048265939939,
+    "max_dropout": 0.48400639609899565,
+    "max_units": 825,
+    "momentum": 0.5173414665101751,
+    "num_layers": 3,
+    "weight_decay": 0.03857789638207484
+  },
+  "355": {
+    "OpenML_task_id": "3945",
+    "batch_size": 305,
+    "learning_rate": 0.017648745878700505,
+    "max_dropout": 0.613290483449451,
+    "max_units": 67,
+    "momentum": 0.42765373059126255,
+    "num_layers": 3,
+    "weight_decay": 0.01831296963904418
+  },
+  "356": {
+    "OpenML_task_id": "3945",
+    "batch_size": 63,
+    "learning_rate": 0.0030678376039604827,
+    "max_dropout": 0.7165942075947153,
+    "max_units": 272,
+    "momentum": 0.6958866380411008,
+    "num_layers": 4,
+    "weight_decay": 0.03999886721175601
+  },
+  "357": {
+    "OpenML_task_id": "3945",
+    "batch_size": 91,
+    "learning_rate": 0.0031359553411887194,
+    "max_dropout": 0.19172983218066053,
+    "max_units": 427,
+    "momentum": 0.8780654587506926,
+    "num_layers": 3,
+    "weight_decay": 0.05214421939562068
+  },
+  "358": {
+    "OpenML_task_id": "3945",
+    "batch_size": 419,
+    "learning_rate": 0.039504797698984,
+    "max_dropout": 0.6597798044772838,
+    "max_units": 67,
+    "momentum": 0.5988469918663853,
+    "num_layers": 4,
+    "weight_decay": 0.08801270118700052
+  },
+  "359": {
+    "OpenML_task_id": "3945",
+    "batch_size": 22,
+    "learning_rate": 0.0018277291200075158,
+    "max_dropout": 0.4890903527503132,
+    "max_units": 623,
+    "momentum": 0.4099642135711863,
+    "num_layers": 4,
+    "weight_decay": 0.010545360900193534
+  },
+  "360": {
+    "OpenML_task_id": "3945",
+    "batch_size": 228,
+    "learning_rate": 0.0009808852529381781,
+    "max_dropout": 0.6433456352205504,
+    "max_units": 819,
+    "momentum": 0.9103973620607421,
+    "num_layers": 1,
+    "weight_decay": 0.07394746269897967
+  },
+  "361": {
+    "OpenML_task_id": "3945",
+    "batch_size": 222,
+    "learning_rate": 0.00026194956321466786,
+    "max_dropout": 0.26877155073548264,
+    "max_units": 296,
+    "momentum": 0.8669592392740139,
+    "num_layers": 4,
+    "weight_decay": 0.02096080529680366
+  },
+  "362": {
+    "OpenML_task_id": "3945",
+    "batch_size": 32,
+    "learning_rate": 0.00017656762152385246,
+    "max_dropout": 0.5214647892017086,
+    "max_units": 79,
+    "momentum": 0.8680296801452089,
+    "num_layers": 1,
+    "weight_decay": 0.07648594198617462
+  },
+  "363": {
+    "OpenML_task_id": "3945",
+    "batch_size": 55,
+    "learning_rate": 0.0434880588671197,
+    "max_dropout": 0.33392183193884084,
+    "max_units": 335,
+    "momentum": 0.6556983945407571,
+    "num_layers": 2,
+    "weight_decay": 0.012955108690680135
+  },
+  "364": {
+    "OpenML_task_id": "3945",
+    "batch_size": 235,
+    "learning_rate": 0.0060944737813838495,
+    "max_dropout": 0.2560949285021875,
+    "max_units": 142,
+    "momentum": 0.4168396659357785,
+    "num_layers": 1,
+    "weight_decay": 0.09311998377985031
+  },
+  "365": {
+    "OpenML_task_id": "3945",
+    "batch_size": 211,
+    "learning_rate": 0.00012434735620242153,
+    "max_dropout": 0.9615231457885004,
+    "max_units": 314,
+    "momentum": 0.3237290866439773,
+    "num_layers": 3,
+    "weight_decay": 0.0438280115065699
+  },
+  "366": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.001174096814138265,
+    "max_dropout": 0.2980764067151439,
+    "max_units": 389,
+    "momentum": 0.8107706655165361,
+    "num_layers": 5,
+    "weight_decay": 0.020895664002211364
+  },
+  "367": {
+    "OpenML_task_id": "3945",
+    "batch_size": 43,
+    "learning_rate": 0.00011776537299464592,
+    "max_dropout": 0.22738828018046076,
+    "max_units": 102,
+    "momentum": 0.6481102048024674,
+    "num_layers": 2,
+    "weight_decay": 0.04624548994757687
+  },
+  "368": {
+    "OpenML_task_id": "3945",
+    "batch_size": 228,
+    "learning_rate": 0.06845031550448263,
+    "max_dropout": 0.07250828513331964,
+    "max_units": 96,
+    "momentum": 0.9538736129523165,
+    "num_layers": 2,
+    "weight_decay": 0.03454349987644542
+  },
+  "369": {
+    "OpenML_task_id": "3945",
+    "batch_size": 111,
+    "learning_rate": 0.0009619943614130862,
+    "max_dropout": 0.2651122691880293,
+    "max_units": 182,
+    "momentum": 0.7100566799845444,
+    "num_layers": 1,
+    "weight_decay": 0.05313373360486562
+  },
+  "370": {
+    "OpenML_task_id": "3945",
+    "batch_size": 219,
+    "learning_rate": 0.02147259590992574,
+    "max_dropout": 0.1287470039728057,
+    "max_units": 267,
+    "momentum": 0.4334599198192718,
+    "num_layers": 4,
+    "weight_decay": 0.052314766745161334
+  },
+  "371": {
+    "OpenML_task_id": "3945",
+    "batch_size": 311,
+    "learning_rate": 0.05851625072191895,
+    "max_dropout": 0.887486776748491,
+    "max_units": 386,
+    "momentum": 0.169622958641975,
+    "num_layers": 5,
+    "weight_decay": 0.050643990801858975
+  },
+  "372": {
+    "OpenML_task_id": "3945",
+    "batch_size": 63,
+    "learning_rate": 0.0007143733336096239,
+    "max_dropout": 0.019089871822280058,
+    "max_units": 74,
+    "momentum": 0.8328140213748142,
+    "num_layers": 5,
+    "weight_decay": 0.07419050458784357
+  },
+  "373": {
+    "OpenML_task_id": "3945",
+    "batch_size": 83,
+    "learning_rate": 0.00021590382152377228,
+    "max_dropout": 0.10647348828336134,
+    "max_units": 162,
+    "momentum": 0.5601949642988041,
+    "num_layers": 1,
+    "weight_decay": 0.03110020873487664
+  },
+  "374": {
+    "OpenML_task_id": "3945",
+    "batch_size": 92,
+    "learning_rate": 0.0006749919165218869,
+    "max_dropout": 0.6044592319228819,
+    "max_units": 85,
+    "momentum": 0.33832631901741794,
+    "num_layers": 5,
+    "weight_decay": 0.061376261524198554
+  },
+  "375": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.00015964020658244707,
+    "max_dropout": 0.6015986456113586,
+    "max_units": 69,
+    "momentum": 0.18971600597292917,
+    "num_layers": 2,
+    "weight_decay": 0.07114695953562117
+  },
+  "376": {
+    "OpenML_task_id": "3945",
+    "batch_size": 37,
+    "learning_rate": 0.01688290635812222,
+    "max_dropout": 0.021320335531286205,
+    "max_units": 88,
+    "momentum": 0.5965321475859531,
+    "num_layers": 1,
+    "weight_decay": 0.009333183392558718
+  },
+  "377": {
+    "OpenML_task_id": "3945",
+    "batch_size": 276,
+    "learning_rate": 0.000569160992776497,
+    "max_dropout": 0.8086029071445274,
+    "max_units": 622,
+    "momentum": 0.22688779852714358,
+    "num_layers": 4,
+    "weight_decay": 0.09822933572547182
+  },
+  "378": {
+    "OpenML_task_id": "3945",
+    "batch_size": 83,
+    "learning_rate": 0.00047716737763152937,
+    "max_dropout": 0.5964408018398291,
+    "max_units": 72,
+    "momentum": 0.7541852652944973,
+    "num_layers": 4,
+    "weight_decay": 0.06850587433886672
+  },
+  "379": {
+    "OpenML_task_id": "3945",
+    "batch_size": 460,
+    "learning_rate": 0.07563709269605347,
+    "max_dropout": 0.7193618026731154,
+    "max_units": 268,
+    "momentum": 0.5040999348538718,
+    "num_layers": 4,
+    "weight_decay": 0.0952634086552929
+  },
+  "380": {
+    "OpenML_task_id": "3945",
+    "batch_size": 121,
+    "learning_rate": 0.015056487085029832,
+    "max_dropout": 0.9517745680072428,
+    "max_units": 82,
+    "momentum": 0.917828280911997,
+    "num_layers": 1,
+    "weight_decay": 0.025373281975301636
+  },
+  "381": {
+    "OpenML_task_id": "3945",
+    "batch_size": 488,
+    "learning_rate": 0.04403388179365402,
+    "max_dropout": 0.8840640725526172,
+    "max_units": 90,
+    "momentum": 0.17427274296545425,
+    "num_layers": 5,
+    "weight_decay": 0.04851135166167635
+  },
+  "382": {
+    "OpenML_task_id": "3945",
+    "batch_size": 102,
+    "learning_rate": 0.09338071549647949,
+    "max_dropout": 0.7671084852387936,
+    "max_units": 149,
+    "momentum": 0.5946243520276531,
+    "num_layers": 4,
+    "weight_decay": 0.00766567498963884
+  },
+  "383": {
+    "OpenML_task_id": "3945",
+    "batch_size": 34,
+    "learning_rate": 0.00014199909228434395,
+    "max_dropout": 0.5441882164771692,
+    "max_units": 69,
+    "momentum": 0.3337378610599282,
+    "num_layers": 5,
+    "weight_decay": 0.043170229251598864
+  },
+  "384": {
+    "OpenML_task_id": "3945",
+    "batch_size": 73,
+    "learning_rate": 0.019609372759456133,
+    "max_dropout": 0.9039906879515457,
+    "max_units": 554,
+    "momentum": 0.7879000449683083,
+    "num_layers": 1,
+    "weight_decay": 0.09415472548895533
+  },
+  "385": {
+    "OpenML_task_id": "3945",
+    "batch_size": 230,
+    "learning_rate": 0.047805764829363405,
+    "max_dropout": 0.8762920241607408,
+    "max_units": 116,
+    "momentum": 0.3181641472545042,
+    "num_layers": 1,
+    "weight_decay": 0.09794293672877245
+  },
+  "386": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.0005300917121961164,
+    "max_dropout": 0.7235441424419852,
+    "max_units": 381,
+    "momentum": 0.8818975028941953,
+    "num_layers": 1,
+    "weight_decay": 0.044427776671917225
+  },
+  "387": {
+    "OpenML_task_id": "3945",
+    "batch_size": 54,
+    "learning_rate": 0.011639640919419731,
+    "max_dropout": 0.41247392908086633,
+    "max_units": 129,
+    "momentum": 0.8617639888971863,
+    "num_layers": 1,
+    "weight_decay": 0.09320495884312456
+  },
+  "388": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.03384228781982177,
+    "max_dropout": 0.5089181898662913,
+    "max_units": 974,
+    "momentum": 0.7927264866933741,
+    "num_layers": 3,
+    "weight_decay": 0.020754457340294807
+  },
+  "389": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.0017742336660155828,
+    "max_dropout": 0.9501572738266882,
+    "max_units": 238,
+    "momentum": 0.4648334198708767,
+    "num_layers": 1,
+    "weight_decay": 0.01061485122212455
+  },
+  "390": {
+    "OpenML_task_id": "3945",
+    "batch_size": 49,
+    "learning_rate": 0.003291996970880333,
+    "max_dropout": 0.2727047258998002,
+    "max_units": 556,
+    "momentum": 0.21339404071287285,
+    "num_layers": 4,
+    "weight_decay": 0.02574553990666277
+  },
+  "391": {
+    "OpenML_task_id": "3945",
+    "batch_size": 92,
+    "learning_rate": 0.0008459295249794875,
+    "max_dropout": 0.859039850811445,
+    "max_units": 115,
+    "momentum": 0.6585664152680315,
+    "num_layers": 4,
+    "weight_decay": 0.08411406883286679
+  },
+  "392": {
+    "OpenML_task_id": "3945",
+    "batch_size": 274,
+    "learning_rate": 0.00040567279795990355,
+    "max_dropout": 0.4594210546489138,
+    "max_units": 599,
+    "momentum": 0.6783195408177836,
+    "num_layers": 3,
+    "weight_decay": 0.09660388498461046
+  },
+  "393": {
+    "OpenML_task_id": "3945",
+    "batch_size": 280,
+    "learning_rate": 0.0010489091701155256,
+    "max_dropout": 0.0708198047837656,
+    "max_units": 327,
+    "momentum": 0.3182464875601543,
+    "num_layers": 2,
+    "weight_decay": 0.06976239305438471
+  },
+  "394": {
+    "OpenML_task_id": "3945",
+    "batch_size": 41,
+    "learning_rate": 0.012873127301093345,
+    "max_dropout": 0.2562535808586499,
+    "max_units": 626,
+    "momentum": 0.26394613227415265,
+    "num_layers": 4,
+    "weight_decay": 0.060248736914226116
+  },
+  "395": {
+    "OpenML_task_id": "3945",
+    "batch_size": 148,
+    "learning_rate": 0.039055250131612734,
+    "max_dropout": 0.26339269409948995,
+    "max_units": 302,
+    "momentum": 0.17910916139197175,
+    "num_layers": 4,
+    "weight_decay": 0.09989283466942074
+  },
+  "396": {
+    "OpenML_task_id": "3945",
+    "batch_size": 37,
+    "learning_rate": 0.0012394596713406019,
+    "max_dropout": 0.022269280241231426,
+    "max_units": 986,
+    "momentum": 0.5013035225105993,
+    "num_layers": 4,
+    "weight_decay": 0.09143174537263303
+  },
+  "397": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.01364053885376728,
+    "max_dropout": 0.0065449875643388555,
+    "max_units": 352,
+    "momentum": 0.6965290030167381,
+    "num_layers": 1,
+    "weight_decay": 0.0592911907903387
+  },
+  "398": {
+    "OpenML_task_id": "3945",
+    "batch_size": 159,
+    "learning_rate": 0.00027971880808761536,
+    "max_dropout": 0.2694083239615017,
+    "max_units": 593,
+    "momentum": 0.4967456623627212,
+    "num_layers": 3,
+    "weight_decay": 0.012947669547899766
+  },
+  "399": {
+    "OpenML_task_id": "3945",
+    "batch_size": 126,
+    "learning_rate": 0.00011646464147191153,
+    "max_dropout": 0.48543834631098015,
+    "max_units": 136,
+    "momentum": 0.15707964862728446,
+    "num_layers": 4,
+    "weight_decay": 0.08018254934775501
+  },
+  "400": {
+    "OpenML_task_id": "3945",
+    "batch_size": 322,
+    "learning_rate": 0.007112670840288168,
+    "max_dropout": 0.5613918775474646,
+    "max_units": 80,
+    "momentum": 0.47466936587263664,
+    "num_layers": 5,
+    "weight_decay": 0.08618271625272851
+  },
+  "401": {
+    "OpenML_task_id": "3945",
+    "batch_size": 53,
+    "learning_rate": 0.08896433347432622,
+    "max_dropout": 0.259429163167448,
+    "max_units": 798,
+    "momentum": 0.333907764771162,
+    "num_layers": 4,
+    "weight_decay": 0.019642909815910253
+  },
+  "402": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.025266204504143325,
+    "max_dropout": 0.40318101617741775,
+    "max_units": 814,
+    "momentum": 0.1500196281687381,
+    "num_layers": 3,
+    "weight_decay": 0.008746925041921353
+  },
+  "403": {
+    "OpenML_task_id": "3945",
+    "batch_size": 414,
+    "learning_rate": 0.003187886204558712,
+    "max_dropout": 0.9483658413509587,
+    "max_units": 92,
+    "momentum": 0.9354216505945097,
+    "num_layers": 5,
+    "weight_decay": 0.028348083166664883
+  },
+  "404": {
+    "OpenML_task_id": "3945",
+    "batch_size": 27,
+    "learning_rate": 0.008690295205751937,
+    "max_dropout": 0.6956810465859957,
+    "max_units": 119,
+    "momentum": 0.15895854968375242,
+    "num_layers": 3,
+    "weight_decay": 0.05847093670279155
+  },
+  "405": {
+    "OpenML_task_id": "3945",
+    "batch_size": 286,
+    "learning_rate": 0.000361532202188387,
+    "max_dropout": 0.42257874314526267,
+    "max_units": 153,
+    "momentum": 0.8913164637648722,
+    "num_layers": 1,
+    "weight_decay": 0.08097757164544246
+  },
+  "406": {
+    "OpenML_task_id": "3945",
+    "batch_size": 261,
+    "learning_rate": 0.0012110474602348615,
+    "max_dropout": 0.6464951064143065,
+    "max_units": 445,
+    "momentum": 0.2513751572404894,
+    "num_layers": 2,
+    "weight_decay": 0.06271221190201562
+  },
+  "407": {
+    "OpenML_task_id": "3945",
+    "batch_size": 299,
+    "learning_rate": 0.0012872031958501729,
+    "max_dropout": 0.60228672865709,
+    "max_units": 864,
+    "momentum": 0.14914038730389126,
+    "num_layers": 2,
+    "weight_decay": 0.007566736722736664
+  },
+  "408": {
+    "OpenML_task_id": "3945",
+    "batch_size": 106,
+    "learning_rate": 0.00011431391633205467,
+    "max_dropout": 0.10935746358117537,
+    "max_units": 545,
+    "momentum": 0.10914640797998114,
+    "num_layers": 2,
+    "weight_decay": 0.03336933817478445
+  },
+  "409": {
+    "OpenML_task_id": "3945",
+    "batch_size": 123,
+    "learning_rate": 0.002383835166033946,
+    "max_dropout": 0.6300167889889885,
+    "max_units": 214,
+    "momentum": 0.30580889047211846,
+    "num_layers": 2,
+    "weight_decay": 0.0006749719490138489
+  },
+  "410": {
+    "OpenML_task_id": "3945",
+    "batch_size": 333,
+    "learning_rate": 0.004708067539371774,
+    "max_dropout": 0.8115562950060565,
+    "max_units": 410,
+    "momentum": 0.40899158706844774,
+    "num_layers": 3,
+    "weight_decay": 0.027464376417076285
+  },
+  "411": {
+    "OpenML_task_id": "3945",
+    "batch_size": 479,
+    "learning_rate": 0.025596188234444435,
+    "max_dropout": 0.7965933696260297,
+    "max_units": 296,
+    "momentum": 0.12620117149519533,
+    "num_layers": 4,
+    "weight_decay": 0.08531173160640979
+  },
+  "412": {
+    "OpenML_task_id": "3945",
+    "batch_size": 84,
+    "learning_rate": 0.00906494555503181,
+    "max_dropout": 0.08228396838477314,
+    "max_units": 420,
+    "momentum": 0.36390476097807223,
+    "num_layers": 2,
+    "weight_decay": 0.07629243333749187
+  },
+  "413": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.00016744636748190837,
+    "max_dropout": 0.18638968232772524,
+    "max_units": 68,
+    "momentum": 0.6711152137840414,
+    "num_layers": 4,
+    "weight_decay": 0.04199479029153511
+  },
+  "414": {
+    "OpenML_task_id": "3945",
+    "batch_size": 288,
+    "learning_rate": 0.00017423172816051673,
+    "max_dropout": 0.9802308406920274,
+    "max_units": 265,
+    "momentum": 0.7052571117961197,
+    "num_layers": 3,
+    "weight_decay": 0.047201487673276796
+  },
+  "415": {
+    "OpenML_task_id": "3945",
+    "batch_size": 111,
+    "learning_rate": 0.002010593490968414,
+    "max_dropout": 0.09045832790384822,
+    "max_units": 91,
+    "momentum": 0.7571244634407158,
+    "num_layers": 1,
+    "weight_decay": 0.09387934077851885
+  },
+  "416": {
+    "OpenML_task_id": "3945",
+    "batch_size": 55,
+    "learning_rate": 0.010592159510863586,
+    "max_dropout": 0.8863007020512417,
+    "max_units": 931,
+    "momentum": 0.24746982153400535,
+    "num_layers": 4,
+    "weight_decay": 0.002262842873234504
+  },
+  "417": {
+    "OpenML_task_id": "3945",
+    "batch_size": 399,
+    "learning_rate": 0.0761605433797257,
+    "max_dropout": 0.10841314076465935,
+    "max_units": 1008,
+    "momentum": 0.5837954484885732,
+    "num_layers": 4,
+    "weight_decay": 0.05554749621236355
+  },
+  "418": {
+    "OpenML_task_id": "3945",
+    "batch_size": 44,
+    "learning_rate": 0.0001772408268657721,
+    "max_dropout": 0.11653619606585797,
+    "max_units": 128,
+    "momentum": 0.5364718025429229,
+    "num_layers": 2,
+    "weight_decay": 0.09297955073189842
+  },
+  "419": {
+    "OpenML_task_id": "3945",
+    "batch_size": 313,
+    "learning_rate": 0.00045135148241862307,
+    "max_dropout": 0.6086114860664303,
+    "max_units": 313,
+    "momentum": 0.6698065598158182,
+    "num_layers": 3,
+    "weight_decay": 0.03959882382732966
+  },
+  "420": {
+    "OpenML_task_id": "3945",
+    "batch_size": 497,
+    "learning_rate": 0.007626340042421536,
+    "max_dropout": 0.4368941052104426,
+    "max_units": 707,
+    "momentum": 0.391499387769075,
+    "num_layers": 4,
+    "weight_decay": 0.02424157103717664
+  },
+  "421": {
+    "OpenML_task_id": "3945",
+    "batch_size": 32,
+    "learning_rate": 0.016300487268924597,
+    "max_dropout": 0.21044108873411915,
+    "max_units": 228,
+    "momentum": 0.22834846538506764,
+    "num_layers": 1,
+    "weight_decay": 0.008556234225833926
+  },
+  "422": {
+    "OpenML_task_id": "3945",
+    "batch_size": 82,
+    "learning_rate": 0.004059275044163602,
+    "max_dropout": 0.6082866133209146,
+    "max_units": 70,
+    "momentum": 0.3329512477886196,
+    "num_layers": 2,
+    "weight_decay": 0.05246442705096746
+  },
+  "423": {
+    "OpenML_task_id": "3945",
+    "batch_size": 185,
+    "learning_rate": 0.0005199038237890794,
+    "max_dropout": 0.06461156226492737,
+    "max_units": 681,
+    "momentum": 0.25368188876199205,
+    "num_layers": 1,
+    "weight_decay": 0.004465517465804491
+  },
+  "424": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.007507085960589993,
+    "max_dropout": 0.938687626203473,
+    "max_units": 745,
+    "momentum": 0.6206304402514504,
+    "num_layers": 4,
+    "weight_decay": 0.0031132469599513797
+  },
+  "425": {
+    "OpenML_task_id": "3945",
+    "batch_size": 95,
+    "learning_rate": 0.00011489183038472575,
+    "max_dropout": 0.17829064779534054,
+    "max_units": 123,
+    "momentum": 0.7107379476044019,
+    "num_layers": 5,
+    "weight_decay": 0.024367508966519322
+  },
+  "426": {
+    "OpenML_task_id": "3945",
+    "batch_size": 33,
+    "learning_rate": 0.01973004197169823,
+    "max_dropout": 0.6464814073835075,
+    "max_units": 550,
+    "momentum": 0.976450811520689,
+    "num_layers": 2,
+    "weight_decay": 0.0831344564643699
+  },
+  "427": {
+    "OpenML_task_id": "3945",
+    "batch_size": 241,
+    "learning_rate": 0.00040644363495493204,
+    "max_dropout": 0.6111300584553635,
+    "max_units": 481,
+    "momentum": 0.11611209523926731,
+    "num_layers": 4,
+    "weight_decay": 0.06061047933838037
+  },
+  "428": {
+    "OpenML_task_id": "3945",
+    "batch_size": 347,
+    "learning_rate": 0.008493194398192948,
+    "max_dropout": 0.6686989628890219,
+    "max_units": 805,
+    "momentum": 0.12371007547514204,
+    "num_layers": 4,
+    "weight_decay": 0.02972072546523823
+  },
+  "429": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.09237292892111754,
+    "max_dropout": 0.24402223654222588,
+    "max_units": 288,
+    "momentum": 0.20874168677472443,
+    "num_layers": 5,
+    "weight_decay": 0.08431143347404124
+  },
+  "430": {
+    "OpenML_task_id": "3945",
+    "batch_size": 300,
+    "learning_rate": 0.0007621303279550165,
+    "max_dropout": 0.3438247321553122,
+    "max_units": 376,
+    "momentum": 0.2553041807519682,
+    "num_layers": 3,
+    "weight_decay": 0.026179570410738005
+  },
+  "431": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.05837839350796881,
+    "max_dropout": 0.3761088124785944,
+    "max_units": 131,
+    "momentum": 0.7719786180578367,
+    "num_layers": 4,
+    "weight_decay": 0.008727983619602309
+  },
+  "432": {
+    "OpenML_task_id": "3945",
+    "batch_size": 33,
+    "learning_rate": 0.024070237569527333,
+    "max_dropout": 0.5387034633926601,
+    "max_units": 162,
+    "momentum": 0.8578892941897313,
+    "num_layers": 3,
+    "weight_decay": 0.07420964794418261
+  },
+  "433": {
+    "OpenML_task_id": "3945",
+    "batch_size": 27,
+    "learning_rate": 0.0009184858079246572,
+    "max_dropout": 0.6445868504238818,
+    "max_units": 721,
+    "momentum": 0.32027726258929456,
+    "num_layers": 2,
+    "weight_decay": 0.019290642973700273
+  },
+  "434": {
+    "OpenML_task_id": "3945",
+    "batch_size": 87,
+    "learning_rate": 0.00013403171279210573,
+    "max_dropout": 0.9029585554186217,
+    "max_units": 867,
+    "momentum": 0.3196430578218967,
+    "num_layers": 5,
+    "weight_decay": 0.02767936809309746
+  },
+  "435": {
+    "OpenML_task_id": "3945",
+    "batch_size": 109,
+    "learning_rate": 0.0014600240070861718,
+    "max_dropout": 0.6020715826641213,
+    "max_units": 79,
+    "momentum": 0.8093770305656273,
+    "num_layers": 3,
+    "weight_decay": 0.06867428671629898
+  },
+  "436": {
+    "OpenML_task_id": "3945",
+    "batch_size": 32,
+    "learning_rate": 0.0005232422450323259,
+    "max_dropout": 0.018097771255679684,
+    "max_units": 279,
+    "momentum": 0.9609839982848248,
+    "num_layers": 4,
+    "weight_decay": 0.03559780734619635
+  },
+  "437": {
+    "OpenML_task_id": "3945",
+    "batch_size": 29,
+    "learning_rate": 0.002175254899483308,
+    "max_dropout": 0.5610177684217325,
+    "max_units": 95,
+    "momentum": 0.2284288821460547,
+    "num_layers": 4,
+    "weight_decay": 0.08087168472777134
+  },
+  "438": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.0002237924893140731,
+    "max_dropout": 0.07723043841219857,
+    "max_units": 206,
+    "momentum": 0.9320464139712114,
+    "num_layers": 3,
+    "weight_decay": 0.0732185489462412
+  },
+  "439": {
+    "OpenML_task_id": "3945",
+    "batch_size": 211,
+    "learning_rate": 0.0024358056796804296,
+    "max_dropout": 0.6303495934273267,
+    "max_units": 337,
+    "momentum": 0.25989279258309284,
+    "num_layers": 4,
+    "weight_decay": 0.04130646653541551
+  },
+  "440": {
+    "OpenML_task_id": "3945",
+    "batch_size": 40,
+    "learning_rate": 0.0573633181639059,
+    "max_dropout": 0.6814588626771912,
+    "max_units": 129,
+    "momentum": 0.10926791750500416,
+    "num_layers": 1,
+    "weight_decay": 0.053265625659342404
+  },
+  "441": {
+    "OpenML_task_id": "3945",
+    "batch_size": 379,
+    "learning_rate": 0.009644664226035035,
+    "max_dropout": 0.7959712776877507,
+    "max_units": 776,
+    "momentum": 0.27255352111928965,
+    "num_layers": 5,
+    "weight_decay": 0.09767648391246692
+  },
+  "442": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.011503599170586623,
+    "max_dropout": 0.34783235626569053,
+    "max_units": 290,
+    "momentum": 0.32216639804594244,
+    "num_layers": 2,
+    "weight_decay": 0.008763325607691472
+  },
+  "443": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.03057084305363826,
+    "max_dropout": 0.3575278471823393,
+    "max_units": 584,
+    "momentum": 0.12519835977013466,
+    "num_layers": 3,
+    "weight_decay": 0.010613269746800063
+  },
+  "444": {
+    "OpenML_task_id": "3945",
+    "batch_size": 48,
+    "learning_rate": 0.00017119474693276542,
+    "max_dropout": 0.3507433830805051,
+    "max_units": 95,
+    "momentum": 0.7009244436130054,
+    "num_layers": 5,
+    "weight_decay": 0.026943416000771613
+  },
+  "445": {
+    "OpenML_task_id": "3945",
+    "batch_size": 50,
+    "learning_rate": 0.017631102872162168,
+    "max_dropout": 0.017070678816502483,
+    "max_units": 803,
+    "momentum": 0.6329485049245539,
+    "num_layers": 3,
+    "weight_decay": 0.09613675493942338
+  },
+  "446": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.04818717805954541,
+    "max_dropout": 0.8284024628896896,
+    "max_units": 180,
+    "momentum": 0.879361013781153,
+    "num_layers": 5,
+    "weight_decay": 0.07684481870140758
+  },
+  "447": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.0020770312939380462,
+    "max_dropout": 0.7781685466457153,
+    "max_units": 199,
+    "momentum": 0.15477431911688838,
+    "num_layers": 1,
+    "weight_decay": 0.08571576528038417
+  },
+  "448": {
+    "OpenML_task_id": "3945",
+    "batch_size": 328,
+    "learning_rate": 0.0012847395258871036,
+    "max_dropout": 0.6401520856026359,
+    "max_units": 584,
+    "momentum": 0.9253254747578413,
+    "num_layers": 1,
+    "weight_decay": 0.025198951208569593
+  },
+  "449": {
+    "OpenML_task_id": "3945",
+    "batch_size": 169,
+    "learning_rate": 0.014194043394058569,
+    "max_dropout": 0.5327577126232865,
+    "max_units": 165,
+    "momentum": 0.9407513735247036,
+    "num_layers": 2,
+    "weight_decay": 0.09274565100392215
+  },
+  "450": {
+    "OpenML_task_id": "3945",
+    "batch_size": 369,
+    "learning_rate": 0.002053858171789228,
+    "max_dropout": 0.31309700568419996,
+    "max_units": 83,
+    "momentum": 0.7369929290392281,
+    "num_layers": 4,
+    "weight_decay": 0.028585375762354218
+  },
+  "451": {
+    "OpenML_task_id": "3945",
+    "batch_size": 175,
+    "learning_rate": 0.01984946684621703,
+    "max_dropout": 0.6973060932597872,
+    "max_units": 128,
+    "momentum": 0.7348551992882548,
+    "num_layers": 1,
+    "weight_decay": 0.05824650437401371
+  },
+  "452": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.019062916789849567,
+    "max_dropout": 0.12753022257560154,
+    "max_units": 66,
+    "momentum": 0.7110932048305735,
+    "num_layers": 2,
+    "weight_decay": 0.04348438793609096
+  },
+  "453": {
+    "OpenML_task_id": "3945",
+    "batch_size": 53,
+    "learning_rate": 0.0012629641219668462,
+    "max_dropout": 0.9354205996990136,
+    "max_units": 101,
+    "momentum": 0.7144128886901939,
+    "num_layers": 5,
+    "weight_decay": 0.07464658531629667
+  },
+  "454": {
+    "OpenML_task_id": "3945",
+    "batch_size": 82,
+    "learning_rate": 0.04144741912893966,
+    "max_dropout": 0.30690741595769244,
+    "max_units": 103,
+    "momentum": 0.7603209958166701,
+    "num_layers": 5,
+    "weight_decay": 0.07667428070314468
+  },
+  "455": {
+    "OpenML_task_id": "3945",
+    "batch_size": 114,
+    "learning_rate": 0.07300932931413501,
+    "max_dropout": 0.29020670988229746,
+    "max_units": 838,
+    "momentum": 0.2671897688783216,
+    "num_layers": 4,
+    "weight_decay": 0.019237436329566527
+  },
+  "456": {
+    "OpenML_task_id": "3945",
+    "batch_size": 177,
+    "learning_rate": 0.005519624358739612,
+    "max_dropout": 0.8197288888479739,
+    "max_units": 126,
+    "momentum": 0.4312674995445096,
+    "num_layers": 4,
+    "weight_decay": 0.004221554508879987
+  },
+  "457": {
+    "OpenML_task_id": "3945",
+    "batch_size": 239,
+    "learning_rate": 0.0001707702632658645,
+    "max_dropout": 0.6783777194862702,
+    "max_units": 759,
+    "momentum": 0.6728323701005728,
+    "num_layers": 5,
+    "weight_decay": 0.013976207992054597
+  },
+  "458": {
+    "OpenML_task_id": "3945",
+    "batch_size": 115,
+    "learning_rate": 0.01815736738543831,
+    "max_dropout": 0.9040519822522189,
+    "max_units": 162,
+    "momentum": 0.6484047494492152,
+    "num_layers": 4,
+    "weight_decay": 0.07918236322268266
+  },
+  "459": {
+    "OpenML_task_id": "3945",
+    "batch_size": 84,
+    "learning_rate": 0.02199535586904423,
+    "max_dropout": 0.9510676408716026,
+    "max_units": 188,
+    "momentum": 0.8219333284527262,
+    "num_layers": 4,
+    "weight_decay": 0.043063513665580325
+  },
+  "460": {
+    "OpenML_task_id": "3945",
+    "batch_size": 58,
+    "learning_rate": 0.0033130845913533088,
+    "max_dropout": 0.44905391803429295,
+    "max_units": 96,
+    "momentum": 0.3844501653407376,
+    "num_layers": 2,
+    "weight_decay": 0.044802742061095434
+  },
+  "461": {
+    "OpenML_task_id": "3945",
+    "batch_size": 62,
+    "learning_rate": 0.00037312016248653183,
+    "max_dropout": 0.5407084440313054,
+    "max_units": 523,
+    "momentum": 0.9446171804286466,
+    "num_layers": 3,
+    "weight_decay": 0.09923533822189522
+  },
+  "462": {
+    "OpenML_task_id": "3945",
+    "batch_size": 45,
+    "learning_rate": 0.0014241957757146187,
+    "max_dropout": 0.1684238489602088,
+    "max_units": 114,
+    "momentum": 0.6464991220351216,
+    "num_layers": 3,
+    "weight_decay": 0.018505157577093218
+  },
+  "463": {
+    "OpenML_task_id": "3945",
+    "batch_size": 52,
+    "learning_rate": 0.07056974241271409,
+    "max_dropout": 0.9545911943213796,
+    "max_units": 829,
+    "momentum": 0.6142932725612588,
+    "num_layers": 4,
+    "weight_decay": 0.08361952355761454
+  },
+  "464": {
+    "OpenML_task_id": "3945",
+    "batch_size": 89,
+    "learning_rate": 0.0010652280020346948,
+    "max_dropout": 0.3824050709849227,
+    "max_units": 417,
+    "momentum": 0.913199853638846,
+    "num_layers": 2,
+    "weight_decay": 0.08498054726686431
+  },
+  "465": {
+    "OpenML_task_id": "3945",
+    "batch_size": 298,
+    "learning_rate": 0.0008102162004272985,
+    "max_dropout": 0.29270761576224635,
+    "max_units": 234,
+    "momentum": 0.4736242615264118,
+    "num_layers": 3,
+    "weight_decay": 0.03714491997805551
+  },
+  "466": {
+    "OpenML_task_id": "3945",
+    "batch_size": 116,
+    "learning_rate": 0.06261623730453703,
+    "max_dropout": 0.4732881935100326,
+    "max_units": 169,
+    "momentum": 0.15231167115944264,
+    "num_layers": 1,
+    "weight_decay": 0.07459073516678484
+  },
+  "467": {
+    "OpenML_task_id": "3945",
+    "batch_size": 98,
+    "learning_rate": 0.0004431026927551627,
+    "max_dropout": 0.9598944398971129,
+    "max_units": 885,
+    "momentum": 0.25961826180600633,
+    "num_layers": 5,
+    "weight_decay": 0.02276024888180873
+  },
+  "468": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.0006517198720558954,
+    "max_dropout": 0.16268803085053218,
+    "max_units": 87,
+    "momentum": 0.20857233659148788,
+    "num_layers": 1,
+    "weight_decay": 0.09069697660374224
+  },
+  "469": {
+    "OpenML_task_id": "3945",
+    "batch_size": 302,
+    "learning_rate": 0.0015308712849682624,
+    "max_dropout": 0.494350312271853,
+    "max_units": 634,
+    "momentum": 0.8678347283233852,
+    "num_layers": 3,
+    "weight_decay": 0.0992292842057754
+  },
+  "470": {
+    "OpenML_task_id": "3945",
+    "batch_size": 66,
+    "learning_rate": 0.0003660732616764788,
+    "max_dropout": 0.10302355055753831,
+    "max_units": 545,
+    "momentum": 0.3183712913835174,
+    "num_layers": 3,
+    "weight_decay": 0.05355997986269722
+  },
+  "471": {
+    "OpenML_task_id": "3945",
+    "batch_size": 230,
+    "learning_rate": 0.05345718633874432,
+    "max_dropout": 0.1888700835977929,
+    "max_units": 165,
+    "momentum": 0.3495955818841383,
+    "num_layers": 4,
+    "weight_decay": 0.060871691092894954
+  },
+  "472": {
+    "OpenML_task_id": "3945",
+    "batch_size": 48,
+    "learning_rate": 0.00890039738899021,
+    "max_dropout": 0.9074008990848594,
+    "max_units": 67,
+    "momentum": 0.23095397388311206,
+    "num_layers": 1,
+    "weight_decay": 0.035895449743674694
+  },
+  "473": {
+    "OpenML_task_id": "3945",
+    "batch_size": 40,
+    "learning_rate": 0.010380232049559903,
+    "max_dropout": 0.22928994252315282,
+    "max_units": 418,
+    "momentum": 0.5180298928580442,
+    "num_layers": 5,
+    "weight_decay": 0.07744476127935879
+  },
+  "474": {
+    "OpenML_task_id": "3945",
+    "batch_size": 244,
+    "learning_rate": 0.000827454410075155,
+    "max_dropout": 0.3660741104438058,
+    "max_units": 81,
+    "momentum": 0.8332637306235402,
+    "num_layers": 5,
+    "weight_decay": 0.018902875493910946
+  },
+  "475": {
+    "OpenML_task_id": "3945",
+    "batch_size": 118,
+    "learning_rate": 0.03297866915072992,
+    "max_dropout": 0.1579814217171681,
+    "max_units": 207,
+    "momentum": 0.3519123503626903,
+    "num_layers": 3,
+    "weight_decay": 0.06428623056803054
+  },
+  "476": {
+    "OpenML_task_id": "3945",
+    "batch_size": 391,
+    "learning_rate": 0.0055138211147965095,
+    "max_dropout": 0.9739709058253969,
+    "max_units": 321,
+    "momentum": 0.6464237919109133,
+    "num_layers": 4,
+    "weight_decay": 0.06698102383174342
+  },
+  "477": {
+    "OpenML_task_id": "3945",
+    "batch_size": 56,
+    "learning_rate": 0.021779830972693547,
+    "max_dropout": 0.8588138731886386,
+    "max_units": 190,
+    "momentum": 0.6726947271672679,
+    "num_layers": 1,
+    "weight_decay": 0.03094105480947687
+  },
+  "478": {
+    "OpenML_task_id": "3945",
+    "batch_size": 436,
+    "learning_rate": 0.0008182035937861407,
+    "max_dropout": 0.03161925893261064,
+    "max_units": 747,
+    "momentum": 0.7168112032242164,
+    "num_layers": 1,
+    "weight_decay": 0.07243674879178415
+  },
+  "479": {
+    "OpenML_task_id": "3945",
+    "batch_size": 126,
+    "learning_rate": 0.0170371172692286,
+    "max_dropout": 0.26691196049632304,
+    "max_units": 634,
+    "momentum": 0.32938429237642086,
+    "num_layers": 1,
+    "weight_decay": 0.03987452013406701
+  },
+  "480": {
+    "OpenML_task_id": "3945",
+    "batch_size": 287,
+    "learning_rate": 0.00010875638412111026,
+    "max_dropout": 0.15120915089173048,
+    "max_units": 705,
+    "momentum": 0.8595796787229247,
+    "num_layers": 2,
+    "weight_decay": 0.04447468340018222
+  },
+  "481": {
+    "OpenML_task_id": "3945",
+    "batch_size": 21,
+    "learning_rate": 0.05560315986396106,
+    "max_dropout": 0.8487332375756225,
+    "max_units": 129,
+    "momentum": 0.9219701451281032,
+    "num_layers": 3,
+    "weight_decay": 0.09143871712500415
+  },
+  "482": {
+    "OpenML_task_id": "3945",
+    "batch_size": 212,
+    "learning_rate": 0.0005205848157844425,
+    "max_dropout": 0.029912449349184023,
+    "max_units": 658,
+    "momentum": 0.19245524951302823,
+    "num_layers": 5,
+    "weight_decay": 0.00675795452506761
+  },
+  "483": {
+    "OpenML_task_id": "3945",
+    "batch_size": 107,
+    "learning_rate": 0.06333856584222113,
+    "max_dropout": 0.8079957949687583,
+    "max_units": 409,
+    "momentum": 0.5516414547072898,
+    "num_layers": 5,
+    "weight_decay": 0.061127844732850815
+  },
+  "484": {
+    "OpenML_task_id": "3945",
+    "batch_size": 33,
+    "learning_rate": 0.00119609668602891,
+    "max_dropout": 0.529046343610963,
+    "max_units": 292,
+    "momentum": 0.1836359822944629,
+    "num_layers": 3,
+    "weight_decay": 0.014422953837685156
+  },
+  "485": {
+    "OpenML_task_id": "3945",
+    "batch_size": 250,
+    "learning_rate": 0.06123219932678362,
+    "max_dropout": 0.3707226957624874,
+    "max_units": 87,
+    "momentum": 0.11915853749235979,
+    "num_layers": 2,
+    "weight_decay": 0.01592598800965227
+  },
+  "486": {
+    "OpenML_task_id": "3945",
+    "batch_size": 175,
+    "learning_rate": 0.07595424968258364,
+    "max_dropout": 0.49707715101321137,
+    "max_units": 230,
+    "momentum": 0.6915298843300154,
+    "num_layers": 3,
+    "weight_decay": 0.09927446266649026
+  },
+  "487": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.02038396524025115,
+    "max_dropout": 0.261132711218118,
+    "max_units": 140,
+    "momentum": 0.6382778569437801,
+    "num_layers": 3,
+    "weight_decay": 0.05074270502918462
+  },
+  "488": {
+    "OpenML_task_id": "3945",
+    "batch_size": 26,
+    "learning_rate": 0.007760483623481235,
+    "max_dropout": 0.30702481861829445,
+    "max_units": 110,
+    "momentum": 0.2466851154315434,
+    "num_layers": 5,
+    "weight_decay": 0.02214702843895163
+  },
+  "489": {
+    "OpenML_task_id": "3945",
+    "batch_size": 354,
+    "learning_rate": 0.0012037100398606996,
+    "max_dropout": 0.75804711237917,
+    "max_units": 217,
+    "momentum": 0.23667987762950712,
+    "num_layers": 1,
+    "weight_decay": 0.05194227117324703
+  },
+  "490": {
+    "OpenML_task_id": "3945",
+    "batch_size": 104,
+    "learning_rate": 0.00022444002453367247,
+    "max_dropout": 0.014513713056080402,
+    "max_units": 214,
+    "momentum": 0.3464784017516041,
+    "num_layers": 4,
+    "weight_decay": 0.00012092919183427315
+  },
+  "491": {
+    "OpenML_task_id": "3945",
+    "batch_size": 505,
+    "learning_rate": 0.01134485905257653,
+    "max_dropout": 0.4517568405060792,
+    "max_units": 76,
+    "momentum": 0.762778318435849,
+    "num_layers": 1,
+    "weight_decay": 0.01713613079223728
+  },
+  "492": {
+    "OpenML_task_id": "3945",
+    "batch_size": 172,
+    "learning_rate": 0.0015049439153842898,
+    "max_dropout": 0.7886841229353821,
+    "max_units": 807,
+    "momentum": 0.2730605197567748,
+    "num_layers": 2,
+    "weight_decay": 0.013145784317822054
+  },
+  "493": {
+    "OpenML_task_id": "3945",
+    "batch_size": 28,
+    "learning_rate": 0.04411533489712929,
+    "max_dropout": 0.7846130811876495,
+    "max_units": 68,
+    "momentum": 0.3915558941924623,
+    "num_layers": 3,
+    "weight_decay": 0.03399036081498219
+  },
+  "494": {
+    "OpenML_task_id": "3945",
+    "batch_size": 108,
+    "learning_rate": 0.013966674964923464,
+    "max_dropout": 0.8754949781868785,
+    "max_units": 731,
+    "momentum": 0.44368059102099466,
+    "num_layers": 3,
+    "weight_decay": 0.030944164436805557
+  },
+  "495": {
+    "OpenML_task_id": "3945",
+    "batch_size": 229,
+    "learning_rate": 0.016022738456935807,
+    "max_dropout": 0.2066521347865341,
+    "max_units": 120,
+    "momentum": 0.6922083884709711,
+    "num_layers": 5,
+    "weight_decay": 0.08649739227074439
+  },
+  "496": {
+    "OpenML_task_id": "3945",
+    "batch_size": 348,
+    "learning_rate": 0.0004064604351665237,
+    "max_dropout": 0.9005529631135683,
+    "max_units": 124,
+    "momentum": 0.8118762930558601,
+    "num_layers": 5,
+    "weight_decay": 0.06637939066728063
+  },
+  "497": {
+    "OpenML_task_id": "3945",
+    "batch_size": 70,
+    "learning_rate": 0.05096825311173691,
+    "max_dropout": 0.7374155675819352,
+    "max_units": 108,
+    "momentum": 0.23131334224115302,
+    "num_layers": 3,
+    "weight_decay": 0.032793599425760066
+  },
+  "498": {
+    "OpenML_task_id": "3945",
+    "batch_size": 147,
+    "learning_rate": 0.01532901414644562,
+    "max_dropout": 0.06342394817269104,
+    "max_units": 127,
+    "momentum": 0.6860098986293911,
+    "num_layers": 4,
+    "weight_decay": 0.023276944597909424
+  },
+  "499": {
+    "OpenML_task_id": "3945",
+    "batch_size": 140,
+    "learning_rate": 0.00016860401518082224,
+    "max_dropout": 0.41196596696730814,
+    "max_units": 376,
+    "momentum": 0.4532760058484314,
+    "num_layers": 2,
+    "weight_decay": 0.02800953726003273
+  },
+  "500": {
+    "OpenML_task_id": "3945",
+    "batch_size": 281,
+    "learning_rate": 0.00031941245334751717,
+    "max_dropout": 0.29165765290174794,
+    "max_units": 94,
+    "momentum": 0.8554089599630095,
+    "num_layers": 3,
+    "weight_decay": 0.09256353947576461
+  },
+  "501": {
+    "OpenML_task_id": "3945",
+    "batch_size": 181,
+    "learning_rate": 0.015076043610165976,
+    "max_dropout": 0.48556616271230557,
+    "max_units": 237,
+    "momentum": 0.4467467036104359,
+    "num_layers": 2,
+    "weight_decay": 0.037528267990722466
+  },
+  "502": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.001983923878280668,
+    "max_dropout": 0.668362957289148,
+    "max_units": 448,
+    "momentum": 0.5590956698919589,
+    "num_layers": 2,
+    "weight_decay": 0.042372691487303875
+  },
+  "503": {
+    "OpenML_task_id": "3945",
+    "batch_size": 392,
+    "learning_rate": 0.0017623729048941417,
+    "max_dropout": 0.04687336421270383,
+    "max_units": 157,
+    "momentum": 0.13851825301045398,
+    "num_layers": 2,
+    "weight_decay": 0.0446723028589878
+  },
+  "504": {
+    "OpenML_task_id": "3945",
+    "batch_size": 384,
+    "learning_rate": 0.00239940709832881,
+    "max_dropout": 0.39884099058800015,
+    "max_units": 114,
+    "momentum": 0.2653210760277161,
+    "num_layers": 5,
+    "weight_decay": 0.09399685933670067
+  },
+  "505": {
+    "OpenML_task_id": "3945",
+    "batch_size": 157,
+    "learning_rate": 0.08076063192615766,
+    "max_dropout": 0.7482726235267488,
+    "max_units": 103,
+    "momentum": 0.938833234596227,
+    "num_layers": 2,
+    "weight_decay": 0.08585700038643687
+  },
+  "506": {
+    "OpenML_task_id": "3945",
+    "batch_size": 68,
+    "learning_rate": 0.00016936498980446213,
+    "max_dropout": 0.32796227321742466,
+    "max_units": 173,
+    "momentum": 0.42044641437516717,
+    "num_layers": 3,
+    "weight_decay": 0.007624138470615737
+  },
+  "507": {
+    "OpenML_task_id": "3945",
+    "batch_size": 119,
+    "learning_rate": 0.0001130771516786016,
+    "max_dropout": 0.9677003520609773,
+    "max_units": 463,
+    "momentum": 0.8824573582779163,
+    "num_layers": 3,
+    "weight_decay": 0.09389502464509343
+  },
+  "508": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.0008779315920329571,
+    "max_dropout": 0.1595656011621862,
+    "max_units": 260,
+    "momentum": 0.5533027574386257,
+    "num_layers": 1,
+    "weight_decay": 0.02438845523041045
+  },
+  "509": {
+    "OpenML_task_id": "3945",
+    "batch_size": 437,
+    "learning_rate": 0.0024897746186233563,
+    "max_dropout": 0.994411916963271,
+    "max_units": 454,
+    "momentum": 0.8241125417471695,
+    "num_layers": 5,
+    "weight_decay": 0.020550179697353406
+  },
+  "510": {
+    "OpenML_task_id": "3945",
+    "batch_size": 41,
+    "learning_rate": 0.004213581180414732,
+    "max_dropout": 0.6127372792895363,
+    "max_units": 579,
+    "momentum": 0.7901352566678852,
+    "num_layers": 3,
+    "weight_decay": 0.09091890809025657
+  },
+  "511": {
+    "OpenML_task_id": "3945",
+    "batch_size": 384,
+    "learning_rate": 0.03533657386916827,
+    "max_dropout": 0.5465872212679819,
+    "max_units": 308,
+    "momentum": 0.7354089051452879,
+    "num_layers": 5,
+    "weight_decay": 0.07344920976087355
+  },
+  "512": {
+    "OpenML_task_id": "3945",
+    "batch_size": 48,
+    "learning_rate": 0.0017341025208770392,
+    "max_dropout": 0.25338499409611104,
+    "max_units": 768,
+    "momentum": 0.8165782082318115,
+    "num_layers": 2,
+    "weight_decay": 0.0017695535683803871
+  },
+  "513": {
+    "OpenML_task_id": "3945",
+    "batch_size": 186,
+    "learning_rate": 0.00014180116374671965,
+    "max_dropout": 0.8331099487861853,
+    "max_units": 1012,
+    "momentum": 0.8877103648087447,
+    "num_layers": 1,
+    "weight_decay": 0.016027029819712792
+  },
+  "514": {
+    "OpenML_task_id": "3945",
+    "batch_size": 456,
+    "learning_rate": 0.05240108338405254,
+    "max_dropout": 0.36843970813306304,
+    "max_units": 97,
+    "momentum": 0.5603835585074577,
+    "num_layers": 4,
+    "weight_decay": 0.033632246244019545
+  },
+  "515": {
+    "OpenML_task_id": "3945",
+    "batch_size": 259,
+    "learning_rate": 0.028543070134895574,
+    "max_dropout": 0.3501684339559966,
+    "max_units": 84,
+    "momentum": 0.1254036060107845,
+    "num_layers": 5,
+    "weight_decay": 0.05373371651027592
+  },
+  "516": {
+    "OpenML_task_id": "3945",
+    "batch_size": 243,
+    "learning_rate": 0.00017873569710236188,
+    "max_dropout": 0.09102130934831543,
+    "max_units": 340,
+    "momentum": 0.2990451031089872,
+    "num_layers": 2,
+    "weight_decay": 0.04484871120362025
+  },
+  "517": {
+    "OpenML_task_id": "3945",
+    "batch_size": 483,
+    "learning_rate": 0.08192684157002943,
+    "max_dropout": 0.17054456045519462,
+    "max_units": 155,
+    "momentum": 0.7852733857196253,
+    "num_layers": 4,
+    "weight_decay": 0.08299613094092405
+  },
+  "518": {
+    "OpenML_task_id": "3945",
+    "batch_size": 188,
+    "learning_rate": 0.007206172285934648,
+    "max_dropout": 0.2418821146954816,
+    "max_units": 89,
+    "momentum": 0.16011607912433248,
+    "num_layers": 3,
+    "weight_decay": 0.06588458347745865
+  },
+  "519": {
+    "OpenML_task_id": "3945",
+    "batch_size": 106,
+    "learning_rate": 0.002199402782864921,
+    "max_dropout": 0.5422426218381661,
+    "max_units": 792,
+    "momentum": 0.1370119458455195,
+    "num_layers": 2,
+    "weight_decay": 0.05846985874273369
+  },
+  "520": {
+    "OpenML_task_id": "3945",
+    "batch_size": 136,
+    "learning_rate": 0.002972046806528239,
+    "max_dropout": 0.1621720357033687,
+    "max_units": 632,
+    "momentum": 0.8155632973911147,
+    "num_layers": 2,
+    "weight_decay": 0.01845174468828144
+  },
+  "521": {
+    "OpenML_task_id": "3945",
+    "batch_size": 17,
+    "learning_rate": 0.04295123490778381,
+    "max_dropout": 0.07349741392682319,
+    "max_units": 564,
+    "momentum": 0.8910116742774777,
+    "num_layers": 5,
+    "weight_decay": 0.02902804207900626
+  },
+  "522": {
+    "OpenML_task_id": "3945",
+    "batch_size": 460,
+    "learning_rate": 0.0004126780376568672,
+    "max_dropout": 0.059234916924514436,
+    "max_units": 292,
+    "momentum": 0.24242269934439994,
+    "num_layers": 3,
+    "weight_decay": 0.011044491682075447
+  },
+  "523": {
+    "OpenML_task_id": "3945",
+    "batch_size": 456,
+    "learning_rate": 0.005831231321769558,
+    "max_dropout": 0.36312835314635017,
+    "max_units": 514,
+    "momentum": 0.46241403865666486,
+    "num_layers": 2,
+    "weight_decay": 0.08671921595049167
+  },
+  "524": {
+    "OpenML_task_id": "3945",
+    "batch_size": 253,
+    "learning_rate": 0.03824503613905132,
+    "max_dropout": 0.5358705058069281,
+    "max_units": 341,
+    "momentum": 0.23383221054315148,
+    "num_layers": 5,
+    "weight_decay": 0.09073814890818596
+  },
+  "525": {
+    "OpenML_task_id": "3945",
+    "batch_size": 490,
+    "learning_rate": 0.0006464065604701214,
+    "max_dropout": 0.31566610376150384,
+    "max_units": 234,
+    "momentum": 0.6444628716156903,
+    "num_layers": 1,
+    "weight_decay": 0.097821315245626
+  },
+  "526": {
+    "OpenML_task_id": "3945",
+    "batch_size": 37,
+    "learning_rate": 0.00042860807202619585,
+    "max_dropout": 0.815739425377212,
+    "max_units": 180,
+    "momentum": 0.5432389341766353,
+    "num_layers": 5,
+    "weight_decay": 0.07221204314130658
+  },
+  "527": {
+    "OpenML_task_id": "3945",
+    "batch_size": 22,
+    "learning_rate": 0.001900844033557612,
+    "max_dropout": 0.7435993146516267,
+    "max_units": 519,
+    "momentum": 0.2693419330605662,
+    "num_layers": 3,
+    "weight_decay": 0.09531724996288517
+  },
+  "528": {
+    "OpenML_task_id": "3945",
+    "batch_size": 362,
+    "learning_rate": 0.013942368034610512,
+    "max_dropout": 0.12275102641850033,
+    "max_units": 193,
+    "momentum": 0.4062501992940617,
+    "num_layers": 5,
+    "weight_decay": 0.04498917895767505
+  },
+  "529": {
+    "OpenML_task_id": "3945",
+    "batch_size": 119,
+    "learning_rate": 0.00013930138346827288,
+    "max_dropout": 0.12063770244175243,
+    "max_units": 146,
+    "momentum": 0.5313414695027121,
+    "num_layers": 3,
+    "weight_decay": 0.08125676243803324
+  },
+  "530": {
+    "OpenML_task_id": "3945",
+    "batch_size": 41,
+    "learning_rate": 0.0012033338832906143,
+    "max_dropout": 0.37837267358811266,
+    "max_units": 709,
+    "momentum": 0.24605071994608055,
+    "num_layers": 4,
+    "weight_decay": 0.07897958946776688
+  },
+  "531": {
+    "OpenML_task_id": "3945",
+    "batch_size": 263,
+    "learning_rate": 0.008314744155679983,
+    "max_dropout": 0.4007118317279551,
+    "max_units": 585,
+    "momentum": 0.25861252186742323,
+    "num_layers": 4,
+    "weight_decay": 0.04437243073988239
+  },
+  "532": {
+    "OpenML_task_id": "3945",
+    "batch_size": 48,
+    "learning_rate": 0.0011756371920225988,
+    "max_dropout": 0.6966599750696794,
+    "max_units": 149,
+    "momentum": 0.8503058574468236,
+    "num_layers": 5,
+    "weight_decay": 0.031292456663026956
+  },
+  "533": {
+    "OpenML_task_id": "3945",
+    "batch_size": 28,
+    "learning_rate": 0.00020193995160658836,
+    "max_dropout": 0.5303893265998549,
+    "max_units": 96,
+    "momentum": 0.7375122395597973,
+    "num_layers": 2,
+    "weight_decay": 0.07253864089729374
+  },
+  "534": {
+    "OpenML_task_id": "3945",
+    "batch_size": 117,
+    "learning_rate": 0.021455899674105865,
+    "max_dropout": 0.6379202622427913,
+    "max_units": 67,
+    "momentum": 0.37234403726501175,
+    "num_layers": 2,
+    "weight_decay": 0.07772822485420326
+  },
+  "535": {
+    "OpenML_task_id": "3945",
+    "batch_size": 304,
+    "learning_rate": 0.05778453069805736,
+    "max_dropout": 0.5938626569657667,
+    "max_units": 603,
+    "momentum": 0.6913541495386765,
+    "num_layers": 3,
+    "weight_decay": 0.0687739384613882
+  },
+  "536": {
+    "OpenML_task_id": "3945",
+    "batch_size": 506,
+    "learning_rate": 0.0009189960519255787,
+    "max_dropout": 0.06815454670626919,
+    "max_units": 105,
+    "momentum": 0.9848012927406338,
+    "num_layers": 2,
+    "weight_decay": 0.02095666730878306
+  },
+  "537": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.0012952663078883602,
+    "max_dropout": 0.6888704206072267,
+    "max_units": 983,
+    "momentum": 0.23384951322560635,
+    "num_layers": 5,
+    "weight_decay": 0.0406489635453604
+  },
+  "538": {
+    "OpenML_task_id": "3945",
+    "batch_size": 48,
+    "learning_rate": 0.08657025520100986,
+    "max_dropout": 0.0031462017516722396,
+    "max_units": 688,
+    "momentum": 0.6506969489616138,
+    "num_layers": 4,
+    "weight_decay": 0.04135072996071061
+  },
+  "539": {
+    "OpenML_task_id": "3945",
+    "batch_size": 44,
+    "learning_rate": 0.014432979191052435,
+    "max_dropout": 0.5977985255475484,
+    "max_units": 326,
+    "momentum": 0.5049080319092287,
+    "num_layers": 3,
+    "weight_decay": 0.03884595776138312
+  },
+  "540": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.0020109369107705966,
+    "max_dropout": 0.3476561597750195,
+    "max_units": 105,
+    "momentum": 0.8742728958243567,
+    "num_layers": 4,
+    "weight_decay": 0.07958383144199715
+  },
+  "541": {
+    "OpenML_task_id": "3945",
+    "batch_size": 296,
+    "learning_rate": 0.03068463123872973,
+    "max_dropout": 0.8031072693218331,
+    "max_units": 210,
+    "momentum": 0.8739127392956235,
+    "num_layers": 2,
+    "weight_decay": 0.05152962211042748
+  },
+  "542": {
+    "OpenML_task_id": "3945",
+    "batch_size": 44,
+    "learning_rate": 0.08864500899275478,
+    "max_dropout": 0.669229194893102,
+    "max_units": 171,
+    "momentum": 0.33932160564903613,
+    "num_layers": 1,
+    "weight_decay": 0.08502802142385614
+  },
+  "543": {
+    "OpenML_task_id": "3945",
+    "batch_size": 252,
+    "learning_rate": 0.00029392341634191946,
+    "max_dropout": 0.43317465875578365,
+    "max_units": 810,
+    "momentum": 0.4574482055834397,
+    "num_layers": 4,
+    "weight_decay": 0.013639898548458455
+  },
+  "544": {
+    "OpenML_task_id": "3945",
+    "batch_size": 20,
+    "learning_rate": 0.04253291542201171,
+    "max_dropout": 0.6034282670891703,
+    "max_units": 522,
+    "momentum": 0.44103616815884894,
+    "num_layers": 5,
+    "weight_decay": 0.07310613890598266
+  },
+  "545": {
+    "OpenML_task_id": "3945",
+    "batch_size": 122,
+    "learning_rate": 0.0043397030508327775,
+    "max_dropout": 0.9418300820821683,
+    "max_units": 172,
+    "momentum": 0.7750348419905785,
+    "num_layers": 3,
+    "weight_decay": 0.0971185739711167
+  },
+  "546": {
+    "OpenML_task_id": "3945",
+    "batch_size": 26,
+    "learning_rate": 0.00010516350726408391,
+    "max_dropout": 0.3729778843059449,
+    "max_units": 108,
+    "momentum": 0.1561156767080597,
+    "num_layers": 5,
+    "weight_decay": 0.03836482663252431
+  },
+  "547": {
+    "OpenML_task_id": "3945",
+    "batch_size": 170,
+    "learning_rate": 0.0026901370443884564,
+    "max_dropout": 0.37343583766039445,
+    "max_units": 845,
+    "momentum": 0.4480500302411673,
+    "num_layers": 1,
+    "weight_decay": 0.0061947115769333035
+  },
+  "548": {
+    "OpenML_task_id": "3945",
+    "batch_size": 60,
+    "learning_rate": 0.004615806863377926,
+    "max_dropout": 0.5925645222463247,
+    "max_units": 66,
+    "momentum": 0.8042731231877076,
+    "num_layers": 3,
+    "weight_decay": 0.012047796414247287
+  },
+  "549": {
+    "OpenML_task_id": "3945",
+    "batch_size": 301,
+    "learning_rate": 0.07616530627123055,
+    "max_dropout": 0.54187719603015,
+    "max_units": 454,
+    "momentum": 0.5301201909348567,
+    "num_layers": 3,
+    "weight_decay": 0.017386456098791254
+  },
+  "550": {
+    "OpenML_task_id": "3945",
+    "batch_size": 298,
+    "learning_rate": 0.0032811528670451486,
+    "max_dropout": 0.46560651367057904,
+    "max_units": 172,
+    "momentum": 0.44494237379075585,
+    "num_layers": 5,
+    "weight_decay": 0.02971154591366802
+  },
+  "551": {
+    "OpenML_task_id": "3945",
+    "batch_size": 52,
+    "learning_rate": 0.007953410990752335,
+    "max_dropout": 0.6656924646030672,
+    "max_units": 668,
+    "momentum": 0.8735181639787868,
+    "num_layers": 4,
+    "weight_decay": 0.008071371693766578
+  },
+  "552": {
+    "OpenML_task_id": "3945",
+    "batch_size": 68,
+    "learning_rate": 0.01218192391395366,
+    "max_dropout": 0.736851118424458,
+    "max_units": 408,
+    "momentum": 0.39694060250917085,
+    "num_layers": 5,
+    "weight_decay": 0.06795043688582049
+  },
+  "553": {
+    "OpenML_task_id": "3945",
+    "batch_size": 115,
+    "learning_rate": 0.006778117413508522,
+    "max_dropout": 0.0003884251651592452,
+    "max_units": 106,
+    "momentum": 0.9003087501894041,
+    "num_layers": 4,
+    "weight_decay": 0.02133239956757834
+  },
+  "554": {
+    "OpenML_task_id": "3945",
+    "batch_size": 383,
+    "learning_rate": 0.004129664142029134,
+    "max_dropout": 0.5732988858594229,
+    "max_units": 89,
+    "momentum": 0.2770268801922816,
+    "num_layers": 4,
+    "weight_decay": 0.09574942357814582
+  },
+  "555": {
+    "OpenML_task_id": "3945",
+    "batch_size": 26,
+    "learning_rate": 0.00104284963518621,
+    "max_dropout": 0.16137365193235464,
+    "max_units": 105,
+    "momentum": 0.503933552612756,
+    "num_layers": 3,
+    "weight_decay": 0.0895613492762558
+  },
+  "556": {
+    "OpenML_task_id": "3945",
+    "batch_size": 257,
+    "learning_rate": 0.0008434337211254167,
+    "max_dropout": 0.4091555694699759,
+    "max_units": 235,
+    "momentum": 0.4354851734975802,
+    "num_layers": 1,
+    "weight_decay": 0.09145917590198857
+  },
+  "557": {
+    "OpenML_task_id": "3945",
+    "batch_size": 44,
+    "learning_rate": 0.00018248264992873822,
+    "max_dropout": 0.9758323042476739,
+    "max_units": 307,
+    "momentum": 0.8877488477550797,
+    "num_layers": 2,
+    "weight_decay": 0.07151113289327782
+  },
+  "558": {
+    "OpenML_task_id": "3945",
+    "batch_size": 268,
+    "learning_rate": 0.00014734827650035852,
+    "max_dropout": 0.6275075308730221,
+    "max_units": 843,
+    "momentum": 0.7244233174342172,
+    "num_layers": 1,
+    "weight_decay": 0.08336075475202086
+  },
+  "559": {
+    "OpenML_task_id": "3945",
+    "batch_size": 413,
+    "learning_rate": 0.0016291582635178721,
+    "max_dropout": 0.7130886509310108,
+    "max_units": 137,
+    "momentum": 0.25212732778977204,
+    "num_layers": 5,
+    "weight_decay": 0.025366973920592333
+  },
+  "560": {
+    "OpenML_task_id": "3945",
+    "batch_size": 55,
+    "learning_rate": 0.003983749419522955,
+    "max_dropout": 0.9411264856412723,
+    "max_units": 247,
+    "momentum": 0.3588303484719513,
+    "num_layers": 5,
+    "weight_decay": 0.06987648975009003
+  },
+  "561": {
+    "OpenML_task_id": "3945",
+    "batch_size": 67,
+    "learning_rate": 0.00012291936927071717,
+    "max_dropout": 0.4674486493666531,
+    "max_units": 68,
+    "momentum": 0.8769306111161017,
+    "num_layers": 1,
+    "weight_decay": 0.07952276149916682
+  },
+  "562": {
+    "OpenML_task_id": "3945",
+    "batch_size": 49,
+    "learning_rate": 0.00877418479514785,
+    "max_dropout": 0.5178526030997828,
+    "max_units": 84,
+    "momentum": 0.788157115435571,
+    "num_layers": 4,
+    "weight_decay": 0.057502744175160235
+  },
+  "563": {
+    "OpenML_task_id": "3945",
+    "batch_size": 22,
+    "learning_rate": 0.0213051856828563,
+    "max_dropout": 0.08975274193852156,
+    "max_units": 95,
+    "momentum": 0.5080320021288314,
+    "num_layers": 3,
+    "weight_decay": 0.014357416648808276
+  },
+  "564": {
+    "OpenML_task_id": "3945",
+    "batch_size": 53,
+    "learning_rate": 0.0002951025413266452,
+    "max_dropout": 0.20264026046141093,
+    "max_units": 947,
+    "momentum": 0.386261955008841,
+    "num_layers": 1,
+    "weight_decay": 0.02626214939468482
+  },
+  "565": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.00013478175129257697,
+    "max_dropout": 0.7375262279015403,
+    "max_units": 175,
+    "momentum": 0.39729622046557844,
+    "num_layers": 1,
+    "weight_decay": 0.03742307822230823
+  },
+  "566": {
+    "OpenML_task_id": "3945",
+    "batch_size": 78,
+    "learning_rate": 0.01383788919599899,
+    "max_dropout": 0.24707245016494983,
+    "max_units": 205,
+    "momentum": 0.7367715814861214,
+    "num_layers": 1,
+    "weight_decay": 0.031109288206097024
+  },
+  "567": {
+    "OpenML_task_id": "3945",
+    "batch_size": 19,
+    "learning_rate": 0.0024079698851512395,
+    "max_dropout": 0.15935009891302176,
+    "max_units": 165,
+    "momentum": 0.8464292977277986,
+    "num_layers": 3,
+    "weight_decay": 0.08599992779923069
+  },
+  "568": {
+    "OpenML_task_id": "3945",
+    "batch_size": 238,
+    "learning_rate": 0.0005883893055660394,
+    "max_dropout": 0.4528374751724874,
+    "max_units": 125,
+    "momentum": 0.3714452948080549,
+    "num_layers": 3,
+    "weight_decay": 0.04057649518475232
+  },
+  "569": {
+    "OpenML_task_id": "3945",
+    "batch_size": 55,
+    "learning_rate": 0.00120622066198428,
+    "max_dropout": 0.5657001458876126,
+    "max_units": 154,
+    "momentum": 0.7393435323051496,
+    "num_layers": 5,
+    "weight_decay": 0.07553447640092202
+  },
+  "570": {
+    "OpenML_task_id": "3945",
+    "batch_size": 124,
+    "learning_rate": 0.026713285066061614,
+    "max_dropout": 0.3720213109344793,
+    "max_units": 1022,
+    "momentum": 0.5684832130941303,
+    "num_layers": 3,
+    "weight_decay": 0.04920289096303142
+  },
+  "571": {
+    "OpenML_task_id": "3945",
+    "batch_size": 104,
+    "learning_rate": 0.0002830124910181438,
+    "max_dropout": 0.454328563533935,
+    "max_units": 101,
+    "momentum": 0.6752079451945159,
+    "num_layers": 4,
+    "weight_decay": 0.05416806504237154
+  },
+  "572": {
+    "OpenML_task_id": "3945",
+    "batch_size": 29,
+    "learning_rate": 0.0034937781828852776,
+    "max_dropout": 0.35227275665360336,
+    "max_units": 258,
+    "momentum": 0.7061398495351381,
+    "num_layers": 2,
+    "weight_decay": 0.045821502027218686
+  },
+  "573": {
+    "OpenML_task_id": "3945",
+    "batch_size": 69,
+    "learning_rate": 0.0006280105352539304,
+    "max_dropout": 0.23443118387211415,
+    "max_units": 223,
+    "momentum": 0.5467224397491763,
+    "num_layers": 3,
+    "weight_decay": 0.07487176883350329
+  },
+  "574": {
+    "OpenML_task_id": "3945",
+    "batch_size": 220,
+    "learning_rate": 0.0003580689070132298,
+    "max_dropout": 0.09263566584602845,
+    "max_units": 782,
+    "momentum": 0.5274902029773325,
+    "num_layers": 1,
+    "weight_decay": 0.06660054702195439
+  },
+  "575": {
+    "OpenML_task_id": "3945",
+    "batch_size": 50,
+    "learning_rate": 0.010690177638311626,
+    "max_dropout": 0.6094389740213663,
+    "max_units": 489,
+    "momentum": 0.901261417900686,
+    "num_layers": 1,
+    "weight_decay": 0.046557231022273216
+  },
+  "576": {
+    "OpenML_task_id": "3945",
+    "batch_size": 71,
+    "learning_rate": 0.036724308151468696,
+    "max_dropout": 0.46790861075169565,
+    "max_units": 336,
+    "momentum": 0.2470806990108917,
+    "num_layers": 3,
+    "weight_decay": 0.03388914321362827
+  },
+  "577": {
+    "OpenML_task_id": "3945",
+    "batch_size": 40,
+    "learning_rate": 0.0013296830824104018,
+    "max_dropout": 0.46435993473092274,
+    "max_units": 464,
+    "momentum": 0.761081303702964,
+    "num_layers": 4,
+    "weight_decay": 0.05887281166948862
+  },
+  "578": {
+    "OpenML_task_id": "3945",
+    "batch_size": 31,
+    "learning_rate": 0.024388018713079208,
+    "max_dropout": 0.7393520642449307,
+    "max_units": 531,
+    "momentum": 0.3016432353528556,
+    "num_layers": 4,
+    "weight_decay": 0.042226280384683006
+  },
+  "579": {
+    "OpenML_task_id": "3945",
+    "batch_size": 105,
+    "learning_rate": 0.004069080384855016,
+    "max_dropout": 0.15336554071114938,
+    "max_units": 90,
+    "momentum": 0.8581162219196035,
+    "num_layers": 2,
+    "weight_decay": 0.036310425396577646
+  },
+  "580": {
+    "OpenML_task_id": "3945",
+    "batch_size": 124,
+    "learning_rate": 0.0012539418880476714,
+    "max_dropout": 0.7314081519534307,
+    "max_units": 711,
+    "momentum": 0.28638279256846566,
+    "num_layers": 4,
+    "weight_decay": 0.0355359283636497
+  },
+  "581": {
+    "OpenML_task_id": "3945",
+    "batch_size": 42,
+    "learning_rate": 0.00022079079924780366,
+    "max_dropout": 0.15099076897778763,
+    "max_units": 852,
+    "momentum": 0.3606561713492479,
+    "num_layers": 4,
+    "weight_decay": 0.014538572322049994
+  },
+  "582": {
+    "OpenML_task_id": "3945",
+    "batch_size": 54,
+    "learning_rate": 0.0057814339037339565,
+    "max_dropout": 0.5301750229964917,
+    "max_units": 168,
+    "momentum": 0.807918745425128,
+    "num_layers": 3,
+    "weight_decay": 0.047906393222702154
+  },
+  "583": {
+    "OpenML_task_id": "3945",
+    "batch_size": 490,
+    "learning_rate": 0.016199258119878858,
+    "max_dropout": 0.5721066243394929,
+    "max_units": 77,
+    "momentum": 0.16987037542204628,
+    "num_layers": 5,
+    "weight_decay": 0.09586279485568355
+  },
+  "584": {
+    "OpenML_task_id": "3945",
+    "batch_size": 55,
+    "learning_rate": 0.008547074352776605,
+    "max_dropout": 0.7111914148792173,
+    "max_units": 153,
+    "momentum": 0.7245859662819821,
+    "num_layers": 5,
+    "weight_decay": 0.07704355968055186
+  },
+  "585": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.0017618454368850387,
+    "max_dropout": 0.3429811327647072,
+    "max_units": 73,
+    "momentum": 0.8213246168841227,
+    "num_layers": 1,
+    "weight_decay": 0.0135917475225642
+  },
+  "586": {
+    "OpenML_task_id": "3945",
+    "batch_size": 192,
+    "learning_rate": 0.017724547200278728,
+    "max_dropout": 0.4198195881411251,
+    "max_units": 78,
+    "momentum": 0.10433862719222405,
+    "num_layers": 4,
+    "weight_decay": 0.06567910893627074
+  },
+  "587": {
+    "OpenML_task_id": "3945",
+    "batch_size": 118,
+    "learning_rate": 0.0002557161480938889,
+    "max_dropout": 0.9336515571796173,
+    "max_units": 183,
+    "momentum": 0.7964084360519369,
+    "num_layers": 1,
+    "weight_decay": 0.04102015635866726
+  },
+  "588": {
+    "OpenML_task_id": "3945",
+    "batch_size": 474,
+    "learning_rate": 0.01070968581857329,
+    "max_dropout": 0.6525402600936391,
+    "max_units": 84,
+    "momentum": 0.2696223325329779,
+    "num_layers": 2,
+    "weight_decay": 0.026832123862884874
+  },
+  "589": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.008715810582044476,
+    "max_dropout": 0.6009580093739505,
+    "max_units": 1006,
+    "momentum": 0.5551269013098243,
+    "num_layers": 4,
+    "weight_decay": 0.08923864771068252
+  },
+  "590": {
+    "OpenML_task_id": "3945",
+    "batch_size": 233,
+    "learning_rate": 0.008320962543514039,
+    "max_dropout": 0.17839806041934314,
+    "max_units": 86,
+    "momentum": 0.34289383816143315,
+    "num_layers": 5,
+    "weight_decay": 0.048071738938295215
+  },
+  "591": {
+    "OpenML_task_id": "3945",
+    "batch_size": 143,
+    "learning_rate": 0.06225363289399377,
+    "max_dropout": 0.11368782530748422,
+    "max_units": 801,
+    "momentum": 0.15625461053310916,
+    "num_layers": 2,
+    "weight_decay": 0.0995601548624605
+  },
+  "592": {
+    "OpenML_task_id": "3945",
+    "batch_size": 477,
+    "learning_rate": 0.00019678861611613967,
+    "max_dropout": 0.16070136072992847,
+    "max_units": 257,
+    "momentum": 0.18535421697885718,
+    "num_layers": 4,
+    "weight_decay": 0.057756220219012125
+  },
+  "593": {
+    "OpenML_task_id": "3945",
+    "batch_size": 31,
+    "learning_rate": 0.002733758047246575,
+    "max_dropout": 0.1947526513422735,
+    "max_units": 528,
+    "momentum": 0.34386465957662704,
+    "num_layers": 3,
+    "weight_decay": 0.03247718002694878
+  },
+  "594": {
+    "OpenML_task_id": "3945",
+    "batch_size": 247,
+    "learning_rate": 0.0010516189213199219,
+    "max_dropout": 0.5888401484105366,
+    "max_units": 962,
+    "momentum": 0.943342738882164,
+    "num_layers": 3,
+    "weight_decay": 0.09259462322144142
+  },
+  "595": {
+    "OpenML_task_id": "3945",
+    "batch_size": 30,
+    "learning_rate": 0.012891773713531729,
+    "max_dropout": 0.37515595000966717,
+    "max_units": 330,
+    "momentum": 0.3363125100034908,
+    "num_layers": 1,
+    "weight_decay": 0.004293845448506828
+  },
+  "596": {
+    "OpenML_task_id": "3945",
+    "batch_size": 362,
+    "learning_rate": 0.06207185962044078,
+    "max_dropout": 0.7145593617874391,
+    "max_units": 272,
+    "momentum": 0.8010931592446253,
+    "num_layers": 1,
+    "weight_decay": 0.08724241974778918
+  },
+  "597": {
+    "OpenML_task_id": "3945",
+    "batch_size": 124,
+    "learning_rate": 0.006234219610016202,
+    "max_dropout": 0.4226909520566854,
+    "max_units": 216,
+    "momentum": 0.325157376205896,
+    "num_layers": 5,
+    "weight_decay": 0.08253881416867359
+  },
+  "598": {
+    "OpenML_task_id": "3945",
+    "batch_size": 34,
+    "learning_rate": 0.00018228711112241747,
+    "max_dropout": 0.8761842361183764,
+    "max_units": 73,
+    "momentum": 0.421171810297006,
+    "num_layers": 4,
+    "weight_decay": 0.09095147671614762
+  },
+  "599": {
+    "OpenML_task_id": "3945",
+    "batch_size": 252,
+    "learning_rate": 0.04413905363981869,
+    "max_dropout": 0.5578213587601419,
+    "max_units": 114,
+    "momentum": 0.806518187113407,
+    "num_layers": 3,
+    "weight_decay": 0.04545533949692172
+  },
+  "600": {
+    "OpenML_task_id": "3945",
+    "batch_size": 83,
+    "learning_rate": 0.0011874475815702658,
+    "max_dropout": 0.6787423041925259,
+    "max_units": 149,
+    "momentum": 0.14957186876441828,
+    "num_layers": 1,
+    "weight_decay": 0.0019204679354753325
+  },
+  "601": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.0004762568469514109,
+    "max_dropout": 0.4989136948501681,
+    "max_units": 194,
+    "momentum": 0.421527030879841,
+    "num_layers": 5,
+    "weight_decay": 0.019815919038483325
+  },
+  "602": {
+    "OpenML_task_id": "3945",
+    "batch_size": 149,
+    "learning_rate": 0.018760484182421926,
+    "max_dropout": 0.3061749722071214,
+    "max_units": 915,
+    "momentum": 0.7939405732107105,
+    "num_layers": 4,
+    "weight_decay": 0.07517243723220891
+  },
+  "603": {
+    "OpenML_task_id": "3945",
+    "batch_size": 58,
+    "learning_rate": 0.04925424485497562,
+    "max_dropout": 0.2390891163460067,
+    "max_units": 192,
+    "momentum": 0.7415596145906794,
+    "num_layers": 1,
+    "weight_decay": 0.04874819896108504
+  },
+  "604": {
+    "OpenML_task_id": "3945",
+    "batch_size": 174,
+    "learning_rate": 0.05403745718874193,
+    "max_dropout": 0.6979415115791989,
+    "max_units": 115,
+    "momentum": 0.4663245007664213,
+    "num_layers": 3,
+    "weight_decay": 0.02359342056564113
+  },
+  "605": {
+    "OpenML_task_id": "3945",
+    "batch_size": 86,
+    "learning_rate": 0.00021341091459283515,
+    "max_dropout": 0.5469981070163095,
+    "max_units": 159,
+    "momentum": 0.813442310970011,
+    "num_layers": 4,
+    "weight_decay": 0.06890317725268312
+  },
+  "606": {
+    "OpenML_task_id": "3945",
+    "batch_size": 334,
+    "learning_rate": 0.00018980735509681616,
+    "max_dropout": 0.3995380298070711,
+    "max_units": 277,
+    "momentum": 0.4974934273713346,
+    "num_layers": 5,
+    "weight_decay": 0.05089447804626437
+  },
+  "607": {
+    "OpenML_task_id": "3945",
+    "batch_size": 252,
+    "learning_rate": 0.002493129009862231,
+    "max_dropout": 0.152926822615989,
+    "max_units": 299,
+    "momentum": 0.7622021474427749,
+    "num_layers": 3,
+    "weight_decay": 0.07938167487709909
+  },
+  "608": {
+    "OpenML_task_id": "3945",
+    "batch_size": 16,
+    "learning_rate": 0.028973035809133057,
+    "max_dropout": 0.6743429587879501,
+    "max_units": 95,
+    "momentum": 0.8385671061465668,
+    "num_layers": 4,
+    "weight_decay": 0.018029117209904976
+  },
+  "609": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.00012666621049149115,
+    "max_dropout": 0.33287262651299376,
+    "max_units": 348,
+    "momentum": 0.9334871676206997,
+    "num_layers": 3,
+    "weight_decay": 0.07998584338028218
+  },
+  "610": {
+    "OpenML_task_id": "3945",
+    "batch_size": 141,
+    "learning_rate": 0.010232391927916053,
+    "max_dropout": 0.041855668271484237,
+    "max_units": 493,
+    "momentum": 0.12242399334353256,
+    "num_layers": 1,
+    "weight_decay": 0.05662861305646457
+  },
+  "611": {
+    "OpenML_task_id": "3945",
+    "batch_size": 278,
+    "learning_rate": 0.04433892786228418,
+    "max_dropout": 0.7652827720530173,
+    "max_units": 368,
+    "momentum": 0.919477300333525,
+    "num_layers": 1,
+    "weight_decay": 0.022542424025571047
+  },
+  "612": {
+    "OpenML_task_id": "3945",
+    "batch_size": 73,
+    "learning_rate": 0.0009976623033475262,
+    "max_dropout": 0.524659738218109,
+    "max_units": 934,
+    "momentum": 0.46241523906404525,
+    "num_layers": 5,
+    "weight_decay": 0.08708165237877927
+  },
+  "613": {
+    "OpenML_task_id": "3945",
+    "batch_size": 38,
+    "learning_rate": 0.056687649400056744,
+    "max_dropout": 0.6965804386272978,
+    "max_units": 277,
+    "momentum": 0.13619697972259306,
+    "num_layers": 3,
+    "weight_decay": 0.06783923706720603
+  },
+  "614": {
+    "OpenML_task_id": "3945",
+    "batch_size": 55,
+    "learning_rate": 0.00041410476106963726,
+    "max_dropout": 0.04389979199815319,
+    "max_units": 72,
+    "momentum": 0.8726031145244626,
+    "num_layers": 1,
+    "weight_decay": 0.010512722412251423
+  },
+  "615": {
+    "OpenML_task_id": "3945",
+    "batch_size": 169,
+    "learning_rate": 0.0018886112608967102,
+    "max_dropout": 0.9597374522264376,
+    "max_units": 67,
+    "momentum": 0.6873610393527128,
+    "num_layers": 4,
+    "weight_decay": 0.08592765387379342
+  },
+  "616": {
+    "OpenML_task_id": "3945",
+    "batch_size": 97,
+    "learning_rate": 0.0010506026766831033,
+    "max_dropout": 0.5072202572071998,
+    "max_units": 161,
+    "momentum": 0.13282325127435202,
+    "num_layers": 2,
+    "weight_decay": 0.09285008645262842
+  },
+  "617": {
+    "OpenML_task_id": "3945",
+    "batch_size": 227,
+    "learning_rate": 0.0005406089425153949,
+    "max_dropout": 0.8124631064727802,
+    "max_units": 109,
+    "momentum": 0.2625633743024792,
+    "num_layers": 5,
+    "weight_decay": 0.06974443784891235
+  },
+  "618": {
+    "OpenML_task_id": "3945",
+    "batch_size": 27,
+    "learning_rate": 0.00010914984642071957,
+    "max_dropout": 0.16648995356018503,
+    "max_units": 143,
+    "momentum": 0.17009571893909792,
+    "num_layers": 1,
+    "weight_decay": 0.026651640293476893
+  },
+  "619": {
+    "OpenML_task_id": "3945",
+    "batch_size": 18,
+    "learning_rate": 0.00045036161462918173,
+    "max_dropout": 0.3459390848113383,
+    "max_units": 378,
+    "momentum": 0.7806021959317452,
+    "num_layers": 4,
+    "weight_decay": 0.03783197425721514
+  },
+  "620": {
+    "OpenML_task_id": "3945",
+    "batch_size": 23,
+    "learning_rate": 0.00031372291405144597,
+    "max_dropout": 0.7616183383214522,
+    "max_units": 131,
+    "momentum": 0.4381794418870876,
+    "num_layers": 3,
+    "weight_decay": 0.057975482901158205
+  },
+  "621": {
+    "OpenML_task_id": "3945",
+    "batch_size": 47,
+    "learning_rate": 0.0023201630349823864,
+    "max_dropout": 0.08968514941406114,
+    "max_units": 354,
+    "momentum": 0.9740813779925173,
+    "num_layers": 2,
+    "weight_decay": 0.011123214245926282
+  },
+  "622": {
+    "OpenML_task_id": "3945",
+    "batch_size": 78,
+    "learning_rate": 0.00023478987370233824,
+    "max_dropout": 0.9955033070776329,
+    "max_units": 190,
+    "momentum": 0.6320749249021557,
+    "num_layers": 2,
+    "weight_decay": 0.04260626687536851
+  },
+  "623": {
+    "OpenML_task_id": "3945",
+    "batch_size": 24,
+    "learning_rate": 0.0007351569696293364,
+    "max_dropout": 0.1666507467127576,
+    "max_units": 457,
+    "momentum": 0.9803871288212146,
+    "num_layers": 1,
+    "weight_decay": 0.08368796533195762
+  },
+  "624": {
+    "OpenML_task_id": "3945",
+    "batch_size": 171,
+    "learning_rate": 0.001029026001752726,
+    "max_dropout": 0.11114740475960405,
+    "max_units": 579,
+    "momentum": 0.46525130919599134,
+    "num_layers": 1,
+    "weight_decay": 0.05374572282232582
+  },
+  "625": {
+    "OpenML_task_id": "3945",
+    "batch_size": 32,
+    "learning_rate": 0.019333945382588463,
+    "max_dropout": 0.0972120569077134,
+    "max_units": 394,
+    "momentum": 0.10725353363472899,
+    "num_layers": 3,
+    "weight_decay": 0.09224730296159575
+  },
+  "626": {
+    "OpenML_task_id": "3945",
+    "batch_size": 21,
+    "learning_rate": 0.006202561289616439,
+    "max_dropout": 0.5005807809054542,
+    "max_units": 315,
+    "momentum": 0.7865918091460717,
+    "num_layers": 5,
+    "weight_decay": 0.0011220022494815747
+  },
+  "627": {
+    "OpenML_task_id": "3945",
+    "batch_size": 69,
+    "learning_rate": 0.0003097308569374823,
+    "max_dropout": 0.5820867496150347,
+    "max_units": 153,
+    "momentum": 0.5097776690996759,
+    "num_layers": 1,
+    "weight_decay": 0.02694823317512888
+  },
+  "628": {
+    "OpenML_task_id": "3945",
+    "batch_size": 129,
+    "learning_rate": 0.0012033813847433512,
+    "max_dropout": 0.12637245662280694,
+    "max_units": 162,
+    "momentum": 0.3727361198520004,
+    "num_layers": 3,
+    "weight_decay": 0.09472168471275187
+  },
+  "629": {
+    "OpenML_task_id": "3945",
+    "batch_size": 60,
+    "learning_rate": 0.09581012501139106,
+    "max_dropout": 0.022952435179807607,
+    "max_units": 85,
+    "momentum": 0.400807467883171,
+    "num_layers": 3,
+    "weight_decay": 0.05010735327736313
+  }
+}

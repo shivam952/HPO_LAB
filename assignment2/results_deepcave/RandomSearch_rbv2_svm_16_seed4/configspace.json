@@ -1,0 +1,88 @@
+{
+  "name": null,
+  "hyperparameters": [
+    {
+      "type": "uniform_float",
+      "name": "cost",
+      "lower": 4.5399929762484854e-05,
+      "upper": 22026.465794806718,
+      "default_value": 1.0,
+      "log": true,
+      "meta": null
+    },
+    {
+      "type": "categorical",
+      "name": "kernel",
+      "choices": [
+        "linear",
+        "polynomial",
+        "radial"
+      ],
+      "weights": null,
+      "default_value": "linear",
+      "meta": null
+    },
+    {
+      "type": "categorical",
+      "name": "num.impute.selected.cpo",
+      "choices": [
+        "impute.mean",
+        "impute.median",
+        "impute.hist"
+      ],
+      "weights": null,
+      "default_value": "impute.mean",
+      "meta": null
+    },
+    {
+      "type": "constant",
+      "name": "task_id",
+      "value": "16",
+      "meta": null
+    },
+    {
+      "type": "uniform_float",
+      "name": "tolerance",
+      "lower": 4.5399929762484854e-05,
+      "upper": 2.0,
+      "default_value": 0.009528896,
+      "log": true,
+      "meta": null
+    },
+    {
+      "type": "uniform_int",
+      "name": "degree",
+      "lower": 2,
+      "upper": 5,
+      "default_value": 4,
+      "log": false,
+      "meta": null
+    },
+    {
+      "type": "uniform_float",
+      "name": "gamma",
+      "lower": 4.5399929762484854e-05,
+      "upper": 22026.465794806718,
+      "default_value": 1.0,
+      "log": true,
+      "meta": null
+    }
+  ],
+  "conditions": [
+    {
+      "type": "EQ",
+      "child": "degree",
+      "parent": "kernel",
+      "value": "polynomial"
+    },
+    {
+      "type": "EQ",
+      "child": "gamma",
+      "parent": "kernel",
+      "value": "radial"
+    }
+  ],
+  "forbiddens": [],
+  "python_module_version": "1.2.0",
+  "format_version": 0.4
+}

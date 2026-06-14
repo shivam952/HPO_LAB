@@ -1,0 +1,78 @@
+{
+  "name": null,
+  "hyperparameters": [
+    {
+      "type": "constant",
+      "name": "OpenML_task_id",
+      "value": "3945",
+      "meta": null
+    },
+    {
+      "type": "uniform_int",
+      "name": "batch_size",
+      "lower": 16,
+      "upper": 512,
+      "default_value": 91,
+      "log": true,
+      "meta": null
+    },
+    {
+      "type": "uniform_float",
+      "name": "learning_rate",
+      "lower": 0.00010000000000000009,
+      "upper": 0.10000000000000002,
+      "default_value": 0.0031622777,
+      "log": true,
+      "meta": null
+    },
+    {
+      "type": "uniform_float",
+      "name": "max_dropout",
+      "lower": 0.0,
+      "upper": 1.0,
+      "default_value": 0.5,
+      "log": false,
+      "meta": null
+    },
+    {
+      "type": "uniform_int",
+      "name": "max_units",
+      "lower": 64,
+      "upper": 1024,
+      "default_value": 256,
+      "log": true,
+      "meta": null
+    },
+    {
+      "type": "uniform_float",
+      "name": "momentum",
+      "lower": 0.1,
+      "upper": 0.99,
+      "default_value": 0.545,
+      "log": false,
+      "meta": null
+    },
+    {
+      "type": "uniform_int",
+      "name": "num_layers",
+      "lower": 1,
+      "upper": 5,
+      "default_value": 3,
+      "log": false,
+      "meta": null
+    },
+    {
+      "type": "uniform_float",
+      "name": "weight_decay",
+      "lower": 1e-05,
+      "upper": 0.1,
+      "default_value": 0.050005,
+      "log": false,
+      "meta": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "1.2.0",
+  "format_version": 0.4
+}

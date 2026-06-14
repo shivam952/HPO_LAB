@@ -1,0 +1,133 @@
+% ===
+%
+% Official LaTeX practical lab report template of the
+% Chair for AI Methodology (AIM)
+% RWTH Aachen University, Aachen, Germany
+%
+% ===
+
+\documentclass[review]{AIM_report}
+
+\input{includes/preamble}
+\input{includes/macros/commenting}
+
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{caption}
+\usepackage{booktabs}
+\captionsetup[table]{skip=6pt}
+
+\title{BOHB: Combining Hyperband and Bayesian Optimisation for Hyperparameter Optimisation on YAHPO Gym}
+\subtitle{Assignment 2 -- Progress Report}
+\author{Shivam Sen Gupta (473710) \and Dlyaver Djebarov (423901)}
+
+\institute{RWTH Aachen University, Germany\\
+\email{shivam.sengupta@rwth-aachen.de, dlyaver.djebarov@rwth-aachen.de}}
+
+\addbibresource{bib.bib}
+
+\begin{document}
+
+\maketitle
+
+% ----------------------------------------------------------------
+\section{Introduction}
+% ----------------------------------------------------------------
+
+Multi-fidelity methods such as Hyperband~\cite{li2018hyperband} allocate budget efficiently by eliminating poor configurations early at low fidelity, but select new configurations uniformly at random and do not exploit observations accumulated during the search. Bayesian optimisation addresses this by building a surrogate model and selecting configurations by maximising an acquisition function, but it operates at full fidelity only. BOHB~\cite{falkner2018bohb} combines both: it retains the bracket portfolio of Hyperband for budget allocation while replacing uniform sampling with model-guided selection at the start of each new bracket.
+
+In this progress report we describe our implementation of BOHB and present experimental results on the two YAHPO Gym benchmarks~\cite{pfisterer2022yahpo} used in Assignment~1. Our implementation follows the lab guidelines and uses a Random Forest surrogate with Expected Improvement as the acquisition function.
+
+% ----------------------------------------------------------------
+\section{Methods}
+% ----------------------------------------------------------------
+
+BOHB runs $s_{\max}{+}1$ Successive Halving brackets per round with $n_s{=}\lceil(B/r_{\max})\cdot\eta^s/(s{+}1)\rceil$ initial configurations and starting fidelity $r_s{=}\max(r_{\max}\cdot\eta^{-s},\,r_{\min})$, identical to Hyperband. Within each bracket, promotion follows the standard Successive Halving schedule. At the start of each new bracket the algorithm checks whether the surrogate model can be fitted; if so, configurations are drawn using the model rather than uniformly at random.
+
+\textbf{Surrogate model.}
+We use a Random Forest regressor with 100 trees and \texttt{min\_samples\_leaf}$\,{=}\,3$. The predictive mean is the average of per-tree predictions and the uncertainty is the standard deviation across trees, yielding an ensemble variance estimate without requiring additional libraries.
+
+\textbf{Training budget selection.}
+Following Algorithm~1 of Falkner et al.~\cite{falkner2018bohb}, the surrogate is fitted on observations from the highest fidelity $b^*$ for which at least $N_{\min}{=}\max(10,\,d{+}1)$ observations exist, where $d$ is the encoded configuration dimension. Lower-fidelity observations are excluded because they are a noisier proxy for final performance.
+
+\textbf{Acquisition function.}
+New configurations are selected by maximising Expected Improvement (EI):
+\begin{equation}
+    \mathrm{EI}(x) = \bigl(\mu(x) - f^*\bigr)\,\Phi(Z)\;+\;\sigma(x)\,\phi(Z),
+    \qquad Z = \frac{\mu(x) - f^*}{\sigma(x)},
+    \label{eq:ei}
+\end{equation}
+where $\Phi$ and $\phi$ are the standard normal CDF and PDF, $f^*$ is the best observed value, and $\mu(x)$, $\sigma(x)$ are the surrogate mean and standard deviation at configuration $x$. We evaluate EI on $N_{\mathrm{cand}}{=}\max(64,\,4d)$ uniformly sampled candidates and return the one with the highest value.
+
+\textbf{Warm-up and encoding.}
+Until $N_{\min}$ observations exist at any fidelity level, configurations are drawn uniformly at random, making the warm-up phase identical to Hyperband. Continuous and integer hyperparameters are normalised to $[0,1]$ (using log-scale where the hyperparameter is log-distributed); categorical hyperparameters are one-hot encoded.
+
+% ----------------------------------------------------------------
+\section{Experimental Setup}
+% ----------------------------------------------------------------
+
+The experimental protocol matches Assignment~1 exactly. We evaluate BOHB and all five baseline methods on two YAHPO Gym surrogate benchmarks: NB301 (neural architecture search on CIFAR-10, fidelity $=$ epochs, $r_{\min}{=}1$, $r_{\max}{=}98$, metric: validation accuracy) and rbv2\_xgboost instance~16 (fidelity $=$ fraction of training data, metric: classification accuracy). The total budget is $B{=}50{\times}r_{\max}$ fidelity units per run. All six methods are evaluated over 10 independent random seeds; results are reported as mean and standard deviation of the final incumbent.
+
+% ----------------------------------------------------------------
+\section{Results}
+% ----------------------------------------------------------------
+
+\begin{figure}[t]
+  \centering
+  \begin{minipage}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth,height=0.22\textheight,keepaspectratio]{figures/incumbent_curves.png}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth,height=0.22\textheight,keepaspectratio]{figures/final_performance.png}
+  \end{minipage}
+  \caption{Left: incumbent curves (mean $\pm$ 1\,std) over cumulative budget for NB301 (top) and rbv2\_xgboost (bottom). Right: final incumbent distribution across 10 seeds. BOHB is shown as a teal dashed line (left) and teal box (right).}
+  \label{fig:results}
+\end{figure}
+
+\begin{table}[t]
+  \centering
+  \small
+  \renewcommand{\tabcolsep}{5pt}
+  \renewcommand{\arraystretch}{1.05}
+  \begin{tabular}{lcc}
+    \toprule
+    \textbf{Algorithm} & \textbf{NB301} (\%) & \textbf{rbv2\_xgboost} \\
+    \midrule
+    Random Search      & $93.73 \pm 0.17$ & $0.962 \pm 0.005$ \\
+    Grid Search        & $93.71 \pm 0.18$ & $0.963 \pm 0.010$ \\
+    Succ.\ Halving     & $92.79 \pm 0.17$ & $0.968 \pm 0.007$ \\
+    Hyperband          & $94.16 \pm 0.20$ & $0.967 \pm 0.007$ \\
+    Bayesian Opt.      & $94.08 \pm 0.32$ & $0.974 \pm 0.009$ \\
+    BOHB (ours)        & $\mathbf{94.13 \pm 0.40}$ & $\mathbf{0.975 \pm 0.005}$ \\
+    \bottomrule
+  \end{tabular}
+  \caption{Final incumbent performance (mean $\pm$ std over 10 seeds). NB301 reports validation accuracy in \%; rbv2\_xgboost reports classification accuracy in $[0,1]$. Best values are highlighted in bold.}
+  \label{tab:results}
+\end{table}
+
+\textbf{NB301.} BOHB achieves a mean final accuracy of $94.13\%$ with a best single-seed result of $95.04\%$, the highest observed across all methods (\Cref{tab:results}). Its mean matches Hyperband ($94.16\%$) within one standard deviation, and the incumbent curves in \Cref{fig:results} show that BOHB converges rapidly in the early budget phase due to the multi-fidelity bracket structure, with continued improvement at higher budgets as the surrogate accumulates observations. The higher variance relative to Hyperband ($\pm 0.40$ vs $\pm 0.20$) reflects the stochastic nature of model-guided sampling in NB301's 272-dimensional one-hot encoded space.
+
+\textbf{rbv2\_xgboost.} BOHB achieves the highest mean accuracy ($0.975$) among all methods and the lowest variance ($\pm 0.005$). The reduced variance relative to Bayesian Optimisation ($\pm 0.009$) suggests that early elimination of poor configurations through the multi-fidelity structure prevents the surrogate from committing large budgets to unpromising regions, leading to more consistent final performance across seeds.
+
+% ----------------------------------------------------------------
+\section{Remaining Work}
+% ----------------------------------------------------------------
+
+The following tasks remain for the final report. We will conduct a hyperparameter importance analysis using DeepCAVE~\cite{lindauer2022deepcave} to identify which hyperparameters most influence final performance on each benchmark. We will also implement the exploration fraction $\rho$ from Algorithm~2 of Falkner et al.~\cite{falkner2018bohb}, which samples a constant fraction of configurations uniformly at random even after the surrogate is fitted; our current implementation omits this parameter and we will assess its empirical effect. We will additionally analyse the budget allocation behaviour of BOHB across brackets and fidelity levels, and provide a more detailed discussion of where model-guided sampling provides the largest benefit over standard Hyperband.
+
+% ----------------------------------------------------------------
+\section*{Statement of Contributions}
+% ----------------------------------------------------------------
+
+Shivam Sen Gupta implemented BOHB (surrogate model, acquisition function, bracket integration) and conducted the experiments. Dlyaver Djebarov contributed to the experimental design and analysis. Both authors contributed equally to the writing of this report. ChatGPT was used for language polishing (grammar and wording improvements only).
+
+\printbibliography
+
+\newpage
+\pagestyle{empty}
+
+\includepdf[pages=-,pagecommand={},width=\textwidth]{files/oathstatement.pdf}
+
+\end{document}

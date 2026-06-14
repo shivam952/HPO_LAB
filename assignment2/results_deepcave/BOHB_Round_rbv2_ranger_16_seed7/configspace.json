@@ -1,0 +1,102 @@
+{
+  "name": null,
+  "hyperparameters": [
+    {
+      "type": "uniform_int",
+      "name": "min.node.size",
+      "lower": 1,
+      "upper": 100,
+      "default_value": 50,
+      "log": false,
+      "meta": null
+    },
+    {
+      "type": "uniform_float",
+      "name": "mtry.power",
+      "lower": 0.0,
+      "upper": 1.0,
+      "default_value": 0.0,
+      "log": false,
+      "meta": null
+    },
+    {
+      "type": "categorical",
+      "name": "num.impute.selected.cpo",
+      "choices": [
+        "impute.mean",
+        "impute.median",
+        "impute.hist"
+      ],
+      "weights": null,
+      "default_value": "impute.mean",
+      "meta": null
+    },
+    {
+      "type": "uniform_int",
+      "name": "num.trees",
+      "lower": 1,
+      "upper": 2000,
+      "default_value": 1000,
+      "log": false,
+      "meta": null
+    },
+    {
+      "type": "categorical",
+      "name": "respect.unordered.factors",
+      "choices": [
+        "ignore",
+        "order",
+        "partition"
+      ],
+      "weights": null,
+      "default_value": "ignore",
+      "meta": null
+    },
+    {
+      "type": "uniform_float",
+      "name": "sample.fraction",
+      "lower": 0.1,
+      "upper": 1.0,
+      "default_value": 0.55,
+      "log": false,
+      "meta": null
+    },
+    {
+      "type": "categorical",
+      "name": "splitrule",
+      "choices": [
+        "gini",
+        "extratrees"
+      ],
+      "weights": null,
+      "default_value": "gini",
+      "meta": null
+    },
+    {
+      "type": "constant",
+      "name": "task_id",
+      "value": "16",
+      "meta": null
+    },
+    {
+      "type": "uniform_int",
+      "name": "num.random.splits",
+      "lower": 1,
+      "upper": 100,
+      "default_value": 1,
+      "log": false,
+      "meta": null
+    }
+  ],
+  "conditions": [
+    {
+      "type": "EQ",
+      "child": "num.random.splits",
+      "parent": "splitrule",
+      "value": "extratrees"
+    }
+  ],
+  "forbiddens": [],
+  "python_module_version": "1.2.0",
+  "format_version": 0.4
+}
